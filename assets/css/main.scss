@@ -1,0 +1,684 @@
+$text-color: #ffffff;
+$button-color: #f5883d;
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+  .text-warning {
+    color: #fac71b !important;
+  }
+
+  .bg-danger {
+    background-color: #4f0b2d !important;
+  }
+
+  .price {
+    font-size: 24px;
+    @media (max-width: 520px) {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    @media (min-width: 520px) and (max-width: 990px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .btn-trial {
+    border-radius: 40px;
+    font-size: 28px;
+    height: 80px;
+    background: rgb(207, 139, 26);
+    background: linear-gradient(90deg, rgba(207, 139, 26, 1) 0%, rgba(248, 189, 29, 1) 100%);
+    box-shadow: -1px 1px 5px 0 rgba(248, 189, 29, 1);
+
+    &:focus {
+      box-shadow: -1px 1px 5px 0 rgba(248, 189, 29, 1);
+    }
+
+    @media (max-width: 520px) {
+      font-size: 20px;
+      height: 60px;
+    }
+
+    @media (min-width: 520px) and (max-width: 990px) {
+      font-size: 20px;
+    }
+  }
+
+  .btn-warning {
+    background-color: $button-color !important;
+    border-radius: 40px;
+    font-size: 24px;
+    padding: 10px 40px;
+    @media (max-width: 990px) {
+      font-size: 18px;
+    }
+  }
+
+  .badge-warning {
+    background-color: $button-color !important;
+    padding: 5px 0;
+    width: 66px;
+    font-size: 12px;
+    position: absolute;
+    top: -13px;
+    left: calc(50% - 33px);
+  }
+
+  .section-title {
+    font-size: 50px;
+
+    &:last-of-type {
+      margin-bottom: 60px;
+    }
+
+    &:first-of-type {
+      margin-top: 60px;
+      @media (max-width: 520px) {
+        margin-top: 40px;
+      }
+      @media (min-width: 520px) and (max-width: 990px) {
+        margin-top: 50px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      font-size: 20px;
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+    }
+    @media (min-width: 520px) and (max-width: 990px) {
+      font-size: 40px;
+    }
+  }
+
+  .get-trial {
+    margin-bottom: 60px;
+    @media (max-width: 520px) {
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      .form-control {
+        border-radius: 40px;
+        border: none;
+        font-size: 28px;
+        color: #78787e;
+        padding: 0 40px;
+        height: 80px;
+        @media (max-width: 520px) {
+          font-size: 20px;
+          height: 60px;
+        }
+
+        @media (min-width: 520px) and (max-width: 990px) {
+          font-size: 20px;
+        }
+
+        &::placeholder {
+          text-align: center;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    padding: 20px 30px;
+
+    &.bg-dark {
+      background-color: #282829 !important;
+    }
+
+    .bg-image {
+      margin-right: 200px;
+    }
+
+    .navbar-brand {
+      .logo-img {
+        @media (max-width: 660px) {
+          width: 150px;
+        }
+      }
+
+      .kiiro-img {
+        @media (max-width: 660px) {
+          width: 100px;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .navbar-collapse {
+      flex-grow: inherit;
+      margin-left: 200px;
+
+      .nav-item {
+        font-size: 20px;
+      }
+    }
+  }
+
+  header {
+    background-image: url(../img/header-background.png);
+    height: 964px;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 990px) {
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: auto;
+    }
+
+    .title {
+      font-size: 70px;
+      font-weight: bold;
+      color: $text-color;
+      margin: 90px 0 40px 0;
+      @media (max-width: 520px) {
+        font-size: 30px;
+        margin: 40px 0 30px 0;
+      }
+      @media (min-width: 520px) and (max-width: 990px) {
+        font-size: 50px;
+        margin: 50px 0 30px 0;
+      }
+    }
+
+    .banner {
+      padding: 35px 50px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      font-size: 38px;
+      margin-bottom: 60px;
+      @media (max-width: 520px) {
+        font-size: 20px;
+        padding: 15px;
+        margin-bottom: 30px;
+      }
+      @media (min-width: 520px) and (max-width: 990px) {
+        font-size: 30px;
+        padding: 20px 30px;
+      }
+    }
+  }
+
+  .free-usage {
+    background-image: url(../img/section1-background.png);
+    height: 840px;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media (max-width: 990px) {
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: auto;
+    }
+
+
+    .progress-img {
+      margin-bottom: 60px;
+      @media (max-width: 520px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .price {
+      margin-bottom: 40px;
+    }
+
+    .btn-trial {
+      @media (max-width: 520px) {
+        margin-bottom: 30px;
+      }
+      @media (min-width: 520px) and (max-width: 990px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .logos {
+    background-image: url(../img/section2-background.png);
+    height: 408px;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media (max-width: 880px) {
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: auto;
+    }
+    @media (min-width: 766px) and (max-width: 991px) {
+      display: flex;
+      align-items: center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: 350px;
+    }
+
+    .logos-container {
+      border-radius: 10px;
+      margin-top: 100px;
+      @media (max-width: 520px) {
+        margin: 30px 0;
+      }
+      @media (min-width: 520px) and (max-width: 990px) {
+        margin: 50px 0;
+      }
+    }
+  }
+
+  .membership {
+    background-image: url(../img/section3-background.png);
+    height: 684px;
+  }
+
+  .action {
+    background-image: url(../img/section4-background.png);
+    height: 670.5px;
+  }
+
+  .experience {
+    background-image: url(../img/section5-background.png);
+    height: 666px;
+  }
+
+  .favorite {
+    background-image: url(../img/section6-background.png);
+    height: 718px;
+  }
+
+  .video {
+    background-image: url(../img/section7-background.png);
+    height: 744px;
+    padding-top: 110px;
+    @media (max-width: 520px) {
+      padding-top: 30px;
+    }
+
+    .card {
+      border-radius: 30px;
+      position: relative;
+
+      .card-header {
+        border-radius: 30px;
+        overflow: hidden;
+      }
+
+      .card-body {
+        top: 15%;
+        @media (min-width: 600px) and (max-width: 990px) {
+          top: 5%;
+        }
+
+        .card-body-header {
+          font-size: 22px;
+          @media (min-width: 600px) and (max-width: 990px) {
+            font-size: 16px;
+          }
+        }
+
+        .play-btn {
+          &:focus {
+            box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+
+      .card-footer {
+        padding: 30px 0;
+        border-radius: 30px;
+
+        .card-title {
+          font-size: 16px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+
+  .secure {
+    background-image: url(../img/section8-background.png);
+    height: 831px;
+  }
+
+  .payment {
+    background-image: url(../img/section9-background.png);
+    height: 1315px;
+    position: relative;
+    margin-top: -0.55px;
+
+    .payment-information {
+      padding-top: 60px;
+      @media (max-width: 520px) {
+        padding-top: 40px;
+      }
+
+      .payment-method {
+        width: 160px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        @media (max-width: 520px) {
+          width: 70px;
+          height: 40px;
+          margin: auto;
+        }
+        @media (min-width: 520px) and (max-width: 770px) {
+          width: 80px;
+          height: 45px;
+          margin: auto;
+        }
+        @media (min-width: 770px) and (max-width: 1024px) {
+          width: 120px;
+          height: 70px;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .secure-membership {
+    background-image: url(../img/section10-background.png);
+    height: 1224px;
+    margin-top: -0.6px;
+
+    .secure-membership-container {
+      padding-top: 180px;
+      @media (max-width: 520px) {
+        padding-top: 40px;
+      }
+
+      .list-group {
+        .list-item {
+          list-style: none;
+          color: $text-color;
+          font-size: 26px;
+          margin-bottom: 40px;
+          @media (max-width: 520px) {
+            font-size: 16px;
+            margin-bottom: 20px;
+          }
+          @media (min-width: 520px) and (max-width: 990px) {
+            margin-bottom: 20px;
+            font-size: 22px;
+          }
+
+          .check-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            background-color: $button-color;
+            border-radius: 50%;
+            margin-right: 20px;
+            @media (max-width: 520px) {
+              font-size: 14px;
+              height: 28px;
+              width: 28px;
+              margin-right: 10px;
+            }
+            @media (min-width: 520px) and (max-width: 990px) {
+              font-size: 18px;
+              height: 36px;
+              width: 36px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .questions {
+    background-image: url(../img/footer-background.png);
+    height: 2106px;
+    margin-top: -0.6px;
+    padding-top: 180px;
+    @media (max-width: 520px) {
+      padding-top: 40px;
+    }
+
+    .subtitle {
+      .text-warning {
+        font-size: 50px;
+        @media(max-width: 520px) {
+          font-size: 40px;
+        }
+      }
+
+      &:nth-of-type(2) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .btn-trial {
+      background: #ffe505;
+      box-shadow: none;
+      font-size: 35px;
+      @media (max-width: 520px) {
+        font-size: 30px;
+      }
+
+      @media (min-width: 520px) and (max-width: 990px) {
+        font-size: 25px;
+      }
+    }
+
+    .bitmap {
+      margin: 90px 0;
+    }
+
+    .accordion {
+      margin-bottom: 160px;
+      margin-top: 40px;
+      .card {
+        background-color: transparent;
+        margin-bottom: 20px;
+
+        .card-header {
+          padding: 0;
+
+          .btn-link {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 30px;
+            background: linear-gradient(90deg, rgba(207, 139, 26, 1) 0%, rgba(248, 189, 29, 1) 100%);
+
+            @media (max-width: 520px){
+              font-size: 16px;
+            }
+
+            .arrow-right, .arrow-down {
+              background-color: #fff;
+              height: 40px;
+              width: 40px;
+              font-size: 25px;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            &[aria-expanded="true"] {
+              background: #825664;
+              color: $text-color;
+              .arrow-right {
+                display: none;
+              }
+
+              .arrow-down {
+                background-color: $button-color;
+                color: $text-color;
+              }
+            }
+            &[aria-expanded="false"] {
+              .arrow-down {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .membership, .action, .experience, .favorite, .video, .secure, .payment, .secure-membership, .questions {
+    background-position: center;
+    background-repeat: no-repeat;
+    @media (max-width: 767px) {
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: auto;
+    }
+
+    .subtitle {
+      font-size: 45px;
+      @media(max-width: 520px) {
+        font-size: 35px;
+      }
+
+    }
+
+    .section-text {
+      font-size: 30px;
+
+      @media(max-width: 990px) {
+        font-size: 20px;
+      }
+    }
+
+    .membership-container {
+      @media (max-width: 990px) {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .favorite {
+    .membership-container {
+      .subtitle {
+        @media (min-width: 990px) and (max-width: 1400px) {
+          font-size: 20px;
+        }
+      }
+
+      .section-text {
+        @media(min-width: 990px) and (max-width: 1400px) {
+          font-size: 18px;
+        }
+      }
+
+      .btn-warning {
+        @media(min-width: 990px) and (max-width: 1400px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .secure {
+    .section-title {
+      margin-top: 60px;
+      margin-bottom: 180px;
+      @media (max-width: 520px) {
+        margin: 40px 0;
+        font-size: 35px;
+      }
+    }
+
+    .subtitle {
+      font-size: 40px;
+      margin-bottom: 100px;
+      @media (max-width: 520px) {
+        margin-bottom: 40px;
+        font-size: 25px;
+      }
+    }
+
+    .section-text {
+      @media (max-width: 520px) {
+        margin-bottom: 30px;
+      }
+      @media (min-width: 520px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .payment {
+    .payment-information {
+      .subtitle {
+        font-size: 40px;
+        @media (max-width: 520px) {
+          font-size: 25px;
+          text-align: center;
+          text-shadow: 0 2px 2px #000000;
+        }
+        @media (min-width: 520px) and (max-width: 990px) {
+          font-size: 30px;
+        }
+      }
+
+      .section-text {
+        @media (max-width: 520px) {
+          font-size: 20px;
+          text-align: center;
+          text-shadow: 0 2px 2px #000000;
+        }
+      }
+    }
+
+    .card {
+      background-color: transparent;
+      border: none;
+      padding: 20px;
+      @media (min-width: 600px) {
+        position: absolute;
+        bottom: 0;
+      }
+
+      .card-body {
+        .card-title {
+          color: #b51313;
+          font-size: 40px;
+          margin-bottom: 40px;
+          @media (max-width: 520px) {
+            font-size: 20px;
+            margin-bottom: 16px;
+            text-align: center;
+          }
+          @media (min-width: 520px) and (max-width: 1200px) {
+            font-size: 30px;
+          }
+        }
+
+        .card-text {
+          font-size: 32px;
+          @media (max-width: 520px) {
+            font-size: 18px;
+            text-align: center;
+          }
+          @media (min-width: 520px) and (max-width: 1200px) {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+
+}
