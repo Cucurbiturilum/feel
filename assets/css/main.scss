@@ -8,6 +8,25 @@ body {
     color: #fac71b !important;
   }
 
+  .title {
+    font-size: 70px;
+    font-weight: bold;
+    color: $text-color;
+    margin: 90px 0 40px 0;
+    @media (max-width: 520px) {
+      font-size: 30px;
+      margin: 40px 0 30px 0;
+    }
+    @media (min-width: 520px) and (max-width: 990px) {
+      font-size: 50px;
+      margin: 50px 0 30px 0;
+    }
+  }
+
+  .bg-dark {
+    background-color: #282829 !important;
+  }
+
   .bg-danger {
     background-color: #4f0b2d !important;
   }
@@ -130,10 +149,6 @@ body {
   .navbar {
     padding: 20px 30px;
 
-    &.bg-dark {
-      background-color: #282829 !important;
-    }
-
     .bg-image {
       margin-right: 200px;
     }
@@ -177,21 +192,6 @@ body {
       -webkit-background-size: cover;
       background-size: cover;
       height: auto;
-    }
-
-    .title {
-      font-size: 70px;
-      font-weight: bold;
-      color: $text-color;
-      margin: 90px 0 40px 0;
-      @media (max-width: 520px) {
-        font-size: 30px;
-        margin: 40px 0 30px 0;
-      }
-      @media (min-width: 520px) and (max-width: 990px) {
-        font-size: 50px;
-        margin: 50px 0 30px 0;
-      }
     }
 
     .banner {
@@ -483,6 +483,7 @@ body {
     .accordion {
       margin-bottom: 160px;
       margin-top: 40px;
+
       .card {
         background-color: transparent;
         margin-bottom: 20px;
@@ -500,7 +501,7 @@ body {
             border-radius: 30px;
             background: linear-gradient(90deg, rgba(207, 139, 26, 1) 0%, rgba(248, 189, 29, 1) 100%);
 
-            @media (max-width: 520px){
+            @media (max-width: 520px) {
               font-size: 16px;
             }
 
@@ -517,6 +518,7 @@ body {
             &[aria-expanded="true"] {
               background: #825664;
               color: $text-color;
+
               .arrow-right {
                 display: none;
               }
@@ -526,6 +528,7 @@ body {
                 color: $text-color;
               }
             }
+
             &[aria-expanded="false"] {
               .arrow-down {
                 display: none;
@@ -537,7 +540,101 @@ body {
     }
   }
 
-  .membership, .action, .experience, .favorite, .video, .secure, .payment, .secure-membership, .questions {
+  .boobs-header {
+    background-image: url(../img/boobs-header-background.png);
+    height: 841px;
+  }
+
+  .steps {
+    background-image: url(../img/steps-background.png);
+    height: 853px;
+
+    .subtitle {
+      margin-top: 80px;
+      margin-bottom: 50px;
+      @media (max-width: 520px) {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .card-deck {
+      .card {
+        text-align: center;
+        margin-bottom: 20px;
+
+        .card-header {
+          padding: 0;
+          margin-bottom: 40px;
+          background-color: #662139;
+          border-radius: 50%;
+          width: 220px;
+          height: 220px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @media (max-width: 1024px) {
+            width: 150px;
+            height: 150px;
+          }
+        }
+
+        .card-body {
+          padding: 0;
+
+          .card-title {
+            font-size: 35px;
+            font-weight: 300;
+            margin-bottom: 25px;
+            @media (max-width: 520px) {
+              font-size: 30px;
+            }
+            @media (min-width: 520px) and (max-width: 1024px) {
+              font-size: 25px;
+            }
+          }
+
+          .card-text {
+            font-size: 20px;
+            @media (max-width: 520px) {
+              font-size: 16px;
+            }
+            @media (min-width: 520px) and (max-width: 1024px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .code {
+    background-image: url(../img/boobs-code.png);
+    height: 656px;
+    margin-top: -0.05px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .subtitle {
+      margin-bottom: 60px;
+      @media (max-width: 520px) {
+        margin: 40px 0;
+      }
+    }
+  }
+
+  .boobs-footer{
+    background-image: url(../img/boobs-footer-background.png);
+    height: 378px;
+    margin-top: -0.05px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .membership, .action, .experience, .favorite, .video, .secure,
+  .payment, .secure-membership, .questions, .boobs-header, .steps, .code, .boobs-footer {
     background-position: center;
     background-repeat: no-repeat;
     @media (max-width: 767px) {

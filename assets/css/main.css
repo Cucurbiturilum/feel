@@ -4,6 +4,27 @@ body {
 body .text-warning {
   color: #fac71b !important;
 }
+body .title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 90px 0 40px 0;
+}
+@media (max-width: 520px) {
+  body .title {
+    font-size: 30px;
+    margin: 40px 0 30px 0;
+  }
+}
+@media (min-width: 520px) and (max-width: 990px) {
+  body .title {
+    font-size: 50px;
+    margin: 50px 0 30px 0;
+  }
+}
+body .bg-dark {
+  background-color: #282829 !important;
+}
 body .bg-danger {
   background-color: #4f0b2d !important;
 }
@@ -131,9 +152,6 @@ body .get-trial .form-group .form-control:focus {
 body .navbar {
   padding: 20px 30px;
 }
-body .navbar.bg-dark {
-  background-color: #282829 !important;
-}
 body .navbar .bg-image {
   margin-right: 200px;
 }
@@ -168,24 +186,6 @@ body header {
     -webkit-background-size: cover;
     background-size: cover;
     height: auto;
-  }
-}
-body header .title {
-  font-size: 70px;
-  font-weight: bold;
-  color: #ffffff;
-  margin: 90px 0 40px 0;
-}
-@media (max-width: 520px) {
-  body header .title {
-    font-size: 30px;
-    margin: 40px 0 30px 0;
-  }
-}
-@media (min-width: 520px) and (max-width: 990px) {
-  body header .title {
-    font-size: 50px;
-    margin: 50px 0 30px 0;
   }
 }
 body header .banner {
@@ -533,35 +533,136 @@ body .questions .accordion .card .card-header .btn-link[aria-expanded=true] .arr
 body .questions .accordion .card .card-header .btn-link[aria-expanded=false] .arrow-down {
   display: none;
 }
-body .membership, body .action, body .experience, body .favorite, body .video, body .secure, body .payment, body .secure-membership, body .questions {
+body .boobs-header {
+  background-image: url(../img/boobs-header-background.png);
+  height: 841px;
+}
+body .steps {
+  background-image: url(../img/steps-background.png);
+  height: 853px;
+}
+body .steps .subtitle {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+@media (max-width: 520px) {
+  body .steps .subtitle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+body .steps .card-deck .card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .steps .card-deck .card .card-header {
+  padding: 0;
+  margin-bottom: 40px;
+  background-color: #662139;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  body .steps .card-deck .card .card-header {
+    width: 150px;
+    height: 150px;
+  }
+}
+body .steps .card-deck .card .card-body {
+  padding: 0;
+}
+body .steps .card-deck .card .card-body .card-title {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+@media (max-width: 520px) {
+  body .steps .card-deck .card .card-body .card-title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 520px) and (max-width: 1024px) {
+  body .steps .card-deck .card .card-body .card-title {
+    font-size: 25px;
+  }
+}
+body .steps .card-deck .card .card-body .card-text {
+  font-size: 20px;
+}
+@media (max-width: 520px) {
+  body .steps .card-deck .card .card-body .card-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 520px) and (max-width: 1024px) {
+  body .steps .card-deck .card .card-body .card-text {
+    font-size: 14px;
+  }
+}
+body .code {
+  background-image: url(../img/boobs-code.png);
+  height: 656px;
+  margin-top: -0.05px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .code .subtitle {
+  margin-bottom: 60px;
+}
+@media (max-width: 520px) {
+  body .code .subtitle {
+    margin: 40px 0;
+  }
+}
+body .boobs-footer {
+  background-image: url(../img/boobs-footer-background.png);
+  height: 378px;
+  margin-top: -0.05px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
   background-position: center;
   background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
-  body .membership, body .action, body .experience, body .favorite, body .video, body .secure, body .payment, body .secure-membership, body .questions {
+  body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
     -webkit-background-size: cover;
     background-size: cover;
     height: auto;
   }
 }
-body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle, body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle {
+body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle,
+body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle {
   font-size: 45px;
 }
 @media (max-width: 520px) {
-  body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle, body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle {
+  body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle,
+body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle {
     font-size: 35px;
   }
 }
-body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text, body .payment .section-text, body .secure-membership .section-text, body .questions .section-text {
+body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text,
+body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text {
   font-size: 30px;
 }
 @media (max-width: 990px) {
-  body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text, body .payment .section-text, body .secure-membership .section-text, body .questions .section-text {
+  body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text,
+body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text {
     font-size: 20px;
   }
 }
 @media (max-width: 990px) {
-  body .membership .membership-container, body .action .membership-container, body .experience .membership-container, body .favorite .membership-container, body .video .membership-container, body .secure .membership-container, body .payment .membership-container, body .secure-membership .membership-container, body .questions .membership-container {
+  body .membership .membership-container, body .action .membership-container, body .experience .membership-container, body .favorite .membership-container, body .video .membership-container, body .secure .membership-container,
+body .payment .membership-container, body .secure-membership .membership-container, body .questions .membership-container, body .boobs-header .membership-container, body .steps .membership-container, body .code .membership-container, body .boobs-footer .membership-container {
     font-size: 25px;
   }
 }
