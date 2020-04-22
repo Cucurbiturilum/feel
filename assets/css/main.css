@@ -5,10 +5,10 @@ body .text-warning {
   color: #fac71b !important;
 }
 body .title {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
   color: #ffffff;
-  margin: 90px 0 40px 0;
+  margin: 50px 0 40px 0;
 }
 @media (max-width: 520px) {
   body .title {
@@ -151,9 +151,11 @@ body .get-trial .form-group .form-control:focus {
 }
 body .navbar {
   padding: 20px 30px;
+  position: relative;
 }
 body .navbar .bg-image {
-  margin-right: 200px;
+  position: absolute;
+  left: 10%;
 }
 @media (max-width: 660px) {
   body .navbar .navbar-brand .logo-img {
@@ -164,16 +166,6 @@ body .navbar .bg-image {
   body .navbar .navbar-brand .kiiro-img {
     width: 100px;
   }
-}
-body .navbar .navbar-toggler:focus {
-  outline: none;
-}
-body .navbar .navbar-collapse {
-  flex-grow: inherit;
-  margin-left: 200px;
-}
-body .navbar .navbar-collapse .nav-item {
-  font-size: 20px;
 }
 body header {
   background-image: url(../img/header-background.png);
@@ -189,10 +181,10 @@ body header {
   }
 }
 body header .banner {
-  padding: 35px 50px;
+  padding: 30px 50px;
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  font-size: 38px;
+  font-size: 33px;
   margin-bottom: 60px;
 }
 @media (max-width: 520px) {
@@ -711,6 +703,11 @@ body .secure .subtitle {
     font-size: 30px;
   }
 }
+@media (max-width: 767px) {
+  body .payment {
+    height: 1000px;
+  }
+}
 body .payment .payment-information .subtitle {
   font-size: 40px;
 }
@@ -718,7 +715,6 @@ body .payment .payment-information .subtitle {
   body .payment .payment-information .subtitle {
     font-size: 25px;
     text-align: center;
-    text-shadow: 0 2px 2px #000000;
   }
 }
 @media (min-width: 520px) and (max-width: 990px) {
@@ -730,19 +726,14 @@ body .payment .payment-information .subtitle {
   body .payment .payment-information .section-text {
     font-size: 20px;
     text-align: center;
-    text-shadow: 0 2px 2px #000000;
   }
 }
 body .payment .card {
   background-color: transparent;
   border: none;
   padding: 20px;
-}
-@media (min-width: 600px) {
-  body .payment .card {
-    position: absolute;
-    bottom: 0;
-  }
+  position: absolute;
+  bottom: 0;
 }
 body .payment .card .card-body .card-title {
   color: #b51313;

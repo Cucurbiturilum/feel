@@ -9,10 +9,10 @@ body {
   }
 
   .title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     color: $text-color;
-    margin: 90px 0 40px 0;
+    margin: 50px 0 40px 0;
     @media (max-width: 520px) {
       font-size: 30px;
       margin: 40px 0 30px 0;
@@ -148,9 +148,11 @@ body {
 
   .navbar {
     padding: 20px 30px;
+    position: relative;
 
     .bg-image {
-      margin-right: 200px;
+      position: absolute;
+      left: 10%;
     }
 
     .navbar-brand {
@@ -164,21 +166,6 @@ body {
         @media (max-width: 660px) {
           width: 100px;
         }
-      }
-    }
-
-    .navbar-toggler {
-      &:focus {
-        outline: none;
-      }
-    }
-
-    .navbar-collapse {
-      flex-grow: inherit;
-      margin-left: 200px;
-
-      .nav-item {
-        font-size: 20px;
       }
     }
   }
@@ -195,10 +182,10 @@ body {
     }
 
     .banner {
-      padding: 35px 50px;
+      padding: 30px 50px;
       background-color: rgba(255, 255, 255, 0.15);
       border-radius: 10px;
-      font-size: 38px;
+      font-size: 33px;
       margin-bottom: 60px;
       @media (max-width: 520px) {
         font-size: 20px;
@@ -624,7 +611,7 @@ body {
     }
   }
 
-  .boobs-footer{
+  .boobs-footer {
     background-image: url(../img/boobs-footer-background.png);
     height: 378px;
     margin-top: -0.05px;
@@ -718,13 +705,16 @@ body {
   }
 
   .payment {
+    @media (max-width: 767px) {
+      height: 1000px;
+    }
+
     .payment-information {
       .subtitle {
         font-size: 40px;
         @media (max-width: 520px) {
           font-size: 25px;
           text-align: center;
-          text-shadow: 0 2px 2px #000000;
         }
         @media (min-width: 520px) and (max-width: 990px) {
           font-size: 30px;
@@ -735,7 +725,6 @@ body {
         @media (max-width: 520px) {
           font-size: 20px;
           text-align: center;
-          text-shadow: 0 2px 2px #000000;
         }
       }
     }
@@ -744,10 +733,9 @@ body {
       background-color: transparent;
       border: none;
       padding: 20px;
-      @media (min-width: 600px) {
-        position: absolute;
-        bottom: 0;
-      }
+      position: absolute;
+      bottom: 0;
+
 
       .card-body {
         .card-title {
