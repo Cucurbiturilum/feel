@@ -69,6 +69,7 @@ body .btn-warning {
   border-radius: 40px;
   font-size: 24px;
   padding: 10px 40px;
+  border: none;
 }
 @media (max-width: 990px) {
   body .btn-warning {
@@ -630,6 +631,12 @@ body .payment, body .secure-membership, body .questions, body .boobs-header, bod
     -webkit-background-size: cover;
     background-size: cover;
     height: auto;
+  }
+}
+@media (min-width: 1600px) {
+  body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
+    margin-top: -1px;
   }
 }
 body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle,

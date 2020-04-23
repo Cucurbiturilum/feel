@@ -69,6 +69,7 @@ body {
     border-radius: 40px;
     font-size: 24px;
     padding: 10px 40px;
+    border: none;
     @media (max-width: 990px) {
       font-size: 18px;
     }
@@ -628,6 +629,10 @@ body {
       -webkit-background-size: cover;
       background-size: cover;
       height: auto;
+    }
+
+    @media (min-width: 1600px) {
+      margin-top: -1px;
     }
 
     .subtitle {
