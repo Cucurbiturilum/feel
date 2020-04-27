@@ -1,0 +1,73 @@
+@import "main";
+
+.sing-in{
+  .btn{
+    @media (max-width: 520px){
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.register {
+  background-image: url(../img/register-background.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  @media(max-width: 520px) {
+    padding-top: 30px;
+  }
+
+  .item-link {
+    font-size: 1.2rem;
+    @media (min-width: 990px) and (max-width: 1200px) {
+      font-size: 1rem;
+    }
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 12px 0;
+  }
+}
+
+.custom-control {
+  &.custom-checkbox {
+    .custom-control-label {
+      font-size: 1.2rem;
+      @media (min-width: 990px) and (max-width: 1200px) {
+        font-size: 1rem;
+      }
+
+      &:before {
+        border: 2px solid #fac71b;
+        background-color: transparent;
+        border-radius: 0;
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+
+      &:after {
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+    }
+  }
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url(../img/check.svg);
+}
+.custom-control-label::before, .custom-file-label, .custom-select{
+  transition: none;
+}
+.custom-control-input:focus:not(:checked)~.custom-control-label::before{
+  border-color: #fac71b;
+}
+.custom-control-input:not(:disabled):active~.custom-control-label::before{
+  border: 2px solid #fac71b;
+  background-color: transparent;
+}

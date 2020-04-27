@@ -27,6 +27,18 @@ body {
     background-color: #282829 !important;
   }
 
+  .bg-black {
+    background-color: black;
+  }
+
+  .bg-gradient {
+    background: linear-gradient(0deg, rgba(207, 139, 26, 1) 0%, rgba(248, 189, 29, 1) 100%);
+  }
+
+  .bg-ruby {
+    background-color: rgba(128, 8, 53, 0.65);
+  }
+
   .bg-danger {
     background-color: #4f0b2d !important;
   }
@@ -39,6 +51,12 @@ body {
     }
     @media (min-width: 520px) and (max-width: 990px) {
       margin-bottom: 50px;
+    }
+  }
+
+  .btn {
+    &:focus {
+      box-shadow: none;
     }
   }
 
@@ -770,5 +788,6 @@ body {
       }
     }
   }
+
 
 }
