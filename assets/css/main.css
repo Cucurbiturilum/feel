@@ -4,6 +4,9 @@ body {
 body .text-warning {
   color: #fac71b !important;
 }
+body .text-primary {
+  color: #233761 !important;
+}
 body .title {
   font-size: 60px;
   font-weight: bold;
@@ -28,8 +31,14 @@ body .bg-dark {
 body .bg-black {
   background-color: black;
 }
+body .bg-warning {
+  background-color: #f5883d !important;
+}
 body .bg-gradient {
   background: linear-gradient(0deg, #cf8b1a 0%, #f8bd1d 100%);
+}
+body .bg-ruby {
+  background-color: rgba(128, 8, 53, 0.65);
 }
 body .bg-danger {
   background-color: #4f0b2d !important;
@@ -84,6 +93,9 @@ body .btn-warning {
   body .btn-warning {
     font-size: 18px;
   }
+}
+body .btn-grad {
+  background-image: linear-gradient(0, #6f6f6f 0%, #454545 51%, #6f6f6f 100%);
 }
 body .badge-warning {
   background-color: #f5883d !important;
@@ -162,6 +174,8 @@ body .get-trial .form-group .form-control:focus {
 body .navbar {
   padding: 20px 30px;
   position: relative;
+  max-width: 1600px;
+  margin: auto;
 }
 body .navbar .bg-image {
   position: absolute;
@@ -630,13 +644,15 @@ body .boobs-footer {
   justify-content: center;
 }
 body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
-body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer, body .banner,
+body .become-member {
   background-position: center;
   background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
   body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
-body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer, body .banner,
+body .become-member {
     -webkit-background-size: cover;
     background-size: cover;
     height: auto;
@@ -644,33 +660,39 @@ body .payment, body .secure-membership, body .questions, body .boobs-header, bod
 }
 @media (min-width: 1600px) {
   body .membership, body .action, body .experience, body .favorite, body .video, body .secure,
-body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer {
+body .payment, body .secure-membership, body .questions, body .boobs-header, body .steps, body .code, body .boobs-footer, body .banner,
+body .become-member {
     margin-top: -1px;
   }
 }
 body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle,
-body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle {
+body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle, body .banner .subtitle,
+body .become-member .subtitle {
   font-size: 45px;
 }
 @media (max-width: 520px) {
   body .membership .subtitle, body .action .subtitle, body .experience .subtitle, body .favorite .subtitle, body .video .subtitle, body .secure .subtitle,
-body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle {
+body .payment .subtitle, body .secure-membership .subtitle, body .questions .subtitle, body .boobs-header .subtitle, body .steps .subtitle, body .code .subtitle, body .boobs-footer .subtitle, body .banner .subtitle,
+body .become-member .subtitle {
     font-size: 35px;
   }
 }
 body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text,
-body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text {
+body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text, body .banner .section-text,
+body .become-member .section-text {
   font-size: 30px;
 }
 @media (max-width: 990px) {
   body .membership .section-text, body .action .section-text, body .experience .section-text, body .favorite .section-text, body .video .section-text, body .secure .section-text,
-body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text {
+body .payment .section-text, body .secure-membership .section-text, body .questions .section-text, body .boobs-header .section-text, body .steps .section-text, body .code .section-text, body .boobs-footer .section-text, body .banner .section-text,
+body .become-member .section-text {
     font-size: 20px;
   }
 }
 @media (max-width: 990px) {
   body .membership .membership-container, body .action .membership-container, body .experience .membership-container, body .favorite .membership-container, body .video .membership-container, body .secure .membership-container,
-body .payment .membership-container, body .secure-membership .membership-container, body .questions .membership-container, body .boobs-header .membership-container, body .steps .membership-container, body .code .membership-container, body .boobs-footer .membership-container {
+body .payment .membership-container, body .secure-membership .membership-container, body .questions .membership-container, body .boobs-header .membership-container, body .steps .membership-container, body .code .membership-container, body .boobs-footer .membership-container, body .banner .membership-container,
+body .become-member .membership-container {
     font-size: 25px;
   }
 }

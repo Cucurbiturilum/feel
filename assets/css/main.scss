@@ -180,6 +180,8 @@ body {
   .navbar {
     padding: 20px 30px;
     position: relative;
+    max-width: 1600px;
+    margin: auto;
 
     .bg-image {
       position: absolute;
@@ -801,6 +803,4 @@ body {
       }
     }
   }
-
-
 }
