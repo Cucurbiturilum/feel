@@ -35,6 +35,10 @@ body {
     background-color: black;
   }
 
+  .bg-warning{
+    background-color: #f5883d!important;
+  }
+
   .bg-gradient {
     background: linear-gradient(0deg, rgba(207, 139, 26, 1) 0%, rgba(248, 189, 29, 1) 100%);
   }
@@ -100,7 +104,6 @@ body {
   .btn-grad {
     background-image: linear-gradient(0, #6f6f6f 0%, #454545 51%, #6f6f6f 100%);
   }
-
 
   .badge-warning {
     background-color: $button-color !important;
@@ -649,7 +652,8 @@ body {
   }
 
   .membership, .action, .experience, .favorite, .video, .secure,
-  .payment, .secure-membership, .questions, .boobs-header, .steps, .code, .boobs-footer {
+  .payment, .secure-membership, .questions, .boobs-header, .steps, .code, .boobs-footer, .banner,
+  .become-member {
     background-position: center;
     background-repeat: no-repeat;
     @media (max-width: 767px) {

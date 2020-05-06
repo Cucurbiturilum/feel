@@ -1,0 +1,217 @@
+@import "main";
+
+body {
+  background-color: #351225;
+
+  .navbar {
+    .sing-in {
+      .btn {
+        @media (max-width: 520px) {
+          font-size: 0.8rem;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .banner {
+    background-image: url(../img/promo-banner.png);
+    min-height: 900px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    @media (max-width: 520px) {
+      padding: 100px 0;
+    }
+
+    .bg-black {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px 15px;
+
+      .lock {
+        width: 115px;
+        height: 115px;
+        background-color: #f0f66e;
+        left: calc(50% - 57.5px);
+        top: -57.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 520px) {
+          height: 76px;
+          width: 76px;
+          left: calc(50% - 38px);
+          top: -38px;
+        }
+
+        .fa-lock {
+          font-size: 50px;
+          @media (max-width: 520px) {
+            font-size: 35px;
+          }
+        }
+      }
+
+      .price {
+        margin-top: 85px;
+        @media (max-width: 520px) {
+          margin-top: 20px;
+        }
+      }
+
+      .title {
+        &:before {
+          content: '';
+          display: block;
+          margin: auto;
+          margin-bottom: 40px;
+          width: 100px;
+          border-top: 6px solid $button-color;
+          @media (max-width: 520px) {
+            margin: auto;
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .btn-warning {
+        line-height: 2;
+      }
+    }
+  }
+
+  .promo-video {
+    position: relative;
+    box-shadow: 0 -30px 40px 20px rgba(53, 18, 37, 1);
+    padding-bottom: 100px;
+    @media (max-width: 520px) {
+      padding-bottom: 50px;
+    }
+
+    .left-sidebar, .right-sidebar {
+      font-size: 18px;
+
+      .subtitle {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .become-member {
+    background-image: url(../img/become-member-background.png);
+    min-height: 544px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 30px;
+    &:last-of-type{
+      margin-bottom: 70px;
+      @media (max-width: 520px) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .card-header {
+      .play {
+        bottom: 10px;
+        left: 20px;
+        @media (max-width: 1200px) {
+          left: 5px;
+          bottom: 5px;
+        }
+
+        .btn-warning {
+          font-size: 12px;
+          padding: 8px;
+
+          &:focus {
+            box-shadow: none;
+          }
+
+          @media (max-width: 520px) {
+            font-size: 10px;
+            padding: 5px;
+          }
+        }
+      }
+
+      .video-resolution {
+        top: 10px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.71);
+        height: 50px;
+        width: 50px;
+        @media (max-width: 520px) {
+          height: 30px;
+          width: 30px;
+        }
+        @media (max-width: 1200px) {
+          right: 5px;
+          top: 5px;
+        }
+
+        .text-white:first-of-type {
+          font-size: 22px;
+          @media (max-width: 520px) {
+            font-size: 12px;
+          }
+        }
+
+        .text-white:last-of-type {
+          font-size: 10px;
+          @media (max-width: 520px) {
+            font-size: 6px;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      @media (max-width: 520px) {
+        padding: 0.7rem;
+      }
+      .card-title {
+        font-size: 18px;
+        @media (max-width: 520px) {
+          font-size: 14px;
+        }
+      }
+
+      .card-text {
+        font-size: 14px;
+        @media (max-width: 520px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .timer{
+    background-color: rgba(255,255,255,0.05);
+    .card-body{
+      flex: 0 0 auto;
+    }
+  }
+
+  .payment-method{
+    padding:18px 0;
+    .subtitle{
+      color: #351225;
+      font-size: 18px;
+      font-weight: 500;
+      @media (max-width: 520px){
+        font-size: 14px;
+      }
+    }
+  }
+}
+
