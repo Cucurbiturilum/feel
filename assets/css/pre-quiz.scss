@@ -1,0 +1,157 @@
+@import "main";
+
+.first-step, .second-step, .third-step, .fourth-step, .fifth-step {
+  background-image: url(../img/pre-quiz-lander-1.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 20px 0;
+  height: 100%;
+  min-height: 100vh;
+  @media (max-width: 520px) {
+    padding-top: 25px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+    @media (max-width: 520px) {
+      font-size: 26px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .subtitle {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+    .text-info {
+      color: #f0f66e !important;
+    }
+
+    @media (max-width: 520px) {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    &:nth-of-type(2) {
+      margin-bottom: 15px;
+      @media (max-width: 520px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .progress {
+    width: 600px;
+    background-color: black;
+    height: 20px;
+    margin-bottom: 35px;
+    @media (max-width: 520px) {
+      width: 90%;
+      margin-bottom: 35px;
+    }
+
+    .progress-bar {
+      background-color: #f0f66e;
+      border-radius: 50rem;
+    }
+  }
+
+  .section-text {
+    font-size: 22px;
+    margin-bottom: 30px;
+    @media (max-width: 520px) {
+      font-size: 16px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .btn {
+    font-size: 22px;
+    @media (max-width: 520px) {
+      font-size: 11px;
+    }
+
+    &:focus, &:hover {
+      transform: scale(1.05);
+      transition: all 1s ease-out;;
+    }
+  }
+
+  .img-btn {
+    border: 6px solid #f0f66e;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    max-width: 300px;
+    max-height: 300px;
+    @media (max-width: 520px) {
+      border-width: 3px;
+    }
+  }
+
+}
+
+.second-step, .third-step, .fourth-step, .fifth-step {
+  background-image: url(../img/pre-quiz-lander-2.png);
+
+  .subtitle:nth-of-type(2) {
+    margin-bottom: 60px;
+    @media (max-width: 520px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .btn-warning {
+    height: 70px;
+    font-size: 24px;
+    @media (max-width: 520px) {
+      height: 50px;
+    }
+  }
+}
+
+.third-step {
+  background-image: url(../img/pre-quiz-lander-3.png);
+}
+
+.fourth-step {
+  background-image: url(../img/pre-quiz-lander-4.png);
+}
+
+.fifth-step {
+  background-image: url(../img/pre-quiz-lander-5.png);
+
+  .title {
+    color: #f0f66e;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 15px;
+  }
+
+  .section-text {
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    margin-bottom: 30px;
+  }
+
+  .img-fluid {
+    width: 200px;
+    @media (max-width: 520px) {
+      width: 140px;
+    }
+  }
+
+  .btn {
+    @media (max-width: 520px) {
+      font-size: 20px;
+    }
+  }
+
+  .progress {
+    margin-bottom: 30px;
+  }
+}
