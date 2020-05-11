@@ -3,13 +3,16 @@ $button-color: #f5883d;
 
 body {
   font-family: 'Poppins', sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  background-color: #000000;
 
   .text-warning {
     color: #fac71b !important;
   }
 
-  .text-primary{
-    color: #233761!important;
+  .text-primary {
+    color: #233761 !important;
   }
 
   .title {
@@ -35,8 +38,8 @@ body {
     background-color: black;
   }
 
-  .bg-warning{
-    background-color: #f5883d!important;
+  .bg-warning {
+    background-color: #f5883d !important;
   }
 
   .bg-gradient {
@@ -177,6 +180,52 @@ body {
     }
   }
 
+  header {
+    background-color: #333333;
+    font-family: 'Oswald', sans-serif;
+    .navbar{
+      .navbar-brand{
+        max-width: 280px;
+        @media (max-width: 520px) {
+          max-width: 200px;
+        }
+      }
+      .collapse{
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              color: white;
+              padding: 0 18px;
+              font-size: 18px;
+              position: relative;
+              .badge{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                position: absolute;
+                left: 5px;
+                top: -3px;
+              }
+            }
+            &.active{
+              .nav-link{
+                color: $button-color;
+              }
+            }
+          }
+        }
+        .form-control{
+          &::placeholder{
+            color: white;
+          }
+          &:focus{
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
   .navbar {
     padding: 20px 30px;
     position: relative;
@@ -203,7 +252,7 @@ body {
     }
   }
 
-  header {
+  .header-section {
     background-image: url(../img/header-background.png);
     height: 964px;
     background-repeat: no-repeat;
@@ -798,6 +847,52 @@ body {
           }
           @media (min-width: 520px) and (max-width: 1200px) {
             font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #333333;
+    font-family: 'Oswald', sans-serif;
+    padding: 35px 0;
+
+    .logo-footer {
+      max-width: 320px;
+    }
+
+    .card-text {
+      font-size: 16px;
+    }
+
+    .link-item {
+      font-size: 18px;
+    }
+
+    .social {
+      .social-link {
+        height: 31px;
+        width: 31px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    }
+
+    .nav {
+      .nav-item {
+        .nav-link {
+          font-size: 18px;
+          padding: 5px 0;
+          color: white;
+
+          &.disabled {
+            font-size: 30px;
+            margin-bottom: 20px;
+          }
+
+          &:hover {
+            color: $button-color;
           }
         }
       }

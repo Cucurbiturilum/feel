@@ -1,5 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  background-color: #000000;
 }
 body .text-warning {
   color: #fac71b !important;
@@ -171,6 +174,41 @@ body .get-trial .form-group .form-control::placeholder {
 body .get-trial .form-group .form-control:focus {
   box-shadow: none;
 }
+body header {
+  background-color: #333333;
+  font-family: "Oswald", sans-serif;
+}
+body header .navbar .navbar-brand {
+  max-width: 280px;
+}
+@media (max-width: 520px) {
+  body header .navbar .navbar-brand {
+    max-width: 200px;
+  }
+}
+body header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 0 18px;
+  font-size: 18px;
+  position: relative;
+}
+body header .navbar .collapse .navbar-nav .nav-item .nav-link .badge {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: -3px;
+}
+body header .navbar .collapse .navbar-nav .nav-item.active .nav-link {
+  color: #f5883d;
+}
+body header .navbar .collapse .form-control::placeholder {
+  color: white;
+}
+body header .navbar .collapse .form-control:focus {
+  box-shadow: none;
+}
 body .navbar {
   padding: 20px 30px;
   position: relative;
@@ -191,20 +229,20 @@ body .navbar .bg-image {
     width: 100px;
   }
 }
-body header {
+body .header-section {
   background-image: url(../img/header-background.png);
   height: 964px;
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (max-width: 990px) {
-  body header {
+  body .header-section {
     -webkit-background-size: cover;
     background-size: cover;
     height: auto;
   }
 }
-body header .banner {
+body .header-section .banner {
   padding: 30px 50px;
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
@@ -212,14 +250,14 @@ body header .banner {
   margin-bottom: 60px;
 }
 @media (max-width: 520px) {
-  body header .banner {
+  body .header-section .banner {
     font-size: 20px;
     padding: 15px;
     margin-bottom: 30px;
   }
 }
 @media (min-width: 520px) and (max-width: 990px) {
-  body header .banner {
+  body .header-section .banner {
     font-size: 30px;
     padding: 20px 30px;
   }
@@ -803,6 +841,38 @@ body .payment .card .card-body .card-text {
   body .payment .card .card-body .card-text {
     font-size: 25px;
   }
+}
+body footer {
+  background-color: #333333;
+  font-family: "Oswald", sans-serif;
+  padding: 35px 0;
+}
+body footer .logo-footer {
+  max-width: 320px;
+}
+body footer .card-text {
+  font-size: 16px;
+}
+body footer .link-item {
+  font-size: 18px;
+}
+body footer .social .social-link {
+  height: 31px;
+  width: 31px;
+  font-size: 20px;
+  text-decoration: none;
+}
+body footer .nav .nav-item .nav-link {
+  font-size: 18px;
+  padding: 5px 0;
+  color: white;
+}
+body footer .nav .nav-item .nav-link.disabled {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+body footer .nav .nav-item .nav-link:hover {
+  color: #f5883d;
 }
 
 .first-step, .second-step, .third-step, .fourth-step, .fifth-step {

@@ -876,218 +876,211 @@ body footer .nav .nav-item .nav-link:hover {
 }
 
 body {
-  background-color: #351225;
-}
-@media (max-width: 520px) {
-  body .navbar .sing-in .btn {
-    font-size: 0.8rem;
-  }
-}
-body .navbar .sing-in .btn:hover {
-  transform: scale(1.1);
-}
-body .banner {
-  background-image: url(../img/promo-banner.png);
-  min-height: 900px;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 200px 0;
-}
-@media (max-width: 520px) {
-  body .banner {
-    padding: 100px 0;
-  }
-}
-body .banner .bg-black {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 50px 15px;
-}
-body .banner .bg-black .lock {
-  width: 115px;
-  height: 115px;
-  background-color: #f0f66e;
-  left: calc(50% - 57.5px);
-  top: -57.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .lock {
-    height: 76px;
-    width: 76px;
-    left: calc(50% - 38px);
-    top: -38px;
-  }
-}
-body .banner .bg-black .lock .fa-lock {
-  font-size: 50px;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .lock .fa-lock {
-    font-size: 35px;
-  }
-}
-body .banner .bg-black .price {
-  margin-top: 85px;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .price {
-    margin-top: 20px;
-  }
-}
-body .banner .bg-black .title:before {
-  content: "";
-  display: block;
+  background-color: #020812;
+  max-width: 1600px;
   margin: auto;
-  margin-bottom: 40px;
-  width: 100px;
-  border-top: 6px solid #f5883d;
 }
-@media (max-width: 520px) {
-  body .banner .bg-black .title:before {
-    margin: auto;
-    margin-bottom: 20px;
-  }
-}
-body .banner .bg-black .btn-warning {
-  line-height: 2;
-}
-body .promo-video {
-  position: relative;
-  box-shadow: 0 -30px 40px 20px #351225;
-  padding-bottom: 100px;
-}
-@media (max-width: 520px) {
-  body .promo-video {
-    padding-bottom: 50px;
-  }
-}
-body .promo-video .left-sidebar, body .promo-video .right-sidebar {
-  font-size: 18px;
-}
-body .promo-video .left-sidebar .subtitle, body .promo-video .right-sidebar .subtitle {
-  font-size: 35px;
-}
-body .become-member {
-  background-image: url(../img/become-member-background.png);
-  min-height: 544px;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
+body .title-section, body .content-type, body .section-5, body .section-6, body .section-7, body .section-8, body .section-9 {
+  background-image: url(../img/fxv/fxv-header-background.png);
+  min-height: 2465px;
   background-repeat: no-repeat;
+  background-position: center;
+  padding: 70px 12px 0 12px;
 }
-body .card {
-  background-color: rgba(255, 255, 255, 0.05);
-  margin-bottom: 30px;
+@media (max-width: 767px) {
+  body .title-section, body .content-type, body .section-5, body .section-6, body .section-7, body .section-8, body .section-9 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
+  }
 }
-body .card:last-of-type {
-  margin-bottom: 70px;
+body .title-section .title:first-of-type, body .content-type .title:first-of-type, body .section-5 .title:first-of-type, body .section-6 .title:first-of-type, body .section-7 .title:first-of-type, body .section-8 .title:first-of-type, body .section-9 .title:first-of-type {
+  font-size: 80px;
+}
+@media (max-width: 660px) {
+  body .title-section .title:first-of-type, body .content-type .title:first-of-type, body .section-5 .title:first-of-type, body .section-6 .title:first-of-type, body .section-7 .title:first-of-type, body .section-8 .title:first-of-type, body .section-9 .title:first-of-type {
+    font-size: 50px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1220px) {
+  body .title-section .title:first-of-type, body .content-type .title:first-of-type, body .section-5 .title:first-of-type, body .section-6 .title:first-of-type, body .section-7 .title:first-of-type, body .section-8 .title:first-of-type, body .section-9 .title:first-of-type {
+    font-size: 60px;
+  }
+}
+body .title-section .title:nth-of-type(2), body .content-type .title:nth-of-type(2), body .section-5 .title:nth-of-type(2), body .section-6 .title:nth-of-type(2), body .section-7 .title:nth-of-type(2), body .section-8 .title:nth-of-type(2), body .section-9 .title:nth-of-type(2) {
+  margin-bottom: 290px;
 }
 @media (max-width: 520px) {
-  body .card:last-of-type {
+  body .title-section .title:nth-of-type(2), body .content-type .title:nth-of-type(2), body .section-5 .title:nth-of-type(2), body .section-6 .title:nth-of-type(2), body .section-7 .title:nth-of-type(2), body .section-8 .title:nth-of-type(2), body .section-9 .title:nth-of-type(2) {
     margin-bottom: 50px;
   }
 }
-body .card .card-header .play {
-  bottom: 10px;
-  left: 20px;
+body .title-section .section-text, body .content-type .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text, body .section-9 .section-text {
+  font-size: 34px;
 }
-@media (max-width: 1200px) {
-  body .card .card-header .play {
-    left: 5px;
-    bottom: 5px;
+body .title-section .section-text:nth-of-type(3), body .content-type .section-text:nth-of-type(3), body .section-5 .section-text:nth-of-type(3), body .section-6 .section-text:nth-of-type(3), body .section-7 .section-text:nth-of-type(3), body .section-8 .section-text:nth-of-type(3), body .section-9 .section-text:nth-of-type(3) {
+  margin-bottom: 130px;
+}
+@media (max-width: 600px) {
+  body .title-section .section-text, body .content-type .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text, body .section-9 .section-text {
+    font-size: 20px;
   }
 }
-body .card .card-header .play .btn-warning {
-  font-size: 12px;
-  padding: 8px;
-}
-body .card .card-header .play .btn-warning:focus {
-  box-shadow: none;
-}
-@media (max-width: 520px) {
-  body .card .card-header .play .btn-warning {
-    font-size: 10px;
-    padding: 5px;
+@media (min-width: 660px) and (max-width: 1220px) {
+  body .title-section .section-text, body .content-type .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text, body .section-9 .section-text {
+    font-size: 25px;
   }
 }
-body .card .card-header .video-resolution {
-  top: 10px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.71);
-  height: 50px;
-  width: 50px;
+body .title-section .card-text, body .content-type .card-text, body .section-5 .card-text, body .section-6 .card-text, body .section-7 .card-text, body .section-8 .card-text, body .section-9 .card-text {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
 }
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution {
-    height: 30px;
-    width: 30px;
+@media (max-width: 600px) {
+  body .title-section .card-text, body .content-type .card-text, body .section-5 .card-text, body .section-6 .card-text, body .section-7 .card-text, body .section-8 .card-text, body .section-9 .card-text {
+    font-size: 16px;
   }
 }
-@media (max-width: 1200px) {
-  body .card .card-header .video-resolution {
-    right: 5px;
-    top: 5px;
+@media (min-width: 660px) and (max-width: 1220px) {
+  body .title-section .card-text, body .content-type .card-text, body .section-5 .card-text, body .section-6 .card-text, body .section-7 .card-text, body .section-8 .card-text, body .section-9 .card-text {
+    font-size: 23px;
   }
 }
-body .card .card-header .video-resolution .text-white:first-of-type {
-  font-size: 22px;
+body .title-section .line, body .content-type .line, body .section-5 .line, body .section-6 .line, body .section-7 .line, body .section-8 .line, body .section-9 .line {
+  height: 4px;
+  width: 45px;
+  margin-bottom: 50px;
+  margin-left: -190px;
 }
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution .text-white:first-of-type {
-    font-size: 12px;
+@media (max-width: 660px) {
+  body .title-section .line, body .content-type .line, body .section-5 .line, body .section-6 .line, body .section-7 .line, body .section-8 .line, body .section-9 .line {
+    margin-bottom: 30px;
   }
 }
-body .card .card-header .video-resolution .text-white:last-of-type {
-  font-size: 10px;
+body .title-section .line:after, body .content-type .line:after, body .section-5 .line:after, body .section-6 .line:after, body .section-7 .line:after, body .section-8 .line:after, body .section-9 .line:after {
+  content: "";
+  width: 150px;
+  display: block;
+  border-bottom: 1px solid white;
+  margin-left: 65px;
+  height: 2px;
 }
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution .text-white:last-of-type {
-    font-size: 6px;
+body .content-type, body .section-5, body .section-6, body .section-7, body .section-8 {
+  background-image: url(../img/fxv/content-type-background.png);
+  min-height: 1088px;
+}
+@media (max-width: 660px) {
+  body .content-type, body .section-5, body .section-6, body .section-7, body .section-8 {
+    padding-top: 30px;
   }
 }
-@media (max-width: 520px) {
-  body .card .card-body {
-    padding: 0.7rem;
+@media (max-width: 767px) {
+  body .content-type, body .section-5, body .section-6, body .section-7, body .section-8 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
   }
 }
-body .card .card-body .card-title {
-  font-size: 18px;
+body .content-type .card-text, body .section-5 .card-text, body .section-6 .card-text, body .section-7 .card-text, body .section-8 .card-text {
+  font-size: 25px;
 }
-@media (max-width: 520px) {
-  body .card .card-body .card-title {
-    font-size: 14px;
+body .content-type .card-text .section-text, body .section-5 .card-text .section-text, body .section-6 .card-text .section-text, body .section-7 .card-text .section-text, body .section-8 .card-text .section-text {
+  font-size: 32px;
+}
+@media (max-width: 660px) {
+  body .content-type .card-text .section-text, body .section-5 .card-text .section-text, body .section-6 .card-text .section-text, body .section-7 .card-text .section-text, body .section-8 .card-text .section-text {
+    font-size: 20px;
   }
 }
-body .card .card-body .card-text {
-  font-size: 14px;
-}
-@media (max-width: 520px) {
-  body .card .card-body .card-text {
-    font-size: 12px;
+@media (max-width: 660px) {
+  body .content-type .card-text, body .section-5 .card-text, body .section-6 .card-text, body .section-7 .card-text, body .section-8 .card-text {
+    font-size: 16px;
+    margin-bottom: 0;
   }
 }
-body .timer {
-  background-color: rgba(255, 255, 255, 0.05);
+body .section-5, body .section-6 {
+  background-image: url(../img/fxv/section-5-background.png);
+  min-height: 717px;
+  position: relative;
 }
-body .timer .card-body {
-  flex: 0 0 auto;
-}
-body .payment-method {
-  padding: 18px 0;
-}
-body .payment-method .subtitle {
-  color: #351225;
-  font-size: 18px;
-  font-weight: 500;
-}
-@media (max-width: 520px) {
-  body .payment-method .subtitle {
-    font-size: 14px;
+@media (max-width: 767px) {
+  body .section-5, body .section-6 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
   }
+}
+body .section-5 .macbook-girls, body .section-6 .macbook-girls {
+  margin-left: -12px;
+  z-index: 3;
+}
+@media (min-width: 990px) {
+  body .section-5 .macbook-girls, body .section-6 .macbook-girls {
+    position: absolute;
+    top: 5%;
+    margin-left: 0;
+  }
+}
+body .section-5 .line, body .section-6 .line {
+  margin-left: 0;
+}
+body .section-6 {
+  background-image: url(../img/fxv/section-6-background.png);
+  min-height: 743px;
+  margin-top: -0.5px;
+}
+@media (max-width: 767px) {
+  body .section-6 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+body .section-7 {
+  background-image: url(../img/fxv/section-7-background.png);
+  min-height: 536px;
+  margin-top: -0.6px;
+  padding-top: 40px;
+}
+@media (max-width: 767px) {
+  body .section-7 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+body .section-7 .section-text {
+  font-size: 40px;
+}
+@media (max-width: 660px) {
+  body .section-7 .section-text {
+    font-size: 30px;
+  }
+}
+body .section-8 {
+  background-image: url(../img/fxv/section-8-background.png);
+  min-height: 779px;
+  position: relative;
+  margin-top: -0.6px;
+  padding-top: 40px;
+}
+@media (max-width: 767px) {
+  body .section-8 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+body .section-8 .line {
+  margin-top: 120px;
+}
+@media (max-width: 660px) {
+  body .section-8 .line {
+    margin-top: 30px;
+  }
+}
+body .section-9 {
+  background-image: url(../img/fxv/section-9-background.jpg);
+  min-height: 464px;
 }
 
-/*# sourceMappingURL=promo.css.map */
+/*# sourceMappingURL=fxv.css.map */
