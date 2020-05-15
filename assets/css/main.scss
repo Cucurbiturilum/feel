@@ -7,12 +7,22 @@ body {
   margin: auto;
   background-color: #000000;
 
+  //Text colors
+
   .text-warning {
     color: #fac71b !important;
   }
 
   .text-primary {
     color: #233761 !important;
+  }
+
+  .text-danger {
+    color: #ff1d1d !important;
+  }
+
+  .text-success{
+    color: #00ce4e!important;
   }
 
   .title {
@@ -30,12 +40,18 @@ body {
     }
   }
 
+  //Background color
+
   .bg-dark {
     background-color: #282829 !important;
   }
 
   .bg-black {
     background-color: black;
+  }
+
+  .bg-red{
+    background-color: #ff1d1d;
   }
 
   .bg-warning {
@@ -54,6 +70,10 @@ body {
     background-color: #4f0b2d !important;
   }
 
+  .bg-success{
+    background-color: #25ae88!important;
+  }
+
   .price {
     font-size: 24px;
     @media (max-width: 520px) {
@@ -64,6 +84,8 @@ body {
       margin-bottom: 50px;
     }
   }
+
+  //Button
 
   .btn {
     &:focus {
@@ -885,10 +907,24 @@ body {
           font-size: 18px;
           padding: 5px 0;
           color: white;
+          @media (max-width: 520px) {
+            font-size: 12px;
+          }
+          @media (min-width: 520px) and (max-width: 1024px) {
+            font-size: 14px;
+          }
 
           &.disabled {
             font-size: 30px;
             margin-bottom: 20px;
+            @media (max-width: 520px) {
+              font-size: 20px;
+              margin-bottom: 0;
+            }
+            @media (min-width: 520px) and (max-width: 1024px) {
+              font-size: 25px;
+              margin-bottom: 25px;
+            }
           }
 
           &:hover {

@@ -10,6 +10,12 @@ body .text-warning {
 body .text-primary {
   color: #233761 !important;
 }
+body .text-danger {
+  color: #ff1d1d !important;
+}
+body .text-success {
+  color: #00ce4e !important;
+}
 body .title {
   font-size: 60px;
   font-weight: bold;
@@ -34,6 +40,9 @@ body .bg-dark {
 body .bg-black {
   background-color: black;
 }
+body .bg-red {
+  background-color: #ff1d1d;
+}
 body .bg-warning {
   background-color: #f5883d !important;
 }
@@ -45,6 +54,9 @@ body .bg-ruby {
 }
 body .bg-danger {
   background-color: #4f0b2d !important;
+}
+body .bg-success {
+  background-color: #25ae88 !important;
 }
 body .price {
   font-size: 24px;
@@ -867,9 +879,31 @@ body footer .nav .nav-item .nav-link {
   padding: 5px 0;
   color: white;
 }
+@media (max-width: 520px) {
+  body footer .nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+}
+@media (min-width: 520px) and (max-width: 1024px) {
+  body footer .nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
 body footer .nav .nav-item .nav-link.disabled {
   font-size: 30px;
   margin-bottom: 20px;
+}
+@media (max-width: 520px) {
+  body footer .nav .nav-item .nav-link.disabled {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 520px) and (max-width: 1024px) {
+  body footer .nav .nav-item .nav-link.disabled {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
 }
 body footer .nav .nav-item .nav-link:hover {
   color: #f5883d;

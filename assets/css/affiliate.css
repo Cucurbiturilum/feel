@@ -910,218 +910,536 @@ body footer .nav .nav-item .nav-link:hover {
 }
 
 body {
-  background-color: #351225;
+  background-color: #232323;
+  max-width: 100%;
+  font-family: Roboto, sans-serif !important;
 }
-@media (max-width: 520px) {
-  body .navbar .sing-in .btn {
-    font-size: 0.8rem;
+body .btn-danger {
+  padding: 12px 45px;
+  font-size: 18px;
+}
+@media (max-width: 660px) {
+  body .btn-danger {
+    padding: 12px;
+    font-size: 12px;
   }
 }
-body .navbar .sing-in .btn:hover {
-  transform: scale(1.1);
+@media (min-width: 2560px) {
+  body .btn-danger {
+    padding: 20px 45px;
+    font-size: 30px;
+  }
 }
-body .banner {
-  background-image: url(../img/promo-banner.png);
-  min-height: 900px;
-  -webkit-background-size: cover;
+body .section-text {
+  font-size: 25px;
+  margin-bottom: 120px;
+}
+@media (max-width: 660px) {
+  body .section-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 660px) and (max-width: 990px) {
+  body .section-text {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 2560px) {
+  body .section-text {
+    font-size: 40px;
+  }
+}
+body header {
+  background-image: url(../img/feel-vr-header-bg.png);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 200px 0;
+  padding-top: 40px;
+  padding-bottom: 170px;
 }
-@media (max-width: 520px) {
-  body .banner {
-    padding: 100px 0;
+@media (max-width: 768px) {
+  body header {
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
-body .banner .bg-black {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 50px 15px;
+body header .navbar {
+  padding: 0 80px;
+  margin-bottom: 160px;
 }
-body .banner .bg-black .lock {
-  width: 115px;
-  height: 115px;
-  background-color: #f0f66e;
-  left: calc(50% - 57.5px);
-  top: -57.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .lock {
-    height: 76px;
-    width: 76px;
-    left: calc(50% - 38px);
-    top: -38px;
-  }
-}
-body .banner .bg-black .lock .fa-lock {
-  font-size: 50px;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .lock .fa-lock {
-    font-size: 35px;
-  }
-}
-body .banner .bg-black .price {
-  margin-top: 85px;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .price {
-    margin-top: 20px;
-  }
-}
-body .banner .bg-black .title:before {
-  content: "";
-  display: block;
-  margin: auto;
-  margin-bottom: 40px;
-  width: 100px;
-  border-top: 6px solid #f5883d;
-}
-@media (max-width: 520px) {
-  body .banner .bg-black .title:before {
-    margin: auto;
+@media (max-width: 660px) {
+  body header .navbar {
+    justify-content: center;
     margin-bottom: 20px;
   }
 }
-body .banner .bg-black .btn-warning {
-  line-height: 2;
-}
-body .promo-video {
-  position: relative;
-  box-shadow: 0 -30px 40px 20px #351225;
-  padding-bottom: 100px;
-}
-@media (max-width: 520px) {
-  body .promo-video {
-    padding-bottom: 50px;
-  }
-}
-body .promo-video .left-sidebar, body .promo-video .right-sidebar {
-  font-size: 18px;
-}
-body .promo-video .left-sidebar .subtitle, body .promo-video .right-sidebar .subtitle {
-  font-size: 35px;
-}
-body .become-member {
-  background-image: url(../img/become-member-background.png);
-  min-height: 544px;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-body .card {
-  background-color: rgba(255, 255, 255, 0.05);
-  margin-bottom: 30px;
-}
-body .card:last-of-type {
-  margin-bottom: 70px;
-}
-@media (max-width: 520px) {
-  body .card:last-of-type {
+@media (min-width: 660px) and (max-width: 990px) {
+  body header .navbar {
     margin-bottom: 50px;
   }
 }
-body .card .card-header .play {
-  bottom: 10px;
-  left: 20px;
-}
-@media (max-width: 1200px) {
-  body .card .card-header .play {
-    left: 5px;
-    bottom: 5px;
+@media (min-width: 2560px) {
+  body header .navbar {
+    margin-bottom: 250px;
   }
 }
-body .card .card-header .play .btn-warning {
-  font-size: 12px;
-  padding: 8px;
+body header .section-title {
+  font-weight: 500;
+  margin-bottom: 45px;
 }
-body .card .card-header .play .btn-warning:focus {
-  box-shadow: none;
-}
-@media (max-width: 520px) {
-  body .card .card-header .play .btn-warning {
-    font-size: 10px;
-    padding: 5px;
+@media (max-width: 660px) {
+  body header .section-title {
+    margin-bottom: 20px;
   }
 }
-body .card .card-header .video-resolution {
-  top: 10px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.71);
-  height: 50px;
-  width: 50px;
-}
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution {
-    height: 30px;
-    width: 30px;
+@media (min-width: 2560px) {
+  body header .section-title {
+    font-size: 80px;
   }
 }
-@media (max-width: 1200px) {
-  body .card .card-header .video-resolution {
-    right: 5px;
-    top: 5px;
+body .reason, body .clients, body .how-it-work, body .rewards {
+  padding: 60px 50px;
+}
+@media (max-width: 660px) {
+  body .reason, body .clients, body .how-it-work, body .rewards {
+    padding: 20px 12px;
+    margin-bottom: 20px;
   }
 }
-body .card .card-header .video-resolution .text-white:first-of-type {
-  font-size: 22px;
+body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+  font-size: 45px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 90px;
 }
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution .text-white:first-of-type {
-    font-size: 12px;
+body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
+  content: "";
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 700px;
+  width: 100%;
+  height: 6px;
+  background-image: url(../img/border-danger.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 660px) {
+  body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
+    margin-top: 20px;
   }
 }
-body .card .card-header .video-resolution .text-white:last-of-type {
-  font-size: 10px;
-}
-@media (max-width: 520px) {
-  body .card .card-header .video-resolution .text-white:last-of-type {
-    font-size: 6px;
+@media (max-width: 660px) {
+  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+    font-size: 25px;
+    margin-bottom: 40px;
   }
 }
-@media (max-width: 520px) {
-  body .card .card-body {
-    padding: 0.7rem;
+@media (min-width: 660px) and (max-width: 990px) {
+  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+    font-size: 35px;
+    margin-bottom: 50px;
   }
 }
-body .card .card-body .card-title {
+body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
   font-size: 18px;
+  margin-top: -2.2rem;
+  margin-bottom: 24px;
 }
-@media (max-width: 520px) {
-  body .card .card-body .card-title {
-    font-size: 14px;
+body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+  content: "";
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 200px;
+  width: 100%;
+  height: 6px;
+  background-image: url(../img/border-danger.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+    max-width: 250px;
   }
 }
-body .card .card-body .card-text {
+@media (min-width: 576px) and (max-width: 900px) {
+  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+    max-width: 180px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 2560px) {
+  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+    max-width: 320px;
+  }
+}
+@media (max-width: 576px) {
+  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+    font-size: 17px;
+  }
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+    font-size: 8px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1220px) {
+  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+    font-size: 13px;
+  }
+}
+@media (min-width: 2560px) {
+  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+    font-size: 30px;
+  }
+}
+body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1220px) {
+  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+    font-size: 17px;
+  }
+}
+@media (min-width: 2560px) {
+  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+    font-size: 25px;
+  }
+}
+body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+  padding: 10px 35px;
   font-size: 14px;
 }
-@media (max-width: 520px) {
-  body .card .card-body .card-text {
-    font-size: 12px;
+@media (min-width: 520px) and (max-width: 990px) {
+  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+    font-size: 10px;
+    padding: 7px 10px;
   }
 }
-body .timer {
-  background-color: rgba(255, 255, 255, 0.05);
+@media (min-width: 2560px) {
+  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+    font-size: 20px;
+    padding: 15px 50px;
+  }
 }
-body .timer .card-body {
-  flex: 0 0 auto;
+body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
+  background-color: #000000;
+  padding: 25px 55px;
+  max-width: 995px;
 }
-body .payment-method {
-  padding: 18px 0;
+@media (max-width: 660px) {
+  body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
+    padding: 25px;
+  }
 }
-body .payment-method .subtitle {
-  color: #351225;
-  font-size: 18px;
+body .reason .banner .subtitle, body .clients .banner .subtitle, body .how-it-work .banner .subtitle, body .rewards .banner .subtitle {
+  font-size: 35px;
   font-weight: 500;
 }
-@media (max-width: 520px) {
-  body .payment-method .subtitle {
+body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
+  margin-bottom: 25px;
+}
+@media (max-width: 660px) {
+  body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+body .clients .card-deck .card .card-title {
+  font-size: 35px;
+  margin-top: -7rem;
+  margin-bottom: 40px;
+}
+body .clients .card-deck .card .card-title:after {
+  max-width: 400px;
+}
+@media (max-width: 576px) {
+  body .clients .card-deck .card .card-title:after {
+    max-width: 250px;
+  }
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  body .clients .card-deck .card .card-title:after {
+    max-width: 180px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 2560px) {
+  body .clients .card-deck .card .card-title:after {
+    max-width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  body .clients .card-deck .card .card-title {
+    font-size: 17px;
+  }
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  body .clients .card-deck .card .card-title {
+    font-size: 14px;
+    margin-top: -3.5rem;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1220px) {
+  body .clients .card-deck .card .card-title {
+    font-size: 20px;
+    margin-top: -4.5rem;
+  }
+}
+@media (min-width: 2560px) {
+  body .clients .card-deck .card .card-title {
+    font-size: 50px;
+    margin-top: -10rem;
+  }
+}
+body .clients .card-deck .card .card-text {
+  margin-bottom: 20px;
+}
+@media (min-width: 1220px) {
+  body .clients .card-deck .card .card-text {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 2560px) {
+  body .clients .card-deck .card .card-text {
+    font-size: 40px;
+  }
+}
+body .clients .card-deck .card .btn-danger {
+  padding: 10px 50px;
+  font-size: 16px;
+}
+@media (min-width: 660px) and (max-width: 990px) {
+  body .clients .card-deck .card .btn-danger {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+}
+@media (min-width: 2560px) {
+  body .clients .card-deck .card .btn-danger {
+    font-size: 30px;
+  }
+}
+body .how-it-work .section-title:after {
+  border-bottom: 9px solid #ff1d1d;
+  margin-left: 0;
+}
+body .how-it-work .registration-steps {
+  margin-bottom: 140px;
+}
+@media (max-width: 660px) {
+  body .how-it-work .registration-steps {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  body .how-it-work .registration-steps {
+    margin-bottom: 60px;
+  }
+}
+body .how-it-work .registration-steps .card {
+  max-width: 350px;
+}
+body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+  margin-top: 10%;
+  max-width: 120px;
+}
+@media (min-width: 1024px) {
+  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+    margin-top: 7%;
+  }
+}
+@media (min-width: 1200px) {
+  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+    margin-top: 5%;
+  }
+}
+body .how-it-work .registration-steps .card .card-img-top {
+  max-width: 150px;
+  width: 100%;
+}
+body .how-it-work .registration-steps .card .card-title {
+  margin-top: 15px;
+  font-size: 12px;
+}
+@media (min-width: 520px) and (max-width: 660px) {
+  body .how-it-work .registration-steps .card .card-title {
     font-size: 14px;
   }
 }
+@media (min-width: 660px) and (max-width: 990px) {
+  body .how-it-work .registration-steps .card .card-title {
+    font-size: 18px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1024px) {
+  body .how-it-work .registration-steps .card .card-title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1220px) {
+  body .how-it-work .registration-steps .card .card-title {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1220px) {
+  body .how-it-work .registration-steps .card .card-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2560px) {
+  body .how-it-work .registration-steps .card .card-title {
+    font-size: 30px;
+  }
+}
+body .how-it-work .registration-steps .card .card-text {
+  font-size: 6px;
+}
+@media (min-width: 520px) and (max-width: 660px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 8px;
+  }
+}
+@media (min-width: 660px) and (max-width: 990px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 12px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1024px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1220px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1220px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  body .how-it-work .registration-steps .card .card-text {
+    font-size: 24px;
+  }
+}
+body .rewards .check-icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: auto;
+}
+@media (max-width: 520px) {
+  body .rewards .check-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 2560px) {
+  body .rewards .check-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+body .rewards .card-deck {
+  margin-bottom: 70px;
+}
+@media (max-width: 520px) {
+  body .rewards .card-deck {
+    margin-bottom: 30px;
+  }
+}
+body .rewards .card-deck .card {
+  box-shadow: inset 0px -100px 70px -30px rgba(0, 0, 0, 0.75);
+  padding: 25px;
+}
+@media (min-width: 1220px) {
+  body .rewards .card-deck .card {
+    padding: 25px 45px;
+  }
+}
+body .rewards .card-deck .card .card-body {
+  padding: 0;
+}
+body .rewards .card-deck .card .card-body .card-title {
+  font-size: 25px;
+}
+@media (min-width: 755px) and (max-width: 1120px) {
+  body .rewards .card-deck .card .card-body .card-title {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  body .rewards .card-deck .card .card-body .card-title {
+    font-size: 45px;
+  }
+}
+body .rewards .card-deck .card .card-body .card-title:after {
+  display: none;
+}
+body .rewards .card-deck .card .card-body .card-text {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+@media (min-width: 2560px) {
+  body .rewards .card-deck .card .card-body .card-text {
+    font-size: 30px;
+  }
+}
+body .rewards .card-deck .card .card-footer .btn-danger {
+  background-color: #f9b223;
+  border-color: #f9b223;
+}
+body .rewards .card-deck .card .card-footer .btn-danger:focus, body .rewards .card-deck .card .card-footer .btn-danger.active {
+  background-color: #eea722;
+  border-color: #eea722;
+  box-shadow: none;
+}
+body .contact-us {
+  background-color: #898989;
+  padding: 70px 12px;
+}
+@media (max-width: 520px) {
+  body .contact-us {
+    padding: 35px 12px;
+  }
+}
+body .contact-us .section-text {
+  font-size: 28px;
+}
+@media (max-width: 520px) {
+  body .contact-us .section-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 2560px) {
+  body .contact-us .section-text {
+    font-size: 45px;
+  }
+}
+body footer {
+  background-image: url(../img/feel-vr-footer-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+body footer .logo-footer {
+  max-width: 120px;
+}
+body footer .nav .nav-item .nav-link:hover {
+  color: #ff1d1d;
+}
 
-/*# sourceMappingURL=promo.css.map */
+/*# sourceMappingURL=affiliate.css.map */

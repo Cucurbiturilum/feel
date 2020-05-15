@@ -1,0 +1,468 @@
+@import "main";
+
+body {
+  background-color: #232323;
+  max-width: 100%;
+  font-family: Roboto, sans-serif !important;
+
+  .btn-danger {
+    padding: 12px 45px;
+    font-size: 18px;
+    @media (max-width: 660px) {
+      padding: 12px;
+      font-size: 12px;
+    }
+    @media (min-width: 2560px) {
+      padding: 20px 45px;
+      font-size: 30px;
+    }
+  }
+
+  .section-text {
+    font-size: 25px;
+    margin-bottom: 120px;
+    @media (max-width: 660px) {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    @media (min-width: 660px) and (max-width: 990px) {
+      margin-bottom: 70px;
+    }
+    @media (min-width: 2560px) {
+      font-size: 40px;
+    }
+  }
+
+  header {
+    background-image: url(../img/feel-vr-header-bg.png);
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 170px;
+    @media (max-width: 768px) {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+
+    .navbar {
+      padding: 0 80px;
+      margin-bottom: 160px;
+      @media (max-width: 660px) {
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      @media (min-width: 660px) and (max-width: 990px) {
+        margin-bottom: 50px;
+      }
+      @media (min-width: 2560px) {
+        margin-bottom: 250px;
+      }
+    }
+
+    .section-title {
+      font-weight: 500;
+      margin-bottom: 45px;
+      @media (max-width: 660px) {
+        margin-bottom: 20px;
+      }
+      @media (min-width: 2560px) {
+        font-size: 80px;
+      }
+    }
+  }
+
+  .reason, .clients, .how-it-work, .rewards {
+    padding: 60px 50px;
+    @media (max-width: 660px) {
+      padding: 20px 12px;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 45px;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 90px;
+
+      &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        max-width: 700px;
+        width: 100%;
+        height: 6px;
+        background-image: url(../img/border-danger.png);
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        @media (max-width: 660px) {
+          margin-top: 20px;
+        }
+      }
+
+      @media (max-width: 660px) {
+        font-size: 25px;
+        margin-bottom: 40px;
+      }
+      @media (min-width: 660px) and (max-width: 990px) {
+        font-size: 35px;
+        margin-bottom: 50px;
+      }
+    }
+
+    .card-deck {
+      .card {
+        .card-title {
+          font-size: 18px;
+          margin-top: -2.2rem;
+          margin-bottom: 24px;
+
+          &:after {
+            content: '';
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            max-width: 200px;
+            width: 100%;
+            height: 6px;
+            background-image: url(../img/border-danger.png);
+            -webkit-background-size: contain;
+            background-size: contain;
+            background-repeat: no-repeat;
+            @media (max-width: 576px) {
+              max-width: 250px;
+            }
+            @media (min-width: 576px) and (max-width: 900px) {
+              max-width: 180px;
+              margin-top: 15px;
+            }
+            @media (min-width: 2560px) {
+              max-width: 320px;
+            }
+          }
+
+          @media (max-width: 576px) {
+            font-size: 17px;
+          }
+          @media (min-width: 576px) and (max-width: 900px) {
+            font-size: 8px;
+          }
+          @media (min-width: 900px) and (max-width: 1220px) {
+            font-size: 13px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 30px;
+          }
+        }
+
+        .card-text {
+          font-size: 13px;
+          margin-bottom: 40px;
+          @media (min-width: 576px) and (max-width: 900px) {
+            font-size: 10px;
+            margin-bottom: 20px;
+          }
+          @media (min-width: 1220px) {
+            font-size: 17px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 25px;
+          }
+        }
+
+        .btn-danger {
+          padding: 10px 35px;
+          font-size: 14px;
+          @media (min-width: 520px) and (max-width: 990px) {
+            font-size: 10px;
+            padding: 7px 10px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 20px;
+            padding: 15px 50px;
+          }
+        }
+      }
+    }
+
+    .banner {
+      background-color: #000000;
+      padding: 25px 55px;
+      max-width: 995px;
+      @media (max-width: 660px) {
+        padding: 25px;
+      }
+
+      .subtitle {
+        font-size: 35px;
+        font-weight: 500;
+      }
+
+      .section-text {
+        margin-bottom: 25px;
+        @media (max-width: 660px) {
+          font-size: 20px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .clients {
+    .card-deck {
+      .card {
+        .card-title {
+          font-size: 35px;
+          margin-top: -7rem;
+          margin-bottom: 40px;
+
+          &:after {
+            max-width: 400px;
+            @media (max-width: 576px) {
+              max-width: 250px;
+            }
+            @media (min-width: 576px) and (max-width: 900px) {
+              max-width: 180px;
+              margin-top: 15px;
+            }
+            @media (min-width: 2560px) {
+              max-width: 500px;
+            }
+          }
+
+          @media (max-width: 576px) {
+            font-size: 17px;
+          }
+          @media (min-width: 576px) and (max-width: 900px) {
+            font-size: 14px;
+            margin-top: -3.5rem;
+            margin-bottom: 20px;
+          }
+          @media (min-width: 900px) and (max-width: 1220px) {
+            font-size: 20px;
+            margin-top: -4.5rem;
+          }
+          @media (min-width: 2560px) {
+            font-size: 50px;
+            margin-top: -10rem;
+          }
+        }
+
+        .card-text {
+          margin-bottom: 20px;
+
+          @media (min-width: 1220px) {
+            font-size: 22px;
+            margin-bottom: 40px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 40px;
+          }
+        }
+
+        .btn-danger {
+          padding: 10px 50px;
+          font-size: 16px;
+          @media (min-width: 660px) and (max-width: 990px) {
+            font-size: 12px;
+            padding: 7px 20px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .how-it-work {
+    .section-title {
+      &:after {
+        border-bottom: 9px solid #ff1d1d;
+        margin-left: 0;
+      }
+    }
+
+    .registration-steps {
+      margin-bottom: 140px;
+      @media (max-width: 660px) {
+        margin-bottom: 30px;
+      }
+
+      @media (min-width: 660px) and (max-width: 1024px) {
+        margin-bottom: 60px;
+      }
+
+      .card {
+        max-width: 350px;
+
+        &:nth-of-type(2), &:nth-of-type(4) {
+          margin-top: 10%;
+          max-width: 120px;
+          @media(min-width: 1024px) {
+            margin-top: 7%;
+          }
+          @media(min-width: 1200px) {
+            margin-top: 5%;
+          }
+        }
+
+        .card-img-top {
+          max-width: 150px;
+          width: 100%;
+        }
+
+        .card-title {
+          margin-top: 15px;
+          font-size: 12px;
+          @media (min-width: 520px) and (max-width: 660px) {
+            font-size: 14px;
+          }
+          @media (min-width: 660px) and (max-width: 990px) {
+            font-size: 18px;
+          }
+          @media (min-width: 990px) and (max-width: 1024px) {
+            font-size: 20px;
+          }
+          @media (min-width: 1024px) and (max-width: 1220px) {
+            font-size: 22px;
+          }
+          @media (min-width: 1220px) {
+            font-size: 24px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 30px;
+          }
+        }
+
+        .card-text {
+          font-size: 6px;
+          @media (min-width: 520px) and (max-width: 660px) {
+            font-size: 8px;
+          }
+          @media (min-width: 660px) and (max-width: 990px) {
+            font-size: 12px;
+          }
+          @media (min-width: 990px) and (max-width: 1024px) {
+            font-size: 14px;
+          }
+          @media (min-width: 1024px) and (max-width: 1220px) {
+            font-size: 16px;
+          }
+          @media (min-width: 1220px) {
+            font-size: 18px;
+          }
+          @media (min-width: 2560px) {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .rewards {
+    .check-icon {
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      margin: auto;
+      @media (max-width: 520px) {
+        width: 20px;
+        height: 20px;
+      }
+      @media (min-width: 2560px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .card-deck {
+      margin-bottom: 70px;
+      @media (max-width: 520px) {
+        margin-bottom: 30px;
+      }
+
+      .card {
+        box-shadow: inset 0px -100px 70px -30px rgba(0, 0, 0, 0.75);
+        padding: 25px;
+        @media (min-width: 1220px) {
+          padding: 25px 45px;
+        }
+
+        .card-body {
+          padding: 0;
+
+          .card-title {
+            font-size: 25px;
+            @media(min-width: 755px) and (max-width: 1120px) {
+              font-size: 18px;
+            }
+            @media (min-width: 2560px) {
+              font-size: 45px;
+            }
+
+            &:after {
+              display: none;
+            }
+          }
+
+          .card-text {
+            font-size: 18px;
+            margin-bottom: 40px;
+            @media (min-width: 2560px) {
+              font-size: 30px;
+            }
+          }
+        }
+
+        .card-footer {
+          .btn-danger {
+            background-color: #f9b223;
+            border-color: #f9b223;
+
+            &:focus, &.active {
+              background-color: #eea722;
+              border-color: #eea722;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us{
+    background-color: #898989;
+    padding:70px 12px;
+    @media(max-width: 520px){
+      padding: 35px 12px;
+    }
+   .section-text{
+     font-size: 28px;
+     @media(max-width: 520px){
+       font-size: 14px;
+     }
+     @media(min-width: 2560px){
+       font-size: 45px;
+     }
+   }
+  }
+  footer{
+    background-image: url(../img/feel-vr-footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    .logo-footer {
+      max-width: 120px;
+    }
+    .nav {
+      .nav-item {
+        .nav-link {
+          &:hover {
+            color: #ff1d1d;
+          }
+        }
+      }
+    }
+  }
+}
+
