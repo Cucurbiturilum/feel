@@ -21,8 +21,8 @@ body {
     color: #ff1d1d !important;
   }
 
-  .text-success{
-    color: #00ce4e!important;
+  .text-success {
+    color: #00ce4e !important;
   }
 
   .title {
@@ -50,7 +50,7 @@ body {
     background-color: black;
   }
 
-  .bg-red{
+  .bg-red {
     background-color: #ff1d1d;
   }
 
@@ -70,8 +70,8 @@ body {
     background-color: #4f0b2d !important;
   }
 
-  .bg-success{
-    background-color: #25ae88!important;
+  .bg-success {
+    background-color: #25ae88 !important;
   }
 
   .price {
@@ -205,22 +205,25 @@ body {
   header {
     background-color: #333333;
     font-family: 'Oswald', sans-serif;
-    .navbar{
-      .navbar-brand{
+
+    .navbar {
+      .navbar-brand {
         max-width: 280px;
         @media (max-width: 520px) {
           max-width: 200px;
         }
       }
-      .collapse{
-        .navbar-nav{
-          .nav-item{
-            .nav-link{
+
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
               color: white;
               padding: 0 18px;
               font-size: 18px;
               position: relative;
-              .badge{
+
+              .badge {
                 height: 20px;
                 width: 20px;
                 border-radius: 50%;
@@ -229,18 +232,21 @@ body {
                 top: -3px;
               }
             }
-            &.active{
-              .nav-link{
+
+            &.active {
+              .nav-link {
                 color: $button-color;
               }
             }
           }
         }
-        .form-control{
-          &::placeholder{
+
+        .form-control {
+          &::placeholder {
             color: white;
           }
-          &:focus{
+
+          &:focus {
             box-shadow: none;
           }
         }
@@ -875,61 +881,151 @@ body {
     }
   }
 
-  footer {
-    background-color: #333333;
-    font-family: 'Oswald', sans-serif;
-    padding: 35px 0;
-
-    .logo-footer {
-      max-width: 320px;
+  .banner {
+    background-image: url(../img/female-body.jpg);
+    background-color: #201a1e;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: right;
+    padding: 70px;
+    @media (max-width: 520px) {
+      padding: 20px 12px;
     }
-
-    .card-text {
-      font-size: 16px;
-    }
-
-    .link-item {
-      font-size: 18px;
-    }
-
-    .social {
-      .social-link {
-        height: 31px;
-        width: 31px;
-        font-size: 20px;
-        text-decoration: none;
+    .logo-link {
+      .img-fluid {
+        max-width: 300px;
+        @media (max-width: 520px) {
+          max-width: 200px;
+        }
       }
     }
 
-    .nav {
-      .nav-item {
-        .nav-link {
-          font-size: 18px;
-          padding: 5px 0;
-          color: white;
+    .title, .subtitle {
+      margin: 70px 0;
+      @media (max-width: 520px) {
+        margin: 30px 0;
+      }
+      .text-danger {
+        color: #9d093d !important;
+      }
+    }
+
+    .subtitle{
+      @media (max-width: 520px) {
+        font-size: 20px!important;
+      }
+    }
+  }
+}
+
+
+
+.title{
+  @media (max-width: 520px) {
+    font-size: 25px!important;
+  }
+}
+
+.btn-trial {
+  box-shadow: none!important;
+  border-radius: 15px;
+  height: auto!important;
+  padding: 12px 60px;
+  @media (max-width: 520px) {
+    font-size: 16px!important;
+    padding: 10px  40px;
+    height: auto!important;
+    box-shadow: none!important;
+  }
+}
+
+
+.banner-footer {
+  background-image: url(../img/nude.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-position: center;
+  @media (max-width: 520px) {
+    padding: 20px 12px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    margin-bottom: 40px;
+    @media (max-width: 520px) {
+      font-size: 20px!important;
+    }
+  }
+
+  .btn-secondary {
+    background-color: #343434 !important;
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    @media (max-width: 520px) {
+      font-size: 16px!important;
+      padding: 10px  20px;
+    }
+  }
+}
+
+footer {
+  background-color: #333333;
+  font-family: 'Oswald', sans-serif;
+  padding: 35px 0;
+
+  .logo-footer {
+    max-width: 320px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .link-item {
+    font-size: 18px;
+  }
+
+  .social {
+    .social-link {
+      height: 31px;
+      width: 31px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+
+  .nav {
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        padding: 5px 0;
+        color: white;
+        @media (max-width: 520px) {
+          font-size: 12px;
+        }
+        @media (min-width: 520px) and (max-width: 1024px) {
+          font-size: 14px;
+        }
+
+        &.disabled {
+          font-size: 30px;
+          margin-bottom: 20px;
           @media (max-width: 520px) {
-            font-size: 12px;
+            font-size: 20px;
+            margin-bottom: 0;
           }
           @media (min-width: 520px) and (max-width: 1024px) {
-            font-size: 14px;
+            font-size: 25px;
+            margin-bottom: 25px;
           }
+        }
 
-          &.disabled {
-            font-size: 30px;
-            margin-bottom: 20px;
-            @media (max-width: 520px) {
-              font-size: 20px;
-              margin-bottom: 0;
-            }
-            @media (min-width: 520px) and (max-width: 1024px) {
-              font-size: 25px;
-              margin-bottom: 25px;
-            }
-          }
-
-          &:hover {
-            color: $button-color;
-          }
+        &:hover {
+          color: $button-color;
         }
       }
     }

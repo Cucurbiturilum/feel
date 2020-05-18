@@ -854,58 +854,153 @@ body .payment .card .card-body .card-text {
     font-size: 25px;
   }
 }
-body footer {
+body .banner {
+  background-image: url(../img/female-body.jpg);
+  background-color: #201a1e;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: right;
+  padding: 70px;
+}
+@media (max-width: 520px) {
+  body .banner {
+    padding: 20px 12px;
+  }
+}
+body .banner .logo-link .img-fluid {
+  max-width: 300px;
+}
+@media (max-width: 520px) {
+  body .banner .logo-link .img-fluid {
+    max-width: 200px;
+  }
+}
+body .banner .title, body .banner .subtitle {
+  margin: 70px 0;
+}
+@media (max-width: 520px) {
+  body .banner .title, body .banner .subtitle {
+    margin: 30px 0;
+  }
+}
+body .banner .title .text-danger, body .banner .subtitle .text-danger {
+  color: #9d093d !important;
+}
+@media (max-width: 520px) {
+  body .banner .subtitle {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .title {
+    font-size: 25px !important;
+  }
+}
+
+.btn-trial {
+  box-shadow: none !important;
+  border-radius: 15px;
+  height: auto !important;
+  padding: 12px 60px;
+}
+@media (max-width: 520px) {
+  .btn-trial {
+    font-size: 16px !important;
+    padding: 10px 40px;
+    height: auto !important;
+    box-shadow: none !important;
+  }
+}
+
+.banner-footer {
+  background-image: url(../img/nude.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-position: center;
+}
+@media (max-width: 520px) {
+  .banner-footer {
+    padding: 20px 12px;
+  }
+}
+.banner-footer .subtitle {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+@media (max-width: 520px) {
+  .banner-footer .subtitle {
+    font-size: 20px !important;
+  }
+}
+.banner-footer .btn-secondary {
+  background-color: #343434 !important;
+  border-radius: 20px;
+  padding: 12px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 520px) {
+  .banner-footer .btn-secondary {
+    font-size: 16px !important;
+    padding: 10px 20px;
+  }
+}
+
+footer {
   background-color: #333333;
   font-family: "Oswald", sans-serif;
   padding: 35px 0;
 }
-body footer .logo-footer {
+footer .logo-footer {
   max-width: 320px;
 }
-body footer .card-text {
+footer .card-text {
   font-size: 16px;
 }
-body footer .link-item {
+footer .link-item {
   font-size: 18px;
 }
-body footer .social .social-link {
+footer .social .social-link {
   height: 31px;
   width: 31px;
   font-size: 20px;
   text-decoration: none;
 }
-body footer .nav .nav-item .nav-link {
+footer .nav .nav-item .nav-link {
   font-size: 18px;
   padding: 5px 0;
   color: white;
 }
 @media (max-width: 520px) {
-  body footer .nav .nav-item .nav-link {
+  footer .nav .nav-item .nav-link {
     font-size: 12px;
   }
 }
 @media (min-width: 520px) and (max-width: 1024px) {
-  body footer .nav .nav-item .nav-link {
+  footer .nav .nav-item .nav-link {
     font-size: 14px;
   }
 }
-body footer .nav .nav-item .nav-link.disabled {
+footer .nav .nav-item .nav-link.disabled {
   font-size: 30px;
   margin-bottom: 20px;
 }
 @media (max-width: 520px) {
-  body footer .nav .nav-item .nav-link.disabled {
+  footer .nav .nav-item .nav-link.disabled {
     font-size: 20px;
     margin-bottom: 0;
   }
 }
 @media (min-width: 520px) and (max-width: 1024px) {
-  body footer .nav .nav-item .nav-link.disabled {
+  footer .nav .nav-item .nav-link.disabled {
     font-size: 25px;
     margin-bottom: 25px;
   }
 }
-body footer .nav .nav-item .nav-link:hover {
+footer .nav .nav-item .nav-link:hover {
   color: #f5883d;
 }
 
