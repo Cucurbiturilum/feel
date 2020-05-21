@@ -1006,4 +1006,149 @@ footer .nav .nav-item .nav-link:hover {
   color: #f5883d;
 }
 
-/*# sourceMappingURL=main.css.map */
+body {
+  background-image: url(../img/register-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+}
+body header {
+  background-color: rgba(68, 21, 44, 0.86);
+}
+body header .subtitle {
+  font-size: 28px;
+}
+@media (max-width: 520px) {
+  body header .subtitle {
+    font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  body header .subtitle {
+    font-size: 35px;
+  }
+}
+body header .section-text {
+  font-size: 14px;
+}
+@media (max-width: 520px) {
+  body header .section-text {
+    font-size: 8px;
+  }
+}
+@media (min-width: 2560px) {
+  body header .section-text {
+    font-size: 20px;
+  }
+}
+body .main-content {
+  background-color: rgba(162, 40, 83, 0.86);
+  min-height: 100%;
+}
+body .main-content .logo-link {
+  display: block;
+  margin-bottom: 20px;
+}
+@media (max-width: 520px) {
+  body .main-content .logo-link .img-fluid {
+    width: 200px;
+  }
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  body .main-content .logo-link .img-fluid {
+    width: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body .main-content .logo-link .img-fluid {
+    width: 400px;
+  }
+}
+body .main-content .section-text {
+  font-size: 20px;
+  margin-bottom: 115px;
+}
+@media (max-width: 520px) {
+  body .main-content .section-text {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 2560px) {
+  body .main-content .section-text {
+    font-size: 25px;
+  }
+}
+body .main-content .section-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 520px) {
+  body .main-content .section-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 2560px) {
+  body .main-content .section-title {
+    font-size: 40px;
+  }
+}
+body .main-content .btn-warning {
+  background-color: #f9b123 !important;
+  font-size: 30px;
+  padding: 20px 100px;
+}
+@media (max-width: 620px) {
+  body .main-content .btn-warning {
+    font-size: 16px;
+    padding: 7px 20px;
+  }
+}
+@media (min-width: 620px) and (max-width: 768px) {
+  body .main-content .btn-warning {
+    font-size: 22px;
+  }
+}
+body .main-content .list-item {
+  list-style: none;
+  margin-bottom: 16px;
+  font-size: 17px;
+}
+@media (max-width: 520px) {
+  body .main-content .list-item {
+    font-size: 16px;
+  }
+}
+@media (min-width: 2560px) {
+  body .main-content .list-item {
+    font-size: 20px;
+  }
+}
+body .main-content .list-item:first-of-type {
+  margin-top: 30px;
+}
+@media (min-width: 1200px) {
+  body .main-content .list-item:first-of-type {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  body .main-content .list-item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+body .main-content .list-item:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #f9b123;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=upsell.css.map */

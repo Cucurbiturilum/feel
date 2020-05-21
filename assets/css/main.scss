@@ -74,6 +74,10 @@ body {
     background-color: #25ae88 !important;
   }
 
+  .bg-vivid-orange{
+    background-color: #f9b123;
+  }
+
   .price {
     font-size: 24px;
     @media (max-width: 520px) {
@@ -126,7 +130,7 @@ body {
     }
   }
 
-  .btn-grad {
+  .btn-gray {
     background-image: linear-gradient(0, #6f6f6f 0%, #454545 51%, #6f6f6f 100%);
   }
 
@@ -916,9 +920,39 @@ body {
       }
     }
   }
+
+  .banner-footer {
+    background-image: url(../img/nude.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-position: center;
+    @media (max-width: 520px) {
+      padding: 20px 12px;
+    }
+
+    .subtitle {
+      font-size: 30px;
+      margin-bottom: 40px;
+      @media (max-width: 520px) {
+        font-size: 20px!important;
+      }
+    }
+
+    .btn-secondary {
+      background-color: #343434 !important;
+      border-radius: 20px;
+      padding: 12px 30px;
+      border: none;
+      font-size: 20px;
+      font-weight: 500;
+      @media (max-width: 520px) {
+        font-size: 16px!important;
+        padding: 10px  20px;
+      }
+    }
+  }
 }
-
-
 
 .title{
   @media (max-width: 520px) {
@@ -936,39 +970,6 @@ body {
     padding: 10px  40px;
     height: auto!important;
     box-shadow: none!important;
-  }
-}
-
-
-.banner-footer {
-  background-image: url(../img/nude.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 0;
-  background-position: center;
-  @media (max-width: 520px) {
-    padding: 20px 12px;
-  }
-
-  .subtitle {
-    font-size: 30px;
-    margin-bottom: 40px;
-    @media (max-width: 520px) {
-      font-size: 20px!important;
-    }
-  }
-
-  .btn-secondary {
-    background-color: #343434 !important;
-    border-radius: 20px;
-    padding: 12px 30px;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    @media (max-width: 520px) {
-      font-size: 16px!important;
-      padding: 10px  20px;
-    }
   }
 }
 

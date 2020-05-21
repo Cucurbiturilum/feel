@@ -58,6 +58,9 @@ body .bg-danger {
 body .bg-success {
   background-color: #25ae88 !important;
 }
+body .bg-vivid-orange {
+  background-color: #f9b123;
+}
 body .price {
   font-size: 24px;
 }
@@ -109,7 +112,7 @@ body .btn-warning {
     font-size: 18px;
   }
 }
-body .btn-grad {
+body .btn-gray {
   background-image: linear-gradient(0, #6f6f6f 0%, #454545 51%, #6f6f6f 100%);
 }
 body .badge-warning {
@@ -891,6 +894,41 @@ body .banner .title .text-danger, body .banner .subtitle .text-danger {
     font-size: 20px !important;
   }
 }
+body .banner-footer {
+  background-image: url(../img/nude.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-position: center;
+}
+@media (max-width: 520px) {
+  body .banner-footer {
+    padding: 20px 12px;
+  }
+}
+body .banner-footer .subtitle {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+@media (max-width: 520px) {
+  body .banner-footer .subtitle {
+    font-size: 20px !important;
+  }
+}
+body .banner-footer .btn-secondary {
+  background-color: #343434 !important;
+  border-radius: 20px;
+  padding: 12px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 520px) {
+  body .banner-footer .btn-secondary {
+    font-size: 16px !important;
+    padding: 10px 20px;
+  }
+}
 
 @media (max-width: 520px) {
   .title {
@@ -910,42 +948,6 @@ body .banner .title .text-danger, body .banner .subtitle .text-danger {
     padding: 10px 40px;
     height: auto !important;
     box-shadow: none !important;
-  }
-}
-
-.banner-footer {
-  background-image: url(../img/nude.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 0;
-  background-position: center;
-}
-@media (max-width: 520px) {
-  .banner-footer {
-    padding: 20px 12px;
-  }
-}
-.banner-footer .subtitle {
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-@media (max-width: 520px) {
-  .banner-footer .subtitle {
-    font-size: 20px !important;
-  }
-}
-.banner-footer .btn-secondary {
-  background-color: #343434 !important;
-  border-radius: 20px;
-  padding: 12px 30px;
-  border: none;
-  font-size: 20px;
-  font-weight: 500;
-}
-@media (max-width: 520px) {
-  .banner-footer .btn-secondary {
-    font-size: 16px !important;
-    padding: 10px 20px;
   }
 }
 
