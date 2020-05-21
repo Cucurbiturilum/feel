@@ -74,7 +74,7 @@ body {
     background-color: #25ae88 !important;
   }
 
-  .bg-vivid-orange{
+  .bg-vivid-orange {
     background-color: #f9b123;
   }
 
@@ -895,6 +895,7 @@ body {
     @media (max-width: 520px) {
       padding: 20px 12px;
     }
+
     .logo-link {
       .img-fluid {
         max-width: 300px;
@@ -909,14 +910,28 @@ body {
       @media (max-width: 520px) {
         margin: 30px 0;
       }
+
       .text-danger {
         color: #9d093d !important;
       }
     }
 
-    .subtitle{
+    .subtitle {
       @media (max-width: 520px) {
-        font-size: 20px!important;
+        font-size: 20px !important;
+      }
+    }
+
+    .btn-trial {
+      box-shadow: none !important;
+      border-radius: 15px;
+      height: auto !important;
+      padding: 12px 60px;
+      @media (max-width: 520px) {
+        font-size: 16px !important;
+        padding: 10px 40px;
+        height: auto !important;
+        box-shadow: none !important;
       }
     }
   }
@@ -935,7 +950,7 @@ body {
       font-size: 30px;
       margin-bottom: 40px;
       @media (max-width: 520px) {
-        font-size: 20px!important;
+        font-size: 20px !important;
       }
     }
 
@@ -947,29 +962,16 @@ body {
       font-size: 20px;
       font-weight: 500;
       @media (max-width: 520px) {
-        font-size: 16px!important;
-        padding: 10px  20px;
+        font-size: 16px !important;
+        padding: 10px 20px;
       }
     }
   }
 }
 
-.title{
+.title {
   @media (max-width: 520px) {
-    font-size: 25px!important;
-  }
-}
-
-.btn-trial {
-  box-shadow: none!important;
-  border-radius: 15px;
-  height: auto!important;
-  padding: 12px 60px;
-  @media (max-width: 520px) {
-    font-size: 16px!important;
-    padding: 10px  40px;
-    height: auto!important;
-    box-shadow: none!important;
+    font-size: 25px !important;
   }
 }
 

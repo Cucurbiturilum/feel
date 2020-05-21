@@ -894,6 +894,20 @@ body .banner .title .text-danger, body .banner .subtitle .text-danger {
     font-size: 20px !important;
   }
 }
+body .banner .btn-trial {
+  box-shadow: none !important;
+  border-radius: 15px;
+  height: auto !important;
+  padding: 12px 60px;
+}
+@media (max-width: 520px) {
+  body .banner .btn-trial {
+    font-size: 16px !important;
+    padding: 10px 40px;
+    height: auto !important;
+    box-shadow: none !important;
+  }
+}
 body .banner-footer {
   background-image: url(../img/nude.jpg);
   background-size: cover;
@@ -933,21 +947,6 @@ body .banner-footer .btn-secondary {
 @media (max-width: 520px) {
   .title {
     font-size: 25px !important;
-  }
-}
-
-.btn-trial {
-  box-shadow: none !important;
-  border-radius: 15px;
-  height: auto !important;
-  padding: 12px 60px;
-}
-@media (max-width: 520px) {
-  .btn-trial {
-    font-size: 16px !important;
-    padding: 10px 40px;
-    height: auto !important;
-    box-shadow: none !important;
   }
 }
 
