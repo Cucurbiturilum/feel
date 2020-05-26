@@ -8,6 +8,7 @@ body {
   .btn-danger {
     padding: 12px 45px;
     font-size: 18px;
+    letter-spacing: 2px;
     @media (max-width: 660px) {
       padding: 12px;
       font-size: 12px;
@@ -33,6 +34,53 @@ body {
     }
   }
 
+  .navbar {
+    .navbar-brand {
+      .logo-img {
+        @media (max-width: 1024px) {
+          width: 70px;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        letter-spacing: 2px;
+      }
+
+      &:first-of-type {
+        .nav-item {
+          .nav-link {
+            padding: 0 25px;
+            color: #ffffff;
+            @media (max-width: 577px) {
+              padding: 10px 0;
+              text-align: right;
+            }
+
+            &:hover {
+              color: #ff1d1d;
+            }
+          }
+        }
+      }
+
+      &:nth-of-type(2) {
+        .nav-item {
+          .nav-link {
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+
   header {
     background-image: url(../img/feel-vr-header-bg.png);
     background-size: cover;
@@ -43,30 +91,20 @@ body {
       padding-bottom: 40px;
     }
 
-    .navbar {
-      padding: 0 80px;
-      margin-bottom: 160px;
-      @media (max-width: 660px) {
-        justify-content: center;
-        margin-bottom: 20px;
-      }
-      @media (min-width: 660px) and (max-width: 990px) {
-        margin-bottom: 50px;
-      }
-      @media (min-width: 2560px) {
-        margin-bottom: 250px;
-      }
-    }
-
     .section-title {
       font-weight: 500;
       margin-bottom: 45px;
+      letter-spacing: 2px;
       @media (max-width: 660px) {
         margin-bottom: 20px;
       }
       @media (min-width: 2560px) {
         font-size: 80px;
       }
+    }
+
+    .section-text {
+      letter-spacing: 2px;
     }
   }
 
@@ -173,8 +211,8 @@ body {
         .btn-danger {
           padding: 10px 35px;
           font-size: 14px;
-          @media (min-width: 520px) and (max-width: 990px) {
-            font-size: 10px;
+          @media (min-width: 560px) and (max-width: 960px) {
+            font-size: 9px;
             padding: 7px 10px;
           }
           @media (min-width: 2560px) {
@@ -250,9 +288,9 @@ body {
 
         .card-text {
           margin-bottom: 20px;
-
+          letter-spacing: 1px;
           @media (min-width: 1220px) {
-            font-size: 22px;
+            font-size: 23px;
             margin-bottom: 40px;
           }
           @media (min-width: 2560px) {
@@ -383,8 +421,18 @@ body {
       }
 
       .card {
-        box-shadow: inset 0px -100px 70px -30px rgba(0, 0, 0, 0.75);
         padding: 25px;
+        background-color: #232323;
+        background-image: url(../img/Onyx2-mock-up-mobile_1200x.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+
+        &.first-type {
+          background-image: url(../img/Innovate-300x200_-Bucket.png);
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+
         @media (min-width: 1220px) {
           padding: 25px 45px;
         }
@@ -409,6 +457,7 @@ body {
           .card-text {
             font-size: 18px;
             margin-bottom: 40px;
+            font-weight: 500;
             @media (min-width: 2560px) {
               font-size: 30px;
             }
@@ -431,32 +480,45 @@ body {
     }
   }
 
-  .contact-us{
+  .contact-us {
     background-color: #898989;
-    padding:70px 12px;
-    @media(max-width: 520px){
+    padding: 70px 12px;
+    @media(max-width: 520px) {
       padding: 35px 12px;
     }
-   .section-text{
-     font-size: 28px;
-     @media(max-width: 520px){
-       font-size: 14px;
-     }
-     @media(min-width: 2560px){
-       font-size: 45px;
-     }
-   }
+
+    .section-text {
+      font-size: 28px;
+      @media(max-width: 520px) {
+        font-size: 14px;
+      }
+      @media(min-width: 2560px) {
+        font-size: 45px;
+      }
+    }
   }
-  footer{
-    background-image: url(../img/feel-vr-footer-bg.png);
-    background-size: cover;
-    background-position: center;
+
+  footer {
+    letter-spacing: 1px;
+    background-color: #161616;
+
     .logo-footer {
       max-width: 120px;
     }
+
+    .social {
+      .social-link {
+        .fa-twitter {
+          color: #161616;
+        }
+      }
+    }
+
     .nav {
       .nav-item {
         .nav-link {
+          letter-spacing: 1.5px;
+
           &:hover {
             color: #ff1d1d;
           }

@@ -857,92 +857,6 @@ body .payment .card .card-body .card-text {
     font-size: 25px;
   }
 }
-body .banner {
-  background-image: url(../img/female-body.jpg);
-  background-color: #201a1e;
-  -webkit-background-size: contain;
-  background-size: contain;
-  background-position: right;
-  padding: 70px;
-}
-@media (max-width: 520px) {
-  body .banner {
-    padding: 20px 12px;
-  }
-}
-body .banner .logo-link .img-fluid {
-  max-width: 300px;
-}
-@media (max-width: 520px) {
-  body .banner .logo-link .img-fluid {
-    max-width: 200px;
-  }
-}
-body .banner .title, body .banner .subtitle {
-  margin: 70px 0;
-}
-@media (max-width: 520px) {
-  body .banner .title, body .banner .subtitle {
-    margin: 30px 0;
-  }
-}
-body .banner .title .text-danger, body .banner .subtitle .text-danger {
-  color: #9d093d !important;
-}
-@media (max-width: 520px) {
-  body .banner .subtitle {
-    font-size: 20px !important;
-  }
-}
-body .banner .btn-trial {
-  box-shadow: none !important;
-  border-radius: 15px;
-  height: auto !important;
-  padding: 12px 60px;
-}
-@media (max-width: 520px) {
-  body .banner .btn-trial {
-    font-size: 16px !important;
-    padding: 10px 40px;
-    height: auto !important;
-    box-shadow: none !important;
-  }
-}
-body .banner-footer {
-  background-image: url(../img/nude.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 0;
-  background-position: center;
-}
-@media (max-width: 520px) {
-  body .banner-footer {
-    padding: 20px 12px;
-  }
-}
-body .banner-footer .subtitle {
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-@media (max-width: 520px) {
-  body .banner-footer .subtitle {
-    font-size: 20px !important;
-  }
-}
-body .banner-footer .btn-secondary {
-  background-color: #343434 !important;
-  border-radius: 20px;
-  padding: 12px 30px;
-  border: none;
-  font-size: 20px;
-  font-weight: 500;
-}
-@media (max-width: 520px) {
-  body .banner-footer .btn-secondary {
-    font-size: 16px !important;
-    padding: 10px 20px;
-  }
-}
 
 @media (max-width: 520px) {
   .title {
@@ -1013,6 +927,7 @@ body {
 body .btn-danger {
   padding: 12px 45px;
   font-size: 18px;
+  letter-spacing: 2px;
 }
 @media (max-width: 660px) {
   body .btn-danger {
@@ -1046,6 +961,33 @@ body .section-text {
     font-size: 40px;
   }
 }
+@media (max-width: 1024px) {
+  body .navbar .navbar-brand .logo-img {
+    width: 70px;
+  }
+}
+body .navbar .navbar-toggler:focus {
+  outline: none;
+}
+body .navbar .navbar-nav .nav-item {
+  letter-spacing: 2px;
+}
+body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+  padding: 0 25px;
+  color: #ffffff;
+}
+@media (max-width: 577px) {
+  body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+    padding: 10px 0;
+    text-align: right;
+  }
+}
+body .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
+  color: #ff1d1d;
+}
+body .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
+  padding: 0 10px;
+}
 body header {
   background-image: url(../img/feel-vr-header-bg.png);
   background-size: cover;
@@ -1058,29 +1000,10 @@ body header {
     padding-bottom: 40px;
   }
 }
-body header .navbar {
-  padding: 0 80px;
-  margin-bottom: 160px;
-}
-@media (max-width: 660px) {
-  body header .navbar {
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 660px) and (max-width: 990px) {
-  body header .navbar {
-    margin-bottom: 50px;
-  }
-}
-@media (min-width: 2560px) {
-  body header .navbar {
-    margin-bottom: 250px;
-  }
-}
 body header .section-title {
   font-weight: 500;
   margin-bottom: 45px;
+  letter-spacing: 2px;
 }
 @media (max-width: 660px) {
   body header .section-title {
@@ -1091,6 +1014,9 @@ body header .section-title {
   body header .section-title {
     font-size: 80px;
   }
+}
+body header .section-text {
+  letter-spacing: 2px;
 }
 body .reason, body .clients, body .how-it-work, body .rewards {
   padding: 60px 50px;
@@ -1215,9 +1141,9 @@ body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-d
   padding: 10px 35px;
   font-size: 14px;
 }
-@media (min-width: 520px) and (max-width: 990px) {
+@media (min-width: 560px) and (max-width: 960px) {
   body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
-    font-size: 10px;
+    font-size: 9px;
     padding: 7px 10px;
   }
 }
@@ -1300,10 +1226,11 @@ body .clients .card-deck .card .card-title:after {
 }
 body .clients .card-deck .card .card-text {
   margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 @media (min-width: 1220px) {
   body .clients .card-deck .card .card-text {
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 40px;
   }
 }
@@ -1459,8 +1386,16 @@ body .rewards .card-deck {
   }
 }
 body .rewards .card-deck .card {
-  box-shadow: inset 0px -100px 70px -30px rgba(0, 0, 0, 0.75);
   padding: 25px;
+  background-color: #232323;
+  background-image: url(../img/Onyx2-mock-up-mobile_1200x.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+body .rewards .card-deck .card.first-type {
+  background-image: url(../img/Innovate-300x200_-Bucket.png);
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 @media (min-width: 1220px) {
   body .rewards .card-deck .card {
@@ -1489,6 +1424,7 @@ body .rewards .card-deck .card .card-body .card-title:after {
 body .rewards .card-deck .card .card-body .card-text {
   font-size: 18px;
   margin-bottom: 40px;
+  font-weight: 500;
 }
 @media (min-width: 2560px) {
   body .rewards .card-deck .card .card-body .card-text {
@@ -1527,12 +1463,17 @@ body .contact-us .section-text {
   }
 }
 body footer {
-  background-image: url(../img/feel-vr-footer-bg.png);
-  background-size: cover;
-  background-position: center;
+  letter-spacing: 1px;
+  background-color: #161616;
 }
 body footer .logo-footer {
   max-width: 120px;
+}
+body footer .social .social-link .fa-twitter {
+  color: #161616;
+}
+body footer .nav .nav-item .nav-link {
+  letter-spacing: 1.5px;
 }
 body footer .nav .nav-item .nav-link:hover {
   color: #ff1d1d;
