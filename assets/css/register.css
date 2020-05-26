@@ -995,7 +995,13 @@ footer .nav .nav-item .nav-link:hover {
   background-size: cover;
 }
 .left-sidebar .left-sidebar-content {
-  bottom: 15%;
+  padding: 50px 12px;
+}
+@media (min-width: 768px) {
+  .left-sidebar .left-sidebar-content {
+    position: absolute;
+    bottom: 5%;
+  }
 }
 .left-sidebar .left-sidebar-content .list-item {
   font-size: 1rem;
@@ -1013,7 +1019,7 @@ footer .nav .nav-item .nav-link:hover {
     font-size: 1.4rem;
   }
 }
-.left-sidebar .left-sidebar-content .btn-grad {
+.left-sidebar .left-sidebar-content .btn-gray {
   font-size: 20px;
   line-height: 2;
 }

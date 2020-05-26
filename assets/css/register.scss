@@ -80,15 +80,20 @@
   background-size: cover;
 
   .left-sidebar-content {
-    bottom: 15%;
+    padding: 50px 12px;
+    @media (min-width: 768px){
+      position: absolute;
+      bottom: 5%;
+    }
 
-    .list-item{
+    .list-item {
       font-size: 1rem;
       @media (min-width: 1200px) {
         font-size: 1.2rem;
       }
-      span{
-        &.text-warning{
+
+      span {
+        &.text-warning {
           font-size: 1.2rem;
           @media (min-width: 1200px) {
             font-size: 1.4rem;
@@ -97,45 +102,52 @@
       }
     }
 
-    .btn-grad {
+    .btn-gray {
       font-size: 20px;
       line-height: 2;
     }
   }
 }
 
-.right-sidebar{
-  .card{
+.right-sidebar {
+  .card {
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 7px 7px 10px 0 rgba(181,184,217,1);
+    box-shadow: 7px 7px 10px 0 rgba(181, 184, 217, 1);
     border: none;
     margin: 90px 0;
     @media (max-width: 990px) {
       margin: 45px 0;
     }
-    .card-body{
+
+    .card-body {
       padding: 40px 20px;
-      .input-group{
-        .input-group-text{
+
+      .input-group {
+        .input-group-text {
           font-size: 1.2rem;
         }
-        .form-control{
+
+        .form-control {
           background-color: #e1e1e1;
           border: none;
           color: white;
-          &::placeholder{
+
+          &::placeholder {
             color: white;
           }
-          &:focus{
+
+          &:focus {
             box-shadow: none;
           }
         }
       }
-      .form-group{
+
+      .form-group {
         font-size: 0.8rem;
       }
-      .btn{
+
+      .btn {
         line-height: 2;
         font-size: 1.2rem;
       }
