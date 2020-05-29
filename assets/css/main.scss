@@ -903,6 +903,12 @@ footer {
 
   .card-text {
     font-size: 16px;
+
+    &.copyright {
+      @media(max-width: 660px) {
+        font-size: 9px;
+      }
+    }
   }
 
   .link-item {

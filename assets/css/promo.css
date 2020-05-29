@@ -875,6 +875,11 @@ footer .logo-footer {
 footer .card-text {
   font-size: 16px;
 }
+@media (max-width: 660px) {
+  footer .card-text.copyright {
+    font-size: 9px;
+  }
+}
 footer .link-item {
   font-size: 18px;
 }
