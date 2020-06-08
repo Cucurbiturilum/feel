@@ -1010,7 +1010,6 @@ footer .nav .nav-item .nav-link:hover {
   border: 6px solid #f0f66e;
   border-radius: 50%;
   margin-bottom: 12px;
-  max-width: 300px;
   max-height: 300px;
 }
 @media (max-width: 520px) {
