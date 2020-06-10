@@ -40,6 +40,9 @@ body .bg-dark {
 body .bg-black {
   background-color: black;
 }
+body .bg-black-opacity {
+  background-color: rgba(0, 0, 0, 0.45);
+}
 body .bg-red {
   background-color: #ff1d1d;
 }
@@ -928,6 +931,10 @@ footer .nav .nav-item .nav-link:hover {
 }
 
 body {
+  max-width: 100%;
+  font-family: Roboto, sans-serif !important;
+}
+body .main-content {
   background-color: #232323;
   background-image: url(../img/login-background.png);
   -webkit-background-size: cover;
@@ -936,41 +943,51 @@ body {
   max-width: 100%;
   font-family: Roboto, sans-serif !important;
 }
-body .navbar {
+body .main-content .navbar {
   background-color: #232323;
+  max-width: 100% !important;
+}
+body .main-content .navbar .navbar-brand {
+  max-width: 165px;
 }
 @media (max-width: 1024px) {
-  body .navbar .navbar-brand .logo-img {
+  body .main-content .navbar .navbar-brand .logo-img {
     width: 70px;
   }
 }
-body .navbar .navbar-toggler:focus {
+body .main-content .navbar .navbar-toggler:focus {
   outline: none;
 }
-body .navbar .navbar-nav .nav-item {
+body .main-content .navbar .navbar-nav .nav-item {
   letter-spacing: 2px;
 }
-body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+body .main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link {
   padding: 0 25px;
   color: #ffffff;
 }
 @media (max-width: 577px) {
-  body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+  body .main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link {
     padding: 10px 0;
     text-align: right;
   }
 }
-body .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
+body .main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
   color: #ff1d1d;
 }
-body .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
+body .main-content .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
   padding: 0 10px;
+  color: white;
 }
-body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.85) !important;
-  color: #a71d2a !important;
+body .main-content .navbar .navbar-nav:nth-of-type(2) .nav-item.active .nav-link {
+  color: #ff1d1d;
 }
-body .card {
+body .main-content .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link {
+  color: #232323;
+}
+body .main-content .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type.active .nav-link {
+  color: #ff1d1d;
+}
+body .main-content .card {
   background-color: transparent;
   border-radius: 1rem;
   overflow: hidden;
@@ -980,11 +997,11 @@ body .card {
   border: none;
 }
 @media (max-width: 660px) {
-  body .card {
+  body .main-content .card {
     margin: 0;
   }
 }
-body .card .card-header {
+body .main-content .card .card-header {
   background-image: url(../img/login-card-top-img.png);
   height: 461px;
   background-repeat: no-repeat;
@@ -993,65 +1010,65 @@ body .card .card-header {
   display: flex;
   justify-content: center;
 }
-body .card .card-header .card-header-item {
+body .main-content .card .card-header .card-header-item {
   position: absolute;
   bottom: 40px;
 }
-body .card .card-header .card-header-item .group-list {
+body .main-content .card .card-header .card-header-item .group-list {
   background-color: rgba(0, 0, 0, 0.7);
 }
-body .card .card-header .card-header-item .group-list .list-item {
+body .main-content .card .card-header .card-header-item .group-list .list-item {
   font-size: 20px;
   letter-spacing: 1.5px;
 }
 @media (max-width: 660px) {
-  body .card .card-header .card-header-item .group-list .list-item {
+  body .main-content .card .card-header .card-header-item .group-list .list-item {
     font-size: 14px;
   }
 }
-body .card .card-header .card-header-item .btn-gray {
+body .main-content .card .card-header .card-header-item .btn-gray {
   padding: 7px 70px;
   font-size: 18px;
 }
 @media (max-width: 660px) {
-  body .card .card-header .card-header-item .btn-gray {
+  body .main-content .card .card-header .card-header-item .btn-gray {
     font-size: 14px;
   }
 }
-body .card .card-body {
+body .main-content .card .card-body {
   padding-top: 45px;
 }
-body .card .card-body .form-group {
+body .main-content .card .card-body .form-group {
   align-items: center;
   margin-bottom: 30px;
 }
-body .card .card-body .form-group .col-form-label {
+body .main-content .card .card-body .form-group .col-form-label {
   color: #233761;
   font-size: 25px;
   padding: 0;
 }
-body .card .card-body .form-group .form-control {
+body .main-content .card .card-body .form-group .form-control {
   background-color: #e1e1e1;
   border: none;
   height: 50px;
   color: white;
   font-size: 18px;
 }
-body .card .card-body .form-group .form-control:focus {
+body .main-content .card .card-body .form-group .form-control:focus {
   box-shadow: none;
 }
-body .card .card-body .form-group .form-control::placeholder {
+body .main-content .card .card-body .form-group .form-control::placeholder {
   color: white;
 }
-body .card .card-body .form-group .custom-control, body .card .card-body .form-group .card-link {
+body .main-content .card .card-body .form-group .custom-control, body .main-content .card .card-body .form-group .card-link {
   font-size: 18px;
 }
 @media (max-width: 660px) {
-  body .card .card-body .form-group .custom-control, body .card .card-body .form-group .card-link {
+  body .main-content .card .card-body .form-group .custom-control, body .main-content .card .card-body .form-group .card-link {
     font-size: 14px;
   }
 }
-body .card .card-body .form-group .custom-control .custom-control-label:before, body .card .card-body .form-group .custom-control .custom-control-label:after, body .card .card-body .form-group .card-link .custom-control-label:before, body .card .card-body .form-group .card-link .custom-control-label:after {
+body .main-content .card .card-body .form-group .custom-control .custom-control-label:before, body .main-content .card .card-body .form-group .custom-control .custom-control-label:after, body .main-content .card .card-body .form-group .card-link .custom-control-label:before, body .main-content .card .card-body .form-group .card-link .custom-control-label:after {
   height: 18px;
   width: 18px;
   border: none;
@@ -1060,18 +1077,47 @@ body .card .card-body .form-group .custom-control .custom-control-label:before, 
   box-shadow: none;
 }
 @media (max-width: 660px) {
-  body .card .card-body .form-group .custom-control .custom-control-label:before, body .card .card-body .form-group .custom-control .custom-control-label:after, body .card .card-body .form-group .card-link .custom-control-label:before, body .card .card-body .form-group .card-link .custom-control-label:after {
+  body .main-content .card .card-body .form-group .custom-control .custom-control-label:before, body .main-content .card .card-body .form-group .custom-control .custom-control-label:after, body .main-content .card .card-body .form-group .card-link .custom-control-label:before, body .main-content .card .card-body .form-group .card-link .custom-control-label:after {
     height: 14px;
     width: 14px;
   }
 }
-body .card .card-body .form-group .btn-danger {
+body .main-content .card .card-body .form-group .btn-danger {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 3px;
 }
+body .main-content .register .subtitle {
+  letter-spacing: 2px;
+}
+body .main-content .register .form-control-label {
+  letter-spacing: 1.5px;
+  text-align: right;
+}
+body .main-content .register .custom-control {
+  padding-left: 1.75rem;
+}
+body .main-content .register .custom-control .custom-control-label {
+  padding-left: 8px;
+  letter-spacing: 1px;
+}
+body .main-content .register .custom-control .custom-control-label:before, body .main-content .register .custom-control .custom-control-label:after {
+  border-radius: 0;
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+}
+body .main-content .register .btn.bg-red {
+  line-height: 2;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
 body footer {
   letter-spacing: 1px;
+  background-color: #161616;
+}
+body footer .logo-footer {
+  max-width: 125px;
 }
 body footer .link-item {
   letter-spacing: 1.5px;

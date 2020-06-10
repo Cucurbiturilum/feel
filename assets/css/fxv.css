@@ -40,6 +40,9 @@ body .bg-dark {
 body .bg-black {
   background-color: black;
 }
+body .bg-black-opacity {
+  background-color: rgba(0, 0, 0, 0.45);
+}
 body .bg-red {
   background-color: #ff1d1d;
 }

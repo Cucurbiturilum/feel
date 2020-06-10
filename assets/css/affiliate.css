@@ -40,6 +40,9 @@ body .bg-dark {
 body .bg-black {
   background-color: black;
 }
+body .bg-black-opacity {
+  background-color: rgba(0, 0, 0, 0.45);
+}
 body .bg-red {
   background-color: #ff1d1d;
 }
@@ -969,6 +972,13 @@ body .section-text {
     font-size: 40px;
   }
 }
+body .navbar {
+  background-color: #232323;
+  max-width: 100% !important;
+}
+body .navbar .navbar-brand {
+  max-width: 165px;
+}
 @media (max-width: 1024px) {
   body .navbar .navbar-brand .logo-img {
     width: 70px;
@@ -995,6 +1005,16 @@ body .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
 }
 body .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
   padding: 0 10px;
+  color: white;
+}
+body .navbar .navbar-nav:nth-of-type(2) .nav-item.active .nav-link {
+  color: #ff1d1d;
+}
+body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link {
+  color: #232323;
+}
+body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type.active .nav-link {
+  color: #ff1d1d;
 }
 body header {
   background-image: url(../img/feel-vr-header-bg.png);
@@ -1473,6 +1493,9 @@ body .contact-us .section-text {
 body footer {
   letter-spacing: 1px;
   background-color: #161616;
+}
+body footer .logo-footer {
+  max-width: 125px;
 }
 body footer .logo-footer {
   max-width: 120px;

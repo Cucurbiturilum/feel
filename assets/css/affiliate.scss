@@ -35,7 +35,12 @@ body {
   }
 
   .navbar {
+    background-color: #232323;
+    max-width: 100% !important;
+
     .navbar-brand {
+      max-width: 165px;
+
       .logo-img {
         @media (max-width: 1024px) {
           width: 70px;
@@ -75,6 +80,25 @@ body {
         .nav-item {
           .nav-link {
             padding: 0 10px;
+            color: white;
+          }
+
+          &.active {
+            .nav-link {
+              color: #ff1d1d;
+            }
+          }
+
+          &:last-of-type {
+            .nav-link {
+              color: #232323;
+            }
+
+            &.active {
+              .nav-link {
+                color: #ff1d1d;
+              }
+            }
           }
         }
       }
@@ -501,6 +525,10 @@ body {
   footer {
     letter-spacing: 1px;
     background-color: #161616;
+
+    .logo-footer {
+      max-width: 125px;
+    }
 
     .logo-footer {
       max-width: 120px;
