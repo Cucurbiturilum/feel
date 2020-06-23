@@ -926,45 +926,7 @@ footer .nav .nav-item .nav-link:hover {
 
 body {
   background-color: #232323;
-  max-width: 100%;
   font-family: Roboto, sans-serif !important;
-}
-body .btn-danger {
-  padding: 12px 45px;
-  font-size: 18px;
-  letter-spacing: 2px;
-}
-@media (max-width: 660px) {
-  body .btn-danger {
-    padding: 12px;
-    font-size: 12px;
-  }
-}
-@media (min-width: 2560px) {
-  body .btn-danger {
-    padding: 20px 45px;
-    font-size: 30px;
-  }
-}
-body .section-text {
-  font-size: 25px;
-  margin-bottom: 120px;
-}
-@media (max-width: 660px) {
-  body .section-text {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 660px) and (max-width: 990px) {
-  body .section-text {
-    margin-bottom: 70px;
-  }
-}
-@media (min-width: 2560px) {
-  body .section-text {
-    font-size: 40px;
-  }
 }
 body .navbar {
   background-color: #232323;
@@ -1011,498 +973,312 @@ body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link {
 body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type.active .nav-link {
   color: #ff1d1d;
 }
-body header {
-  background-image: url(../img/feel-vr-header-bg.png);
-  background-size: cover;
-  padding-top: 40px;
-  padding-bottom: 170px;
-}
-@media (max-width: 768px) {
-  body header {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-}
-body header .section-title {
-  font-weight: 500;
-  margin-bottom: 45px;
-  letter-spacing: 2px;
-}
-@media (max-width: 660px) {
-  body header .section-title {
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 2560px) {
-  body header .section-title {
-    font-size: 80px;
-  }
-}
-body header .section-text {
-  letter-spacing: 2px;
-}
-body .reason, body .clients, body .how-it-work, body .rewards {
-  padding: 60px 50px;
-}
-@media (max-width: 660px) {
-  body .reason, body .clients, body .how-it-work, body .rewards {
-    padding: 20px 12px;
-    margin-bottom: 20px;
-  }
-}
-body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
-  font-size: 45px;
-  margin-top: 0;
-  text-align: center;
-  margin-bottom: 90px;
-}
-body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
-  content: "";
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  max-width: 700px;
-  width: 100%;
-  height: 6px;
-  background-image: url(../img/border-danger.png);
-  -webkit-background-size: contain;
-  background-size: contain;
+body header, body .section-1, body .section-2, body .section-3, body .section-4, body .section-5, body .section-6, body .section-7, body .section-8 {
+  background-image: url(../img/about-header-background.png);
+  height: 913px;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-top: -1px;
+  font-family: Roboto, sans-serif !important;
+  padding-left: 180px;
 }
-@media (max-width: 660px) {
-  body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
+@media (max-width: 990px) {
+  body header, body .section-1, body .section-2, body .section-3, body .section-4, body .section-5, body .section-6, body .section-7, body .section-8 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  body header, body .section-1, body .section-2, body .section-3, body .section-4, body .section-5, body .section-6, body .section-7, body .section-8 {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1440px) {
+  body header, body .section-1, body .section-2, body .section-3, body .section-4, body .section-5, body .section-6, body .section-7, body .section-8 {
+    padding-left: 70px;
+  }
+}
+body header .title, body .section-1 .title, body .section-2 .title, body .section-3 .title, body .section-4 .title, body .section-5 .title, body .section-6 .title, body .section-7 .title, body .section-8 .title {
+  margin-bottom: 0;
+  font-size: 70px;
+  margin-top: 0;
+}
+@media (max-width: 520px) {
+  body header .title, body .section-1 .title, body .section-2 .title, body .section-3 .title, body .section-4 .title, body .section-5 .title, body .section-6 .title, body .section-7 .title, body .section-8 .title {
+    font-size: 30px !important;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  body header .title, body .section-1 .title, body .section-2 .title, body .section-3 .title, body .section-4 .title, body .section-5 .title, body .section-6 .title, body .section-7 .title, body .section-8 .title {
+    font-size: 50px !important;
+  }
+}
+body header .subtitle, body .section-1 .subtitle, body .section-2 .subtitle, body .section-3 .subtitle, body .section-4 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+@media (max-width: 520px) {
+  body header .subtitle, body .section-1 .subtitle, body .section-2 .subtitle, body .section-3 .subtitle, body .section-4 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  body header .subtitle, body .section-1 .subtitle, body .section-2 .subtitle, body .section-3 .subtitle, body .section-4 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+body header .section-text, body .section-1 .section-text, body .section-2 .section-text, body .section-3 .section-text, body .section-4 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+  font-size: 29px;
+}
+@media (max-width: 520px) {
+  body header .section-text, body .section-1 .section-text, body .section-2 .section-text, body .section-3 .section-text, body .section-4 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  body header .section-text, body .section-1 .section-text, body .section-2 .section-text, body .section-3 .section-text, body .section-4 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+body header .btn-danger, body .section-1 .btn-danger, body .section-2 .btn-danger, body .section-3 .btn-danger, body .section-4 .btn-danger, body .section-5 .btn-danger, body .section-6 .btn-danger, body .section-7 .btn-danger, body .section-8 .btn-danger {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+body .section-1 {
+  background-image: url(../img/about-section-1.png);
+  height: 693px;
+}
+@media (max-width: 990px) {
+  body .section-1 {
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  body .section-1 .subtitle {
+    font-size: 12px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-1 .subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body .section-1 .subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 600px) {
+  body .section-1 .section-text {
+    font-size: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-1 .section-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body .section-1 .section-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+body .section-2, body .section-3, body .section-5, body .section-6, body .section-7, body .section-8 {
+  background-image: url(../img/about-section-2.png);
+  height: 667px;
+  padding-bottom: 20px;
+}
+@media (max-width: 990px) {
+  body .section-2, body .section-3, body .section-5, body .section-6, body .section-7, body .section-8 {
+    height: auto;
+  }
+}
+body .section-2 .subtitle, body .section-3 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  body .section-2 .subtitle, body .section-3 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-2 .subtitle, body .section-3 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body .section-2 .subtitle, body .section-3 .subtitle, body .section-5 .subtitle, body .section-6 .subtitle, body .section-7 .subtitle, body .section-8 .subtitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+body .section-2 .section-text, body .section-3 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+  font-size: 37px;
+}
+@media (max-width: 600px) {
+  body .section-2 .section-text, body .section-3 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-2 .section-text, body .section-3 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body .section-2 .section-text, body .section-3 .section-text, body .section-5 .section-text, body .section-6 .section-text, body .section-7 .section-text, body .section-8 .section-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+body .section-3 {
+  background-image: url(../img/about-section-3.png);
+  height: 715px;
+}
+@media (max-width: 990px) {
+  body .section-3 {
+    height: auto;
+  }
+}
+body .section-3 .section-text {
+  font-size: 29px;
+}
+@media (max-width: 600px) {
+  body .section-3 .section-text {
+    font-size: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-3 .section-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body .section-3 .section-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+body .section-4 {
+  background-image: url(../img/about-section-4.png);
+  height: 678px;
+  padding-left: 15px;
+}
+@media (max-width: 990px) {
+  body .section-4 {
+    height: auto;
+  }
+}
+body .section-4 .section-title {
+  font-size: 36px;
+}
+@media (max-width: 600px) {
+  body .section-4 .section-title {
+    font-size: 24px;
     margin-top: 20px;
   }
 }
-@media (max-width: 660px) {
-  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
-    font-size: 25px;
-    margin-bottom: 40px;
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .section-4 .section-title {
+    font-size: 31px;
   }
 }
-@media (min-width: 660px) and (max-width: 990px) {
-  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
-    font-size: 35px;
-    margin-bottom: 50px;
-  }
-}
-body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
-  font-size: 18px;
-  margin-top: -2.2rem;
-  margin-bottom: 24px;
-}
-body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
-  content: "";
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  max-width: 200px;
-  width: 100%;
-  height: 6px;
-  background-image: url(../img/border-danger.png);
-  -webkit-background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-@media (max-width: 576px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
-    max-width: 250px;
-  }
-}
-@media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
-    max-width: 180px;
-    margin-top: 15px;
-  }
-}
-@media (min-width: 2560px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
-    max-width: 320px;
-  }
-}
-@media (max-width: 576px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
-    font-size: 17px;
-  }
-}
-@media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
-    font-size: 8px;
-  }
-}
-@media (min-width: 900px) and (max-width: 1220px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
-    font-size: 13px;
-  }
-}
-@media (min-width: 2560px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
-    font-size: 30px;
-  }
-}
-body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
-  font-size: 13px;
-  margin-bottom: 40px;
-}
-@media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
-    font-size: 10px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 1220px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
-    font-size: 17px;
-  }
-}
-@media (min-width: 2560px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
-    font-size: 25px;
-  }
-}
-body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
-  padding: 10px 35px;
-  font-size: 14px;
-}
-@media (min-width: 560px) and (max-width: 960px) {
-  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
-    font-size: 9px;
-    padding: 7px 10px;
-  }
-}
-@media (min-width: 2560px) {
-  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
-    font-size: 20px;
-    padding: 15px 50px;
-  }
-}
-body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
-  background-color: #000000;
-  padding: 25px 55px;
-  max-width: 995px;
-}
-@media (max-width: 660px) {
-  body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
-    padding: 25px;
-  }
-}
-body .reason .banner .subtitle, body .clients .banner .subtitle, body .how-it-work .banner .subtitle, body .rewards .banner .subtitle {
-  font-size: 35px;
-  font-weight: 500;
-}
-body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
-  margin-bottom: 25px;
-}
-@media (max-width: 660px) {
-  body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-}
-body .clients .card-deck .card .card-title {
-  font-size: 35px;
-  margin-top: -7rem;
-  margin-bottom: 40px;
-}
-body .clients .card-deck .card .card-title:after {
-  max-width: 400px;
-}
-@media (max-width: 576px) {
-  body .clients .card-deck .card .card-title:after {
-    max-width: 250px;
-  }
-}
-@media (min-width: 576px) and (max-width: 900px) {
-  body .clients .card-deck .card .card-title:after {
-    max-width: 180px;
-    margin-top: 15px;
-  }
-}
-@media (min-width: 2560px) {
-  body .clients .card-deck .card .card-title:after {
-    max-width: 500px;
-  }
-}
-@media (max-width: 576px) {
-  body .clients .card-deck .card .card-title {
-    font-size: 17px;
-  }
-}
-@media (min-width: 576px) and (max-width: 900px) {
-  body .clients .card-deck .card .card-title {
-    font-size: 14px;
-    margin-top: -3.5rem;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 900px) and (max-width: 1220px) {
-  body .clients .card-deck .card .card-title {
-    font-size: 20px;
-    margin-top: -4.5rem;
-  }
-}
-@media (min-width: 2560px) {
-  body .clients .card-deck .card .card-title {
-    font-size: 50px;
-    margin-top: -10rem;
-  }
-}
-body .clients .card-deck .card .card-text {
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-@media (min-width: 1220px) {
-  body .clients .card-deck .card .card-text {
-    font-size: 23px;
-    margin-bottom: 40px;
-  }
-}
-@media (min-width: 2560px) {
-  body .clients .card-deck .card .card-text {
-    font-size: 40px;
-  }
-}
-body .clients .card-deck .card .btn-danger {
-  padding: 10px 50px;
-  font-size: 16px;
-}
-@media (min-width: 660px) and (max-width: 990px) {
-  body .clients .card-deck .card .btn-danger {
-    font-size: 12px;
-    padding: 7px 20px;
-  }
-}
-@media (min-width: 2560px) {
-  body .clients .card-deck .card .btn-danger {
-    font-size: 30px;
-  }
-}
-body .how-it-work .section-title:after {
-  border-bottom: 9px solid #ff1d1d;
-  margin-left: 0;
-}
-body .how-it-work .registration-steps {
-  margin-bottom: 140px;
-}
-@media (max-width: 660px) {
-  body .how-it-work .registration-steps {
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 660px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps {
-    margin-bottom: 60px;
-  }
-}
-body .how-it-work .registration-steps .card {
-  max-width: 350px;
-}
-body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
-  margin-top: 10%;
-  max-width: 120px;
-}
-@media (min-width: 1024px) {
-  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
-    margin-top: 7%;
-  }
-}
-@media (min-width: 1200px) {
-  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
-    margin-top: 5%;
-  }
-}
-body .how-it-work .registration-steps .card .card-img-top {
-  max-width: 150px;
-  width: 100%;
-}
-body .how-it-work .registration-steps .card .card-title {
-  margin-top: 15px;
-  font-size: 12px;
-}
-@media (min-width: 520px) and (max-width: 660px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 14px;
-  }
-}
-@media (min-width: 660px) and (max-width: 990px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 18px;
-  }
-}
-@media (min-width: 990px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 20px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 22px;
-  }
-}
-@media (min-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 24px;
-  }
-}
-@media (min-width: 2560px) {
-  body .how-it-work .registration-steps .card .card-title {
-    font-size: 30px;
-  }
-}
-body .how-it-work .registration-steps .card .card-text {
-  font-size: 6px;
-}
-@media (min-width: 520px) and (max-width: 660px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 8px;
-  }
-}
-@media (min-width: 660px) and (max-width: 990px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 12px;
-  }
-}
-@media (min-width: 990px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 14px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 16px;
-  }
-}
-@media (min-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 18px;
-  }
-}
-@media (min-width: 2560px) {
-  body .how-it-work .registration-steps .card .card-text {
-    font-size: 24px;
-  }
-}
-body .rewards .check-icon {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  margin: auto;
-}
-@media (max-width: 520px) {
-  body .rewards .check-icon {
-    width: 20px;
-    height: 20px;
-  }
-}
-@media (min-width: 2560px) {
-  body .rewards .check-icon {
-    width: 50px;
-    height: 50px;
-  }
-}
-body .rewards .card-deck {
+body .section-4 .platforms {
   margin-bottom: 70px;
 }
-@media (max-width: 520px) {
-  body .rewards .card-deck {
-    margin-bottom: 30px;
+@media (max-width: 900px) {
+  body .section-4 .platforms {
+    margin-bottom: 20px;
   }
 }
-body .rewards .card-deck .card {
-  padding: 25px;
-  background-color: #232323;
-  background-image: url(../img/Onyx2-mock-up-mobile_1200x.png);
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-body .rewards .card-deck .card.first-type {
-  background-image: url(../img/Innovate-300x200_-Bucket.png);
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-@media (min-width: 1220px) {
-  body .rewards .card-deck .card {
-    padding: 25px 45px;
+@media (max-width: 1024px) {
+  body .section-4 .platforms .platform-logo {
+    flex-basis: 25%;
   }
 }
-body .rewards .card-deck .card .card-body {
-  padding: 0;
+body .section-4 .platforms .platform-logo .platform-logo-ellipse {
+  width: 180px;
+  height: 180px;
 }
-body .rewards .card-deck .card .card-body .card-title {
-  font-size: 25px;
-}
-@media (min-width: 755px) and (max-width: 1120px) {
-  body .rewards .card-deck .card .card-body .card-title {
-    font-size: 18px;
+@media (max-width: 600px) {
+  body .section-4 .platforms .platform-logo .platform-logo-ellipse {
+    width: 60px;
+    height: 60px;
   }
 }
-@media (min-width: 2560px) {
-  body .rewards .card-deck .card .card-body .card-title {
-    font-size: 45px;
+@media (min-width: 600px) and (max-width: 1200px) {
+  body .section-4 .platforms .platform-logo .platform-logo-ellipse {
+    width: 120px;
+    height: 120px;
   }
 }
-body .rewards .card-deck .card .card-body .card-title:after {
-  display: none;
+body .section-4 .btn-dark {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-body .rewards .card-deck .card .card-body .card-text {
-  font-size: 18px;
-  margin-bottom: 40px;
-  font-weight: 500;
-}
-@media (min-width: 2560px) {
-  body .rewards .card-deck .card .card-body .card-text {
-    font-size: 30px;
+@media (max-width: 600px) {
+  body .section-4 .btn-dark {
+    font-size: 20px;
   }
 }
-body .rewards .card-deck .card .card-footer .btn-danger {
-  background-color: #f9b223;
-  border-color: #f9b223;
+body .section-5 {
+  background-image: url(../img/about-section-5.png);
+  height: 693px;
 }
-body .rewards .card-deck .card .card-footer .btn-danger:focus, body .rewards .card-deck .card .card-footer .btn-danger.active {
-  background-color: #eea722;
-  border-color: #eea722;
-  box-shadow: none;
-}
-body .contact-us {
-  background-color: #898989;
-  padding: 70px 12px;
-}
-@media (max-width: 520px) {
-  body .contact-us {
-    padding: 35px 12px;
+@media (max-width: 990px) {
+  body .section-5 {
+    height: auto;
   }
 }
-body .contact-us .section-text {
-  font-size: 28px;
+body .section-6 {
+  background-image: url(../img/about-section-6.png);
+  height: 702px;
 }
-@media (max-width: 520px) {
-  body .contact-us .section-text {
-    font-size: 14px;
+@media (max-width: 990px) {
+  body .section-6 {
+    height: auto;
   }
 }
-@media (min-width: 2560px) {
-  body .contact-us .section-text {
-    font-size: 45px;
+body .section-7 {
+  background-image: url(../img/about-section-7.png);
+  height: 699px;
+}
+@media (max-width: 990px) {
+  body .section-7 {
+    height: auto;
+  }
+}
+body .section-8 {
+  background-image: url(../img/about-section-8.png);
+  height: 739px;
+}
+@media (max-width: 990px) {
+  body .section-8 {
+    height: auto;
   }
 }
 body footer {
-  letter-spacing: 1px;
   background-color: #161616;
 }
-body footer .logo-footer {
-  max-width: 125px;
-}
-body footer .logo-footer {
-  max-width: 120px;
-}
-body footer .social .social-link .fa-twitter {
-  color: #161616;
-}
-body footer .nav .nav-item .nav-link {
-  letter-spacing: 1.5px;
-}
-body footer .nav .nav-item .nav-link:hover {
-  color: #ff1d1d;
-}
 
-/*# sourceMappingURL=affiliate.css.map */
+/*# sourceMappingURL=feelvr-about.css.map */

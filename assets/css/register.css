@@ -864,12 +864,6 @@ body .payment .card .card-body .card-text {
   }
 }
 
-@media (max-width: 520px) {
-  .title {
-    font-size: 25px !important;
-  }
-}
-
 footer {
   background-color: #333333;
   font-family: "Oswald", sans-serif;
