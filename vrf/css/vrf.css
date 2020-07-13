@@ -1,0 +1,176 @@
+.vrf {
+  background-image: url(../img/vrf-background.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  padding: 50px 0;
+}
+.vrf .banner {
+  background-color: #1e1f21;
+  padding: 30px 12px;
+  width: 90%;
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner {
+    padding: 30px;
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .vrf .banner {
+    width: 70%;
+    padding: 40px 60px;
+  }
+}
+@media (min-width: 1220px) {
+  .vrf .banner {
+    padding: 50px 200px;
+  }
+}
+.vrf .banner .title {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .title {
+    font-size: 35px;
+    margin-bottom: 18px;
+  }
+}
+.vrf .banner .subtitle {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+.vrf .banner .main-text {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0 2.5rem;
+}
+@media (max-width: 660px) {
+  .vrf .banner .main-text {
+    font-size: 13px;
+    padding: 0;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .main-text {
+    font-size: 17px;
+    padding: 0;
+  }
+}
+.vrf .banner .main-text:first-of-type {
+  margin-bottom: 40px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .main-text:first-of-type {
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .main-text:first-of-type {
+    margin-bottom: 33px;
+  }
+}
+.vrf .banner .main-text:nth-of-type(2) {
+  margin-bottom: 70px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .main-text:nth-of-type(2) {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .main-text:nth-of-type(2) {
+    margin-bottom: 50px;
+  }
+}
+.vrf .banner .main-text:last-of-type {
+  margin-bottom: 100px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .main-text:last-of-type {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .main-text:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+.vrf .banner .main-text small {
+  font-size: 87%;
+  font-weight: 300;
+  color: #a5a5a5;
+}
+.vrf .banner .attention {
+  font-weight: 400;
+  font-size: 35px;
+  color: #fe0904;
+}
+@media (max-width: 660px) {
+  .vrf .banner .attention {
+    font-size: 25px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .vrf .banner .attention {
+    font-size: 30px;
+  }
+}
+.vrf .banner .registration {
+  padding: 40px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .registration {
+    padding: 20px;
+  }
+}
+.vrf .banner .registration .main-text {
+  margin-bottom: 50px;
+  padding: 0;
+}
+@media (max-width: 660px) {
+  .vrf .banner .registration .main-text {
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1200px) {
+  .vrf .banner .registration .main-text {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+.vrf .banner .registration .btn-danger {
+  background-color: #fe0904 !important;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+@media (max-width: 660px) {
+  .vrf .banner .registration .btn-danger {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=vrf.css.map */
