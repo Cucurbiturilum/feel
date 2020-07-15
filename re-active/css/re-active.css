@@ -1,0 +1,144 @@
+.template-reactive {
+  background-image: url(../img/re-active-background.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: right;
+  padding: 35px 12px;
+}
+@media (min-width: 660px) and (max-width: 768px) {
+  .template-reactive {
+    padding: 35px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .template-reactive {
+    padding: 35px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .template-reactive {
+    padding: 35px 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-reactive {
+    padding: 50px 130px;
+  }
+}
+.template-reactive .logo {
+  width: 263px;
+}
+@media (max-width: 660px) {
+  .template-reactive .logo {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+.template-reactive .title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+@media (max-width: 660px) {
+  .template-reactive .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+.template-reactive .title:after {
+  content: "";
+  display: block;
+  width: 102px;
+  height: 5px;
+  background-color: #ff0505;
+  margin-top: 18px;
+}
+@media (max-width: 660px) {
+  .template-reactive .title:after {
+    margin-bottom: 12px;
+  }
+}
+.template-reactive .main-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+@media (max-width: 660px) {
+  .template-reactive .main-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+.template-reactive .main-text:nth-of-type(3) {
+  max-width: 660px;
+}
+.template-reactive .main-text:nth-of-type(4):before, .template-reactive .main-text:nth-of-type(5):before {
+  content: "";
+  display: block;
+  width: 102px;
+  height: 5px;
+  background-color: #ff0505;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+@media (max-width: 660px) {
+  .template-reactive .main-text:nth-of-type(4):before, .template-reactive .main-text:nth-of-type(5):before {
+    margin-bottom: 12px;
+  }
+}
+.template-reactive .main-text:nth-of-type(5), .template-reactive .main-text:nth-of-type(7) {
+  max-width: 750px;
+}
+.template-reactive .text-danger {
+  color: #ff0505 !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (max-width: 660px) {
+  .template-reactive .text-danger {
+    font-size: 16px;
+  }
+}
+.template-reactive .text-danger:nth-of-type(6) {
+  max-width: 950px;
+}
+.template-reactive .list-text {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.template-reactive .list-text .check-circle {
+  width: 38px;
+  height: 38px;
+}
+.template-reactive .list-text .check-circle .fa-check {
+  color: #ff0505;
+  font-size: 20px;
+}
+@media (max-width: 660px) {
+  .template-reactive .list-text {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .template-reactive .list-text .check-circle {
+    width: 14px;
+    height: 14px;
+  }
+  .template-reactive .list-text .check-circle .fa-check {
+    font-size: 10px;
+  }
+}
+.template-reactive .btn-danger {
+  background-color: #ff0505 !important;
+  font-size: 24px;
+  padding: 15px 20px;
+}
+@media (max-width: 660px) {
+  .template-reactive .btn-danger {
+    font-size: 17px;
+    padding: 15px 0;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=re-active.css.map */
