@@ -9,7 +9,7 @@
 
   .banner {
     background-color: #1e1f21;
-    padding: 30px 12px;
+    padding: 20px 12px;
     width: 90%;
     margin-bottom: 50px;
     @media(min-width: 660px) and (max-width: 1024px){
@@ -21,13 +21,13 @@
       padding: 40px 60px;
     }
     @media (min-width: 1220px){
-      padding: 50px 200px;
+      padding: 40px 200px;
     }
 
     .title {
       font-weight: 400;
       font-size: 30px;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
       @media (max-width: 660px){
         font-size: 25px;
         margin-bottom: 30px;
@@ -52,21 +52,46 @@
     .main-text {
       font-size: 20px;
       font-weight: 300;
-      margin-bottom: 70px;
+      margin-bottom: 40px;
       @media (max-width: 660px){
         font-size: 15px;
         margin-bottom: 20px;
       }
       @media(min-width: 660px) and (max-width: 1024px){
         font-size: 17px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
     }
+
+  .form-group{
+    .form-control{
+      height: 50px;
+      width: 300px;
+      background-color: #b2b4b8;
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 25px;
+
+      &:focus{
+        box-shadow: none;
+      }
+
+      &::placeholder{
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+      }
+      @media (max-width: 660px){
+        font-size: 14px;
+      }
+    }
+  }
 
     .btn-danger{
       background-color: #fe0904!important;
       font-size: 20px;
-      padding: 10px 60px;
+      width: 300px;
+      padding: 10px 0;
       @media (max-width: 660px){
         font-size: 14px;
       }
