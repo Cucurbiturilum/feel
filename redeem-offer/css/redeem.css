@@ -1,0 +1,108 @@
+.redeem {
+  background-image: url(../img/vrf-background.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  padding: 30px 0 10px 0;
+}
+.redeem .banner {
+  background-color: #1e1f21;
+  padding: 30px 12px;
+  width: 90%;
+  margin-bottom: 50px;
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .redeem .banner {
+    padding: 30px;
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .redeem .banner {
+    width: 70%;
+    padding: 40px 60px;
+  }
+}
+@media (min-width: 1220px) {
+  .redeem .banner {
+    padding: 50px 200px;
+  }
+}
+.redeem .banner .title {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+@media (max-width: 660px) {
+  .redeem .banner .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .redeem .banner .title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+}
+.redeem .banner .title .text-danger {
+  color: #fe0904 !important;
+  font-size: 35px;
+}
+@media (max-width: 660px) {
+  .redeem .banner .title .text-danger {
+    font-size: 30px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .redeem .banner .title .text-danger {
+    font-size: 40px;
+  }
+}
+.redeem .banner .main-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+@media (max-width: 660px) {
+  .redeem .banner .main-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 660px) and (max-width: 1024px) {
+  .redeem .banner .main-text {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+}
+.redeem .banner .btn-danger {
+  background-color: #fe0904 !important;
+  font-size: 20px;
+  padding: 10px 60px;
+}
+@media (max-width: 660px) {
+  .redeem .banner .btn-danger {
+    font-size: 14px;
+  }
+}
+.redeem .redeem-offer-footer .list-group {
+  margin-bottom: 0.8rem;
+}
+.redeem .redeem-offer-footer .list-group .list-group-item {
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-color: #ffffff;
+  font-size: 16px;
+}
+@media (max-width: 660px) {
+  .redeem .redeem-offer-footer .list-group .list-group-item {
+    font-size: 12px;
+    padding: 0 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=redeem.css.map */
