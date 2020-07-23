@@ -1,6 +1,8 @@
 .about {
   background-color: #232323;
   font-family: Roboto, sans-serif !important;
+  max-width: 1600px !important;
+  margin: auto;
 }
 .about header, .about .section-1, .about .section-2, .about .section-3, .about .section-4, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
   background-image: url(../img/about-header-background.png);

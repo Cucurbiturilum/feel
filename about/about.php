@@ -94,7 +94,7 @@
 //$this->load->view($page);
 //?>
 
-<div style="background-color: white;text-align: center;">
+<div style="text-align: center;">
     <div class="about">
         <header>
             <div class="container-fluid h-100 d-flex align-items-center text-left">

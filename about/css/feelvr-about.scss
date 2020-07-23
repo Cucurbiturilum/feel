@@ -2,6 +2,8 @@
 .about {
   background-color: #232323;
   font-family: Roboto, sans-serif !important;
+  max-width: 1600px!important;
+  margin: auto;
 
   header, .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8 {
     background-image: url(../img/about-header-background.png);
