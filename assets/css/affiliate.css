@@ -924,139 +924,140 @@ footer .nav .nav-item .nav-link:hover {
   color: #f5883d;
 }
 
-body {
+.main-content {
   background-color: #232323;
-  max-width: 100%;
-  font-family: Roboto, sans-serif !important;
+  font-family: "Poppins", sans-serif;
+  max-width: 1600px;
+  margin: auto;
 }
-body .btn-danger {
+.main-content .btn-danger {
   padding: 12px 45px;
   font-size: 18px;
   letter-spacing: 2px;
 }
 @media (max-width: 660px) {
-  body .btn-danger {
+  .main-content .btn-danger {
     padding: 12px;
     font-size: 12px;
   }
 }
 @media (min-width: 2560px) {
-  body .btn-danger {
+  .main-content .btn-danger {
     padding: 20px 45px;
     font-size: 30px;
   }
 }
-body .section-text {
+.main-content .section-text {
   font-size: 25px;
   margin-bottom: 120px;
 }
 @media (max-width: 660px) {
-  body .section-text {
+  .main-content .section-text {
     font-size: 14px;
     margin-bottom: 30px;
   }
 }
 @media (min-width: 660px) and (max-width: 990px) {
-  body .section-text {
+  .main-content .section-text {
     margin-bottom: 70px;
   }
 }
 @media (min-width: 2560px) {
-  body .section-text {
+  .main-content .section-text {
     font-size: 40px;
   }
 }
-body .navbar {
+.main-content .navbar {
   background-color: #232323;
   max-width: 100% !important;
 }
-body .navbar .navbar-brand {
+.main-content .navbar .navbar-brand {
   max-width: 165px;
 }
 @media (max-width: 1024px) {
-  body .navbar .navbar-brand .logo-img {
+  .main-content .navbar .navbar-brand .logo-img {
     width: 70px;
   }
 }
-body .navbar .navbar-toggler:focus {
+.main-content .navbar .navbar-toggler:focus {
   outline: none;
 }
-body .navbar .navbar-nav .nav-item {
+.main-content .navbar .navbar-nav .nav-item {
   letter-spacing: 2px;
 }
-body .navbar .navbar-nav .nav-item .nav-link {
+.main-content .navbar .navbar-nav .nav-item .nav-link {
   color: white;
 }
-body .navbar .navbar-nav .nav-item.active .nav-link {
+.main-content .navbar .navbar-nav .nav-item.active .nav-link {
   color: #ff1d1d;
 }
-body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+.main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link {
   padding: 0 25px;
 }
 @media (max-width: 577px) {
-  body .navbar .navbar-nav:first-of-type .nav-item .nav-link {
+  .main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link {
     padding: 10px 0;
     text-align: right;
   }
 }
-body .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
+.main-content .navbar .navbar-nav:first-of-type .nav-item .nav-link:hover {
   color: #ff1d1d;
 }
-body .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
+.main-content .navbar .navbar-nav:nth-of-type(2) .nav-item .nav-link {
   padding: 0 10px;
 }
-body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link {
+.main-content .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type .nav-link {
   color: #232323;
 }
-body .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type.active .nav-link {
+.main-content .navbar .navbar-nav:nth-of-type(2) .nav-item:last-of-type.active .nav-link {
   color: #ff1d1d;
 }
-body header {
+.main-content header {
   background-image: url(../img/feel-vr-header-bg.png);
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 170px;
 }
 @media (max-width: 768px) {
-  body header {
+  .main-content header {
     padding-top: 20px;
     padding-bottom: 40px;
   }
 }
-body header .section-title {
+.main-content header .section-title {
   font-weight: 500;
   margin-bottom: 45px;
   letter-spacing: 2px;
 }
 @media (max-width: 660px) {
-  body header .section-title {
+  .main-content header .section-title {
     margin-bottom: 20px;
   }
 }
 @media (min-width: 2560px) {
-  body header .section-title {
+  .main-content header .section-title {
     font-size: 80px;
   }
 }
-body header .section-text {
+.main-content header .section-text {
   letter-spacing: 2px;
 }
-body .reason, body .clients, body .how-it-work, body .rewards {
+.main-content .reason, .main-content .clients, .main-content .how-it-work, .main-content .rewards {
   padding: 60px 50px;
 }
 @media (max-width: 660px) {
-  body .reason, body .clients, body .how-it-work, body .rewards {
+  .main-content .reason, .main-content .clients, .main-content .how-it-work, .main-content .rewards {
     padding: 20px 12px;
     margin-bottom: 20px;
   }
 }
-body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+.main-content .reason .section-title, .main-content .clients .section-title, .main-content .how-it-work .section-title, .main-content .rewards .section-title {
   font-size: 45px;
   margin-top: 0;
   text-align: center;
   margin-bottom: 90px;
 }
-body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
+.main-content .reason .section-title:after, .main-content .clients .section-title:after, .main-content .how-it-work .section-title:after, .main-content .rewards .section-title:after {
   content: "";
   display: block;
   margin: auto;
@@ -1070,28 +1071,28 @@ body .reason .section-title:after, body .clients .section-title:after, body .how
   background-repeat: no-repeat;
 }
 @media (max-width: 660px) {
-  body .reason .section-title:after, body .clients .section-title:after, body .how-it-work .section-title:after, body .rewards .section-title:after {
+  .main-content .reason .section-title:after, .main-content .clients .section-title:after, .main-content .how-it-work .section-title:after, .main-content .rewards .section-title:after {
     margin-top: 20px;
   }
 }
 @media (max-width: 660px) {
-  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+  .main-content .reason .section-title, .main-content .clients .section-title, .main-content .how-it-work .section-title, .main-content .rewards .section-title {
     font-size: 25px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 660px) and (max-width: 990px) {
-  body .reason .section-title, body .clients .section-title, body .how-it-work .section-title, body .rewards .section-title {
+  .main-content .reason .section-title, .main-content .clients .section-title, .main-content .how-it-work .section-title, .main-content .rewards .section-title {
     font-size: 35px;
     margin-bottom: 50px;
   }
 }
-body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+.main-content .reason .card-deck .card .card-title, .main-content .clients .card-deck .card .card-title, .main-content .how-it-work .card-deck .card .card-title, .main-content .rewards .card-deck .card .card-title {
   font-size: 18px;
   margin-top: -2.2rem;
   margin-bottom: 24px;
 }
-body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+.main-content .reason .card-deck .card .card-title:after, .main-content .clients .card-deck .card .card-title:after, .main-content .how-it-work .card-deck .card .card-title:after, .main-content .rewards .card-deck .card .card-title:after {
   content: "";
   display: block;
   margin: auto;
@@ -1105,403 +1106,403 @@ body .reason .card-deck .card .card-title:after, body .clients .card-deck .card 
   background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+  .main-content .reason .card-deck .card .card-title:after, .main-content .clients .card-deck .card .card-title:after, .main-content .how-it-work .card-deck .card .card-title:after, .main-content .rewards .card-deck .card .card-title:after {
     max-width: 250px;
   }
 }
 @media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+  .main-content .reason .card-deck .card .card-title:after, .main-content .clients .card-deck .card .card-title:after, .main-content .how-it-work .card-deck .card .card-title:after, .main-content .rewards .card-deck .card .card-title:after {
     max-width: 180px;
     margin-top: 15px;
   }
 }
 @media (min-width: 2560px) {
-  body .reason .card-deck .card .card-title:after, body .clients .card-deck .card .card-title:after, body .how-it-work .card-deck .card .card-title:after, body .rewards .card-deck .card .card-title:after {
+  .main-content .reason .card-deck .card .card-title:after, .main-content .clients .card-deck .card .card-title:after, .main-content .how-it-work .card-deck .card .card-title:after, .main-content .rewards .card-deck .card .card-title:after {
     max-width: 320px;
   }
 }
 @media (max-width: 576px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+  .main-content .reason .card-deck .card .card-title, .main-content .clients .card-deck .card .card-title, .main-content .how-it-work .card-deck .card .card-title, .main-content .rewards .card-deck .card .card-title {
     font-size: 17px;
   }
 }
 @media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+  .main-content .reason .card-deck .card .card-title, .main-content .clients .card-deck .card .card-title, .main-content .how-it-work .card-deck .card .card-title, .main-content .rewards .card-deck .card .card-title {
     font-size: 8px;
   }
 }
 @media (min-width: 900px) and (max-width: 1220px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+  .main-content .reason .card-deck .card .card-title, .main-content .clients .card-deck .card .card-title, .main-content .how-it-work .card-deck .card .card-title, .main-content .rewards .card-deck .card .card-title {
     font-size: 13px;
   }
 }
 @media (min-width: 2560px) {
-  body .reason .card-deck .card .card-title, body .clients .card-deck .card .card-title, body .how-it-work .card-deck .card .card-title, body .rewards .card-deck .card .card-title {
+  .main-content .reason .card-deck .card .card-title, .main-content .clients .card-deck .card .card-title, .main-content .how-it-work .card-deck .card .card-title, .main-content .rewards .card-deck .card .card-title {
     font-size: 30px;
   }
 }
-body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+.main-content .reason .card-deck .card .card-text, .main-content .clients .card-deck .card .card-text, .main-content .how-it-work .card-deck .card .card-text, .main-content .rewards .card-deck .card .card-text {
   font-size: 13px;
   margin-bottom: 40px;
 }
 @media (min-width: 576px) and (max-width: 900px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+  .main-content .reason .card-deck .card .card-text, .main-content .clients .card-deck .card .card-text, .main-content .how-it-work .card-deck .card .card-text, .main-content .rewards .card-deck .card .card-text {
     font-size: 10px;
     margin-bottom: 20px;
   }
 }
 @media (min-width: 1220px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+  .main-content .reason .card-deck .card .card-text, .main-content .clients .card-deck .card .card-text, .main-content .how-it-work .card-deck .card .card-text, .main-content .rewards .card-deck .card .card-text {
     font-size: 17px;
   }
 }
 @media (min-width: 2560px) {
-  body .reason .card-deck .card .card-text, body .clients .card-deck .card .card-text, body .how-it-work .card-deck .card .card-text, body .rewards .card-deck .card .card-text {
+  .main-content .reason .card-deck .card .card-text, .main-content .clients .card-deck .card .card-text, .main-content .how-it-work .card-deck .card .card-text, .main-content .rewards .card-deck .card .card-text {
     font-size: 25px;
   }
 }
-body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+.main-content .reason .card-deck .card .btn-danger, .main-content .clients .card-deck .card .btn-danger, .main-content .how-it-work .card-deck .card .btn-danger, .main-content .rewards .card-deck .card .btn-danger {
   padding: 10px 35px;
   font-size: 14px;
 }
 @media (min-width: 560px) and (max-width: 960px) {
-  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+  .main-content .reason .card-deck .card .btn-danger, .main-content .clients .card-deck .card .btn-danger, .main-content .how-it-work .card-deck .card .btn-danger, .main-content .rewards .card-deck .card .btn-danger {
     font-size: 9px;
     padding: 7px 10px;
   }
 }
 @media (min-width: 2560px) {
-  body .reason .card-deck .card .btn-danger, body .clients .card-deck .card .btn-danger, body .how-it-work .card-deck .card .btn-danger, body .rewards .card-deck .card .btn-danger {
+  .main-content .reason .card-deck .card .btn-danger, .main-content .clients .card-deck .card .btn-danger, .main-content .how-it-work .card-deck .card .btn-danger, .main-content .rewards .card-deck .card .btn-danger {
     font-size: 20px;
     padding: 15px 50px;
   }
 }
-body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
+.main-content .reason .banner, .main-content .clients .banner, .main-content .how-it-work .banner, .main-content .rewards .banner {
   background-color: #000000;
   padding: 25px 55px;
   max-width: 995px;
 }
 @media (max-width: 660px) {
-  body .reason .banner, body .clients .banner, body .how-it-work .banner, body .rewards .banner {
+  .main-content .reason .banner, .main-content .clients .banner, .main-content .how-it-work .banner, .main-content .rewards .banner {
     padding: 25px;
   }
 }
-body .reason .banner .subtitle, body .clients .banner .subtitle, body .how-it-work .banner .subtitle, body .rewards .banner .subtitle {
+.main-content .reason .banner .subtitle, .main-content .clients .banner .subtitle, .main-content .how-it-work .banner .subtitle, .main-content .rewards .banner .subtitle {
   font-size: 35px;
   font-weight: 500;
 }
-body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
+.main-content .reason .banner .section-text, .main-content .clients .banner .section-text, .main-content .how-it-work .banner .section-text, .main-content .rewards .banner .section-text {
   margin-bottom: 25px;
 }
 @media (max-width: 660px) {
-  body .reason .banner .section-text, body .clients .banner .section-text, body .how-it-work .banner .section-text, body .rewards .banner .section-text {
+  .main-content .reason .banner .section-text, .main-content .clients .banner .section-text, .main-content .how-it-work .banner .section-text, .main-content .rewards .banner .section-text {
     font-size: 20px;
     margin-bottom: 0;
   }
 }
-body .clients .card-deck .card .card-title {
+.main-content .clients .card-deck .card .card-title {
   font-size: 35px;
   margin-top: -7rem;
   margin-bottom: 40px;
 }
-body .clients .card-deck .card .card-title:after {
+.main-content .clients .card-deck .card .card-title:after {
   max-width: 400px;
 }
 @media (max-width: 576px) {
-  body .clients .card-deck .card .card-title:after {
+  .main-content .clients .card-deck .card .card-title:after {
     max-width: 250px;
   }
 }
 @media (min-width: 576px) and (max-width: 900px) {
-  body .clients .card-deck .card .card-title:after {
+  .main-content .clients .card-deck .card .card-title:after {
     max-width: 180px;
     margin-top: 15px;
   }
 }
 @media (min-width: 2560px) {
-  body .clients .card-deck .card .card-title:after {
+  .main-content .clients .card-deck .card .card-title:after {
     max-width: 500px;
   }
 }
 @media (max-width: 576px) {
-  body .clients .card-deck .card .card-title {
+  .main-content .clients .card-deck .card .card-title {
     font-size: 17px;
   }
 }
 @media (min-width: 576px) and (max-width: 900px) {
-  body .clients .card-deck .card .card-title {
+  .main-content .clients .card-deck .card .card-title {
     font-size: 14px;
     margin-top: -3.5rem;
     margin-bottom: 20px;
   }
 }
 @media (min-width: 900px) and (max-width: 1220px) {
-  body .clients .card-deck .card .card-title {
+  .main-content .clients .card-deck .card .card-title {
     font-size: 20px;
     margin-top: -4.5rem;
   }
 }
 @media (min-width: 2560px) {
-  body .clients .card-deck .card .card-title {
+  .main-content .clients .card-deck .card .card-title {
     font-size: 50px;
     margin-top: -10rem;
   }
 }
-body .clients .card-deck .card .card-text {
+.main-content .clients .card-deck .card .card-text {
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
 @media (min-width: 1220px) {
-  body .clients .card-deck .card .card-text {
+  .main-content .clients .card-deck .card .card-text {
     font-size: 23px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 2560px) {
-  body .clients .card-deck .card .card-text {
+  .main-content .clients .card-deck .card .card-text {
     font-size: 40px;
   }
 }
-body .clients .card-deck .card .btn-danger {
+.main-content .clients .card-deck .card .btn-danger {
   padding: 10px 50px;
   font-size: 16px;
 }
 @media (min-width: 660px) and (max-width: 990px) {
-  body .clients .card-deck .card .btn-danger {
+  .main-content .clients .card-deck .card .btn-danger {
     font-size: 12px;
     padding: 7px 20px;
   }
 }
 @media (min-width: 2560px) {
-  body .clients .card-deck .card .btn-danger {
+  .main-content .clients .card-deck .card .btn-danger {
     font-size: 30px;
   }
 }
-body .how-it-work .section-title:after {
+.main-content .how-it-work .section-title:after {
   border-bottom: 9px solid #ff1d1d;
   margin-left: 0;
 }
-body .how-it-work .registration-steps {
+.main-content .how-it-work .registration-steps {
   margin-bottom: 140px;
 }
 @media (max-width: 660px) {
-  body .how-it-work .registration-steps {
+  .main-content .how-it-work .registration-steps {
     margin-bottom: 30px;
   }
 }
 @media (min-width: 660px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps {
+  .main-content .how-it-work .registration-steps {
     margin-bottom: 60px;
   }
 }
-body .how-it-work .registration-steps .card {
+.main-content .how-it-work .registration-steps .card {
   max-width: 350px;
 }
-body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+.main-content .how-it-work .registration-steps .card:nth-of-type(2), .main-content .how-it-work .registration-steps .card:nth-of-type(4) {
   margin-top: 10%;
   max-width: 120px;
 }
 @media (min-width: 1024px) {
-  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+  .main-content .how-it-work .registration-steps .card:nth-of-type(2), .main-content .how-it-work .registration-steps .card:nth-of-type(4) {
     margin-top: 7%;
   }
 }
 @media (min-width: 1200px) {
-  body .how-it-work .registration-steps .card:nth-of-type(2), body .how-it-work .registration-steps .card:nth-of-type(4) {
+  .main-content .how-it-work .registration-steps .card:nth-of-type(2), .main-content .how-it-work .registration-steps .card:nth-of-type(4) {
     margin-top: 5%;
   }
 }
-body .how-it-work .registration-steps .card .card-img-top {
+.main-content .how-it-work .registration-steps .card .card-img-top {
   max-width: 150px;
   width: 100%;
 }
-body .how-it-work .registration-steps .card .card-title {
+.main-content .how-it-work .registration-steps .card .card-title {
   margin-top: 15px;
   font-size: 12px;
 }
 @media (min-width: 520px) and (max-width: 660px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 14px;
   }
 }
 @media (min-width: 660px) and (max-width: 990px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 18px;
   }
 }
 @media (min-width: 990px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 20px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 22px;
   }
 }
 @media (min-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 24px;
   }
 }
 @media (min-width: 2560px) {
-  body .how-it-work .registration-steps .card .card-title {
+  .main-content .how-it-work .registration-steps .card .card-title {
     font-size: 30px;
   }
 }
-body .how-it-work .registration-steps .card .card-text {
+.main-content .how-it-work .registration-steps .card .card-text {
   font-size: 6px;
 }
 @media (min-width: 520px) and (max-width: 660px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 8px;
   }
 }
 @media (min-width: 660px) and (max-width: 990px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 12px;
   }
 }
 @media (min-width: 990px) and (max-width: 1024px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 14px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 16px;
   }
 }
 @media (min-width: 1220px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 18px;
   }
 }
 @media (min-width: 2560px) {
-  body .how-it-work .registration-steps .card .card-text {
+  .main-content .how-it-work .registration-steps .card .card-text {
     font-size: 24px;
   }
 }
-body .rewards .check-icon {
+.main-content .rewards .check-icon {
   width: 35px;
   height: 35px;
   display: inline-block;
   margin: auto;
 }
 @media (max-width: 520px) {
-  body .rewards .check-icon {
+  .main-content .rewards .check-icon {
     width: 20px;
     height: 20px;
   }
 }
 @media (min-width: 2560px) {
-  body .rewards .check-icon {
+  .main-content .rewards .check-icon {
     width: 50px;
     height: 50px;
   }
 }
-body .rewards .card-deck {
+.main-content .rewards .card-deck {
   margin-bottom: 70px;
 }
 @media (max-width: 520px) {
-  body .rewards .card-deck {
+  .main-content .rewards .card-deck {
     margin-bottom: 30px;
   }
 }
-body .rewards .card-deck .card {
+.main-content .rewards .card-deck .card {
   padding: 25px;
   background-color: #232323;
   background-image: url(../img/Onyx2-mock-up-mobile_1200x.png);
   -webkit-background-size: cover;
   background-size: cover;
 }
-body .rewards .card-deck .card.first-type {
+.main-content .rewards .card-deck .card.first-type {
   background-image: url(../img/Innovate-300x200_-Bucket.png);
   -webkit-background-size: cover;
   background-size: cover;
 }
 @media (min-width: 1220px) {
-  body .rewards .card-deck .card {
+  .main-content .rewards .card-deck .card {
     padding: 25px 45px;
   }
 }
-body .rewards .card-deck .card .card-body {
+.main-content .rewards .card-deck .card .card-body {
   padding: 0;
 }
-body .rewards .card-deck .card .card-body .card-title {
+.main-content .rewards .card-deck .card .card-body .card-title {
   font-size: 25px;
 }
 @media (min-width: 755px) and (max-width: 1120px) {
-  body .rewards .card-deck .card .card-body .card-title {
+  .main-content .rewards .card-deck .card .card-body .card-title {
     font-size: 18px;
   }
 }
 @media (min-width: 2560px) {
-  body .rewards .card-deck .card .card-body .card-title {
+  .main-content .rewards .card-deck .card .card-body .card-title {
     font-size: 45px;
   }
 }
-body .rewards .card-deck .card .card-body .card-title:after {
+.main-content .rewards .card-deck .card .card-body .card-title:after {
   display: none;
 }
-body .rewards .card-deck .card .card-body .card-text {
+.main-content .rewards .card-deck .card .card-body .card-text {
   font-size: 18px;
   margin-bottom: 40px;
   font-weight: 500;
 }
 @media (min-width: 2560px) {
-  body .rewards .card-deck .card .card-body .card-text {
+  .main-content .rewards .card-deck .card .card-body .card-text {
     font-size: 30px;
   }
 }
-body .rewards .card-deck .card .card-footer .btn-danger {
+.main-content .rewards .card-deck .card .card-footer .btn-danger {
   background-color: #f9b223;
   border-color: #f9b223;
 }
-body .rewards .card-deck .card .card-footer .btn-danger:focus, body .rewards .card-deck .card .card-footer .btn-danger.active {
+.main-content .rewards .card-deck .card .card-footer .btn-danger:focus, .main-content .rewards .card-deck .card .card-footer .btn-danger.active {
   background-color: #eea722;
   border-color: #eea722;
   box-shadow: none;
 }
-body .contact-us {
+.main-content .contact-us {
   background-color: #898989;
   padding: 70px 12px;
 }
 @media (max-width: 520px) {
-  body .contact-us {
+  .main-content .contact-us {
     padding: 35px 12px;
   }
 }
-body .contact-us .section-text {
+.main-content .contact-us .section-text {
   font-size: 28px;
 }
 @media (max-width: 520px) {
-  body .contact-us .section-text {
+  .main-content .contact-us .section-text {
     font-size: 14px;
   }
 }
 @media (min-width: 2560px) {
-  body .contact-us .section-text {
+  .main-content .contact-us .section-text {
     font-size: 45px;
   }
 }
-body footer {
+.main-content footer {
   letter-spacing: 1px;
   background-color: #161616;
 }
-body footer .logo-footer {
+.main-content footer .logo-footer {
   max-width: 125px;
 }
-body footer .logo-footer {
+.main-content footer .logo-footer {
   max-width: 120px;
 }
-body footer .social .social-link .fa-twitter {
+.main-content footer .social .social-link .fa-twitter {
   color: #161616;
 }
-body footer .nav .nav-item .nav-link {
+.main-content footer .nav .nav-item .nav-link {
   letter-spacing: 1.5px;
 }
-body footer .nav .nav-item .nav-link:hover {
+.main-content footer .nav .nav-item .nav-link:hover {
   color: #ff1d1d;
 }
 
