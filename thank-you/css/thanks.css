@@ -1,0 +1,154 @@
+.main-content-thank-you {
+  font-family: "Oswald", sans-serif;
+  max-width: 1600px;
+  margin: auto;
+}
+.main-content-thank-you .title {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .title {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .title {
+    font-size: 55px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .title {
+    font-size: 68px;
+    margin-bottom: 60px;
+  }
+}
+.main-content-thank-you .main-text {
+  font-size: 16px;
+  font-weight: lighter;
+  max-width: 1200px;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .main-text {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .main-text {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .main-text {
+    font-size: 36px;
+  }
+}
+.main-content-thank-you .text-warning {
+  color: #f6883d !important;
+  font-weight: normal;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .text-warning {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .text-warning {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .text-warning {
+    margin-bottom: 50px;
+  }
+}
+.main-content-thank-you .banner {
+  background-image: url(../images/erotic.png);
+  background-size: cover;
+  background-position: center;
+  padding: 45px 12px 50px 12px;
+}
+.main-content-thank-you .registration {
+  max-width: 1100px;
+  border-radius: 5px;
+  margin: 70px auto;
+  padding: 50px 12px;
+  background-image: url(../images/vr_lindseybyrnes_rs_nyl.png);
+  background-size: cover;
+  background-position: center;
+}
+.main-content-thank-you .registration .title {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .registration .title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .registration .title {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .registration .title {
+    font-size: 55px;
+    margin-bottom: 60px;
+  }
+}
+.main-content-thank-you .registration .main-text {
+  font-size: 14px;
+  font-weight: lighter;
+  max-width: 600px;
+  margin: auto;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .registration .main-text {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .registration .main-text {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .registration .main-text {
+    font-size: 28px;
+  }
+}
+.main-content-thank-you .registration .btn-warning {
+  background-color: #f6883d !important;
+  border-color: #f6883d !important;
+  max-width: 550px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+}
+@media (min-width: 520px) and (max-width: 768px) {
+  .main-content-thank-you .registration .btn-warning {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-content-thank-you .registration .btn-warning {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-content-thank-you .registration .btn-warning {
+    font-size: 28px;
+  }
+}
+.main-content-thank-you .registration .btn-warning small {
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=thanks.css.map */

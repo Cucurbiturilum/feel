@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <?php
+    $_SERVER["REQUEST_URI"] = str_replace("/de/", "/", $_SERVER["REQUEST_URI"]);
+    $_SERVER["REQUEST_URI"] = str_replace("/en/", "/", $_SERVER["REQUEST_URI"]);
+    $_SERVER["REQUEST_URI"] = str_replace("/ru/", "/", $_SERVER["REQUEST_URI"]);
+    $_SERVER["REQUEST_URI"] = str_replace("/tr/", "/", $_SERVER["REQUEST_URI"]);
+    function lang($text)
+    {
+        return $text;
+    }
+
+    ?>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="about:blank">
+
+    <!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--    <link rel="stylesheet" type="text/css" href="/assets/landingpages/template.css">-->
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/template_B4-5.css">
+    <link rel="stylesheet" href="css/thanks.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b48621f243.js" crossorigin="anonymous"></script>
+</head>
+<body class="template_body">
+<div class="main-content-thank-you">
+    <div class="banner d-flex justify-content-center align-items-center flex-column">
+        <h1 class="title text-white text-center">Thanks you! <br>
+            Joining FeelXVideos!
+        </h1>
+        <p class="main-text text-white text-center">
+            You can now log in to the members' area with your all-access pass and enjoy watching interactive, x-rated
+            content anytime you choose.
+        </p>
+        <p class="main-text text-white text-center px-0">
+            A confirmation email with your order details has been sent to your inbox.
+        </p>
+        <h3 class="main-text text-warning">Don't see the email?</h3>
+        <p class="main-text text-white text-center">
+            Please check your spam folder, and make sure to whitelist FeelXVideos in your senders' list, so you'll never
+            miss another email from us ever again.
+        </p>
+    </div>
+    <div class="registration w-100">
+        <h3 class="text-white text-center title">Gift for You!</h3>
+        <p class="main-text text-white text-center font-weight-normal">
+            Discover a new way to interact with online porn.
+        </p>
+        <p class="main-text text-white text-center mb-3 mb-lg-5 font-weight-normal">
+            Experience the exciting world of Virtual Reality porn with a 30-day free trial membership to FeelVRPorn.
+        </p>
+        <button class="btn btn-warning text-white mx-auto d-block"><span class="text-uppercase">calm your 30-day free trial</span>
+            <small class="d-block">
+                Watch unlimited. Cancel any time.
+            </small>
+        </button>
+    </div>
+</div>
+</body>
+</html>
