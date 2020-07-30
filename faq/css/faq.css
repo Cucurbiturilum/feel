@@ -1,0 +1,138 @@
+.fqa header {
+  background-image: url(../img/fqa-header-background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  font-family: "Oswald", sans-serif;
+}
+.fqa header .title {
+  font-size: 26px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.fqa header .title:last-of-type {
+  margin-bottom: 80px;
+}
+@media (max-width: 660px) {
+  .fqa header .title {
+    font-size: 12px;
+  }
+}
+.fqa header .form-group {
+  max-width: 750px;
+  border-radius: 5px;
+  margin: auto;
+  color: #d6d6d6;
+}
+.fqa header .form-group .form-control {
+  display: inline-block;
+  width: 89%;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.fqa header .form-group .form-control::placeholder {
+  color: #d6d6d6;
+}
+.fqa header .form-group .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+.fqa header .form-group .search-icon {
+  display: inline-block;
+  width: 7%;
+}
+.fqa header .form-group .search-icon .fa-search {
+  font-size: 1.3rem;
+  color: #d6d6d6;
+}
+.fqa .nav-pills {
+  background-color: #351226;
+  padding: 20px 0;
+  min-height: 75%;
+}
+.fqa .nav-pills .nav-item .nav-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+@media (max-width: 520px) {
+  .fqa .nav-pills .nav-item .nav-link {
+    font-size: 16px;
+  }
+}
+.fqa .nav-pills .nav-item .nav-link.active {
+  color: #f6883d;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  .fqa .nav-pills {
+    border-radius: 20px;
+    padding: 40px 60px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+}
+.fqa .tab-content {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  margin: 70px 20px;
+}
+@media (max-width: 520px) {
+  .fqa .tab-content {
+    margin: 70px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .fqa .tab-content {
+    margin: 70px 50px;
+  }
+}
+.fqa .tab-content .tab-pane .accordion .card {
+  border-left: none;
+  border-right: none;
+  border-color: #351226;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header {
+  background-color: transparent;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn-link {
+  color: #351226;
+  font-size: 20px;
+}
+@media (max-width: 520px) {
+  .fqa .tab-content .tab-pane .accordion .card .card-header .btn-link {
+    font-size: 14px;
+  }
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn[aria-expanded=false] .fa-minus {
+  display: none;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn[aria-expanded=false] .fa-plus {
+  display: block;
+  color: #351226;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn[aria-expanded=true] .fa-minus {
+  display: block;
+  color: #351226;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-header .btn[aria-expanded=true] .fa-plus {
+  display: none;
+}
+.fqa .tab-content .tab-pane .accordion .card .card-body {
+  color: #929292;
+  font-size: 16px;
+}
+@media (max-width: 520px) {
+  .fqa .tab-content .tab-pane .accordion .card .card-body {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */
