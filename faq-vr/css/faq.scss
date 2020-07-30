@@ -1,9 +1,159 @@
 .fqa {
-header{
-  background-image: url(../img/fqa-header-background.png);
-  background-size: cover;
-  background-position: center;
-  padding: 120px 20px;
-  
-}
+  header {
+    background-image: url(../img/fqa-header-background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    font-family: "Oswald", sans-serif;
+
+    .title {
+      font-size: 26px;
+      font-weight: normal;
+      letter-spacing: 1px;
+
+      &:last-of-type {
+        margin-bottom: 80px;
+      }
+
+      @media (max-width: 660px){
+        font-size: 12px;
+      }
+    }
+
+    .form-group {
+      max-width: 750px;
+      border-radius: 5px;
+      margin: auto;
+      color: #d6d6d6;
+
+      .form-control {
+        display: inline-block;
+        width: 89%;
+        height: 50px;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+        &::placeholder {
+          color: #d6d6d6;
+        }
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+        outline: none;
+      }
+
+      .search-icon {
+        display: inline-block;
+        width: 7%;
+
+        .fa-search {
+          font-size: 1.3rem;
+          color: #d6d6d6;
+        }
+      }
+    }
+  }
+
+  .nav-pills {
+    background-color: #161616;
+    padding: 20px 0;
+    min-height: 75%;
+
+    .nav-item {
+      .nav-link {
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 1px;
+
+        @media (max-width: 520px){
+          font-size: 16px;
+        }
+
+        &.active {
+          color: #ff1d1d;
+          background-color: transparent;
+        }
+      }
+    }
+
+      @media (min-width: 992px) {
+      border-radius: 20px;
+      padding: 40px 60px;
+      margin-bottom: 70px;
+      margin-top: 70px;
+      margin-left: 20px;
+    }
+  }
+
+  .tab-content {
+
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    margin: 70px 20px;
+
+    @media (max-width: 520px) {
+      margin: 70px 0;
+    }
+
+    @media (min-width: 1200px) {
+      margin: 70px 50px;
+    }
+
+    .tab-pane {
+      .accordion {
+        .card {
+          border-left: none;
+          border-right: none;
+
+          .card-header {
+            background-color: transparent;
+
+            .btn-link {
+              color: #0e0e0e;
+              font-size: 20px;
+
+              @media (max-width: 520px) {
+                font-size: 14px;
+              }
+
+              &:focus {
+                outline: none;
+                box-shadow: none;
+              }
+            }
+
+            .btn[aria-expanded="false"] {
+              .fa-minus {
+                display: none;
+              }
+
+              .fa-plus {
+                display: block;
+              }
+            }
+
+            .btn[aria-expanded="true"] {
+              .fa-minus {
+                display: block;
+              }
+
+              .fa-plus {
+                display: none;
+              }
+            }
+          }
+
+          .card-body {
+            color: #929292;
+            font-size: 16px;
+            @media (max-width: 520px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

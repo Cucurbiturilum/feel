@@ -26,6 +26,15 @@
     <link rel="stylesheet" href="css/faq.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b48621f243.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
 
 
 </head>
@@ -97,22 +106,334 @@
 <div style="text-align: center;">
     <div class="fqa">
         <header>
-            <h2 class="title">
-                FeelVRPorn is the leading platform for Virtual Reality,  interactive VR content.
+            <h2 class="title text-white">
+                FeelVRPorn is the leading platform for Virtual Reality, interactive VR content.
             </h2>
-            <h2 class="title">
+            <h2 class="title text-white">
                 Read these FAQs to find out about your account, payments, devices, and VR Porn.
             </h2>
             <form action="">
-                <div class="form-group">
-                    <label for="search">E</label>
-                    <input type="text" class="form-control" id="search" aria-describedby="emailHelp">
-                    <div>
+                <div class="form-group bg-white p-0">
+                    <label for="search"></label>
+                    <input type="text" class="form-control border-0 bg-transparent rounded-0" id="search"
+                           placeholder="Search her ...">
+                    <div class="search-icon">
                         <i class="fas fa-search"></i>
                     </div>
                 </div>
             </form>
         </header>
+        <div class="container-fluid bg-white">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 col-xl-3 px-0">
+                    <ul class="nav nav-pills flex-row flex-lg-column justify-content-center justify-content-lg-start" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active text-capitalize text-left" id="pills-account-tab"
+                               data-toggle="pill"
+                               href="#pills-account" role="tab" aria-controls="pills-account" aria-selected="true">my
+                                account</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-capitalize text-left" id="pills-payment-tab" data-toggle="pill"
+                               href="#pills-payment" role="tab" aria-controls="pills-payment" aria-selected="false">payment</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-capitalize text-left" id="pills-devices-tab" data-toggle="pill"
+                               href="#pills-devices" role="tab" aria-controls="pills-devices" aria-selected="false">devices</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-capitalize text-left" id="pills-virtual-reality-tab"
+                               data-toggle="pill"
+                               href="#pills-virtual-reality" role="tab" aria-controls="pills-virtual-reality"
+                               aria-selected="false">virtual reality porn</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-capitalize text-left" id="pills-section-tab" data-toggle="pill"
+                               href="#pills-section" role="tab" aria-controls="pills-section" aria-selected="false">new
+                                section</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-8 col-xl-9">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-account" role="tabpanel"
+                             aria-labelledby="pills-account-tab">
+                            <div class="accordion" id="accordionFaqAccount">
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button"
+                                                    data-toggle="collapse" data-target="#collapseAccountOne"
+                                                    aria-expanded="false" aria-controls="collapseAccountOne">
+                                                How can I watch the content on FeelVRPorn?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseAccountOne" class="collapse" aria-labelledby="headingAccountOne"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountTwo"
+                                                    aria-expanded="false" aria-controls="collapseAccountTwo">
+                                                Can I download the videos to watch offline?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountTwo" class="collapse" aria-labelledby="headingAccountTwo"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountThree"
+                                                    aria-expanded="false" aria-controls="collapseAccountThree">
+                                                How do I contact FeelVRPorn?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountThree" class="collapse" aria-labelledby="headingAccountThree"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountFour"
+                                                    aria-expanded="false" aria-controls="collapseAccountFour">
+                                                How do I cancel my subscription?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountFour" class="collapse" aria-labelledby="headingAccountFour"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountFive">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountFive"
+                                                    aria-expanded="false" aria-controls="collapseAccountFive">
+                                                How can I subscribe, or unsubscribe, to the FeelVRPorn newsletter?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountFive" class="collapse" aria-labelledby="headingAccountFive"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountSix">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountSix"
+                                                    aria-expanded="false" aria-controls="collapseAccountSix">
+                                                Why am I unable to log in to my account?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountSix" class="collapse" aria-labelledby="headingAccountSix"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is
+                                            connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountSeven">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountSeven"
+                                                    aria-expanded="false" aria-controls="collapseAccountSeven">
+                                                Where can I find my account details?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountSeven" class="collapse" aria-labelledby="headingAccountSeven"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountEight">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountEight"
+                                                    aria-expanded="false" aria-controls="collapseAccountEight">
+                                                How can I change my account details?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountEight" class="collapse" aria-labelledby="headingAccountEight"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountNine">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountNine"
+                                                    aria-expanded="false" aria-controls="collapseAccountNine">
+                                                How do I change my password settings?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountNine" class="collapse" aria-labelledby="headingAccountNine"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card rounded-0">
+                                    <div class="card-header border-0" id="headingAccountTen">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left clearfix w-100 text-decoration-none px-0"
+                                                    type="button" data-toggle="collapse" data-target="#collapseAccountTen"
+                                                    aria-expanded="false" aria-controls="collapseAccountNine">
+                                                How can I change my email address?
+                                                <span class="float-right">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                                <span class="float-right">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseAccountTen" class="collapse" aria-labelledby="headingAccountTen"
+                                         data-parent="#accordionFaqAccount">
+                                        <div class="card-body text-left">
+                                            FeelVRPorn is compatible with any smartphone or Virtual Reality viewer that
+                                            is connected to a Virtual Reality Headset.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-payment" role="tabpanel"
+                             aria-labelledby="pills-payment-tab">...
+                        </div>
+                        <div class="tab-pane fade" id="pills-devices" role="tabpanel"
+                             aria-labelledby="pills-devices-tab">...
+                        </div>
+                        <div class="tab-pane fade" id="pills-virtual-reality" role="tabpanel"
+                             aria-labelledby="pills-virtual-reality-tab">...
+                        </div>
+                        <div class="tab-pane fade" id="pills-section" role="tabpanel"
+                             aria-labelledby="pills-section-tab">...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
