@@ -1,0 +1,315 @@
+.about {
+  background-color: #232323;
+  font-family: Roboto, sans-serif !important;
+  max-width: 1600px !important;
+  margin: auto;
+}
+.about header, .about .section-1, .about .section-2, .about .section-3, .about .section-4, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+  background-image: url(../img/about-header-background.png);
+  height: 913px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -1px;
+  font-family: Roboto, sans-serif !important;
+  padding-left: 180px;
+}
+@media (max-width: 990px) {
+  .about header, .about .section-1, .about .section-2, .about .section-3, .about .section-4, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .about header, .about .section-1, .about .section-2, .about .section-3, .about .section-4, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1440px) {
+  .about header, .about .section-1, .about .section-2, .about .section-3, .about .section-4, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+    padding-left: 70px;
+  }
+}
+.about header .title, .about .section-1 .title, .about .section-2 .title, .about .section-3 .title, .about .section-4 .title, .about .section-5 .title, .about .section-6 .title, .about .section-7 .title, .about .section-8 .title {
+  margin-bottom: 0;
+  font-size: 70px;
+  margin-top: 0;
+}
+@media (max-width: 520px) {
+  .about header .title, .about .section-1 .title, .about .section-2 .title, .about .section-3 .title, .about .section-4 .title, .about .section-5 .title, .about .section-6 .title, .about .section-7 .title, .about .section-8 .title {
+    font-size: 30px !important;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  .about header .title, .about .section-1 .title, .about .section-2 .title, .about .section-3 .title, .about .section-4 .title, .about .section-5 .title, .about .section-6 .title, .about .section-7 .title, .about .section-8 .title {
+    font-size: 50px !important;
+  }
+}
+.about header .subtitle, .about .section-1 .subtitle, .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-4 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+@media (max-width: 520px) {
+  .about header .subtitle, .about .section-1 .subtitle, .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-4 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  .about header .subtitle, .about .section-1 .subtitle, .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-4 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+.about header .section-text, .about .section-1 .section-text, .about .section-2 .section-text, .about .section-3 .section-text, .about .section-4 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+  font-size: 29px;
+}
+@media (max-width: 520px) {
+  .about header .section-text, .about .section-1 .section-text, .about .section-2 .section-text, .about .section-3 .section-text, .about .section-4 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  .about header .section-text, .about .section-1 .section-text, .about .section-2 .section-text, .about .section-3 .section-text, .about .section-4 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+.about header .btn-danger, .about .section-1 .btn-danger, .about .section-2 .btn-danger, .about .section-3 .btn-danger, .about .section-4 .btn-danger, .about .section-5 .btn-danger, .about .section-6 .btn-danger, .about .section-7 .btn-danger, .about .section-8 .btn-danger {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.about .section-1 {
+  background-image: url(../img/about-section-1.png);
+  height: 693px;
+}
+@media (max-width: 990px) {
+  .about .section-1 {
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .about .section-1 .subtitle {
+    font-size: 12px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-1 .subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .about .section-1 .subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .about .section-1 .section-text {
+    font-size: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-1 .section-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .about .section-1 .section-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+.about .section-2, .about .section-3, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+  background-image: url(../img/about-section-2.png);
+  height: 667px;
+  padding-bottom: 20px;
+}
+@media (max-width: 990px) {
+  .about .section-2, .about .section-3, .about .section-5, .about .section-6, .about .section-7, .about .section-8 {
+    height: auto;
+  }
+}
+.about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .about .section-2 .subtitle, .about .section-3 .subtitle, .about .section-5 .subtitle, .about .section-6 .subtitle, .about .section-7 .subtitle, .about .section-8 .subtitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+.about .section-2 .section-text, .about .section-3 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+  font-size: 37px;
+}
+@media (max-width: 600px) {
+  .about .section-2 .section-text, .about .section-3 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-2 .section-text, .about .section-3 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .about .section-2 .section-text, .about .section-3 .section-text, .about .section-5 .section-text, .about .section-6 .section-text, .about .section-7 .section-text, .about .section-8 .section-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+.about .section-3 {
+  background-image: url(../img/about-section-3.png);
+  height: 715px;
+}
+@media (max-width: 990px) {
+  .about .section-3 {
+    height: auto;
+  }
+}
+.about .section-3 .section-text {
+  font-size: 29px;
+}
+@media (max-width: 600px) {
+  .about .section-3 .section-text {
+    font-size: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-3 .section-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .about .section-3 .section-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+.about .section-4 {
+  background-image: url(../img/about-section-4.png);
+  height: 678px;
+  padding-left: 15px;
+}
+@media (max-width: 990px) {
+  .about .section-4 {
+    height: auto;
+  }
+}
+.about .section-4 .section-title {
+  font-size: 36px;
+}
+@media (max-width: 600px) {
+  .about .section-4 .section-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about .section-4 .section-title {
+    font-size: 31px;
+  }
+}
+.about .section-4 .platforms {
+  margin-bottom: 70px;
+}
+@media (max-width: 900px) {
+  .about .section-4 .platforms {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .about .section-4 .platforms .platform-logo {
+    flex-basis: 25%;
+  }
+}
+.about .section-4 .platforms .platform-logo .platform-logo-ellipse {
+  width: 180px;
+  height: 180px;
+}
+@media (max-width: 600px) {
+  .about .section-4 .platforms .platform-logo .platform-logo-ellipse {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  .about .section-4 .platforms .platform-logo .platform-logo-ellipse {
+    width: 120px;
+    height: 120px;
+  }
+}
+.about .section-4 .btn-dark {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .about .section-4 .btn-dark {
+    font-size: 20px;
+  }
+}
+.about .section-5 {
+  background-image: url(../img/about-section-5.png);
+  height: 693px;
+}
+@media (max-width: 990px) {
+  .about .section-5 {
+    height: auto;
+  }
+}
+.about .section-6 {
+  background-image: url(../img/about-section-6.png);
+  height: 702px;
+}
+@media (max-width: 990px) {
+  .about .section-6 {
+    height: auto;
+  }
+}
+.about .section-7 {
+  background-image: url(../img/about-section-7.png);
+  height: 699px;
+}
+@media (max-width: 990px) {
+  .about .section-7 {
+    height: auto;
+  }
+}
+.about .section-8 {
+  background-image: url(../img/about-section-8.png);
+  height: 739px;
+}
+@media (max-width: 990px) {
+  .about .section-8 {
+    height: auto;
+  }
+}
+.about footer {
+  background-color: #161616;
+}
+
+/*# sourceMappingURL=feelvr-about.css.map */
