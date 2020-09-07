@@ -6,13 +6,8 @@
   top: 0;
   height: 100%;
   width: 90%;
-  padding-left: 10%;
+  padding-left: 5%;
   justify-content: flex-end;
-}
-@media (min-width: 1200px) {
-  .template-pornstar .header-banner .description {
-    padding-left: 5%;
-  }
 }
 .template-pornstar .header-banner .description .title {
   font-family: Oswald, sans-serif;
@@ -41,7 +36,8 @@
 }
 .template-pornstar .header-banner .description .banner-text {
   font-family: Poppins, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
+  margin-bottom: 10px;
 }
 @media (min-width: 600px) {
   .template-pornstar .header-banner .description .banner-text {
@@ -51,6 +47,7 @@
 @media (min-width: 768px) {
   .template-pornstar .header-banner .description .banner-text {
     font-size: 16px;
+    margin-bottom: 16px;
   }
 }
 @media (min-width: 900px) {
@@ -65,7 +62,27 @@
 }
 .template-pornstar .header-banner .description .statistic .statistic-item {
   font-family: Oswald, sans-serif;
-  font-size: 24px;
+  font-size: 12px;
+}
+@media (min-width: 600px) {
+  .template-pornstar .header-banner .description .statistic .statistic-item {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .template-pornstar .header-banner .description .statistic .statistic-item {
+    font-size: 16px;
+  }
+}
+@media (min-width: 900px) {
+  .template-pornstar .header-banner .description .statistic .statistic-item {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-pornstar .header-banner .description .statistic .statistic-item {
+    font-size: 24px;
+  }
 }
 .template-pornstar .video {
   background-color: #0a0b0c;
