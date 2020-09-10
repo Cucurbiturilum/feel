@@ -138,11 +138,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="top-menu d-flex justify-content-between">
-                            <p class="text-white">
+                        <div class="top-menu d-flex justify-content-between flex-column flex-sm-row">
+                            <p class="text-white mr-auto">
                                 Most Recent Giggi’s Porn Videos
                             </p>
-                            <div>
+                            <div class="ml-auto">
                                 <p class="d-inline-block text-white mr-3">
                                     <small>
                                         Sort by
@@ -151,10 +151,11 @@
                                 <div class="btn-group d-inline-block">
                                     <button type="button" class="btn btn-warning dropdown-toggle rounded-pill border-0"
                                             data-toggle="dropdown"
+                                            data-display="static"
                                             aria-haspopup="true" aria-expanded="false">
                                         Most Recent
                                     </button>
-                                    <div class="dropdown-menu">
+                                    <div class="dropdown-menu dropdown-menu-right">
                                         <a class="dropdown-item" href="#">Most Viewed</a>
                                         <a class="dropdown-item" href="#">Another action</a>
                                         <a class="dropdown-item" href="#">Something else here</a>

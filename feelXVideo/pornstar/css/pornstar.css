@@ -120,9 +120,8 @@
 }
 .template-pornstar .video .card .card-header {
   position: relative;
-}
-.template-pornstar .video .card .card-header .card-img-top {
   max-height: 410px;
+  overflow: hidden;
 }
 .template-pornstar .video .card .card-header .card-text {
   position: absolute;
