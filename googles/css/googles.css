@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+.template-googles .title {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .template-googles .title {
+    font-size: 30px;
+  }
+}
+.template-googles .main-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .template-googles .main-text {
+    font-size: 14px;
+  }
+}
+.template-googles .btn-danger {
+  border: none;
+  border-radius: 2px;
+  background-color: #ff1d1d !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 7px 50px;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .template-googles .btn-danger {
+    font-size: 18px;
+    padding: 7px 40px;
+  }
+}
+.template-googles .banner {
+  padding: 50px;
+  background-image: url(../img/banner-4.jpg);
+  background-size: cover;
+}
+.template-googles .banner .main-text {
+  margin-bottom: 40px;
+}
+.template-googles .banner .banner-logo {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .template-googles .banner {
+    min-height: 740px;
+    padding: 200px 0 70px 0;
+  }
+  .template-googles .banner .main-text {
+    margin-bottom: 100px;
+  }
+}
+.template-googles .main-content {
+  background-color: #0a0b0c;
+  padding: 50px 0 200px 0;
+}
+@media (max-width: 600px) {
+  .template-googles .main-content {
+    padding-bottom: 50px;
+  }
+}
+.template-googles .main-content .text-danger {
+  color: #ff1d1d !important;
+}
+.template-googles .main-content .title {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+.template-googles .main-content .title:first-of-type {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .template-googles .main-content .title {
+    margin: 30px 0;
+  }
+}
+.template-googles .main-content .section-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+@media (max-width: 800px) {
+  .template-googles .main-content .section-title {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .template-googles .main-content .section-title br {
+    display: none;
+  }
+}
+.template-googles .main-content .main-text {
+  margin-bottom: 40px;
+  max-width: 430px;
+}
+.template-googles .main-content .btn-danger {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+
+/*# sourceMappingURL=googles.css.map */

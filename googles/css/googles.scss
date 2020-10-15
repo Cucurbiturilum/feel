@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+.template-googles {
+  .title{
+    font-family:'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    @media (max-width: 600px){
+      font-size: 30px;
+    }
+  }
+
+  .main-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    @media (max-width: 800px){
+      font-size: 14px;
+    }
+  }
+
+  .btn-danger{
+    border: none;
+    border-radius: 2px;
+    background-color: #ff1d1d!important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 7px 50px;
+    margin-bottom: 20px;
+    @media (max-width: 600px){
+      font-size: 18px;
+      padding: 7px 40px;
+    }
+  }
+
+  .banner {
+    padding:50px;
+    background-image: url(../img/banner-4.jpg);
+    background-size: cover;
+
+    .main-text{
+      margin-bottom: 40px;
+    }
+
+    .banner-logo{
+      margin-bottom: 40px;
+    }
+
+    @media (min-width: 768px) {
+      min-height: 740px;
+      padding: 200px 0 70px 0;
+      .main-text{
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  .main-content{
+    background-color: #0a0b0c;
+    padding: 50px 0 200px 0;
+    @media (max-width: 600px) {
+      padding-bottom: 50px;
+    }
+
+    .text-danger{
+      color: #ff1d1d!important;
+    }
+
+    .title{
+      margin-top: 100px;
+      margin-bottom: 60px;
+      color: #fff;
+      &:first-of-type{
+        margin-top: 0;
+      }
+      @media (max-width: 600px) {
+        margin: 30px 0;
+      }
+    }
+
+    .section-title{
+      font-family: 'Oswald', sans-serif;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-top: 0;
+      @media (max-width: 800px){
+        font-size: 20px;
+        margin-top: 30px;
+        br{
+          display: none;
+        }
+      }
+    }
+
+    .main-text{
+      margin-bottom: 40px;
+      max-width: 430px;
+    }
+
+    .btn-danger{
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      padding: 10px 30px;
+    }
+  }
+}

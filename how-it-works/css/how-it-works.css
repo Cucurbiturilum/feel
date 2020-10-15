@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+.template-how-it-work-page {
+  background-color: #0a0b0c;
+  padding-bottom: 90px;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page {
+    padding-bottom: 50px;
+  }
+}
+.template-how-it-work-page .title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .title {
+    font-size: 25px;
+  }
+}
+.template-how-it-work-page .main-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .main-text {
+    font-size: 14px;
+  }
+}
+.template-how-it-work-page .top-side {
+  padding: 60px 0;
+}
+.template-how-it-work-page .started .stages {
+  margin-bottom: 100px;
+}
+.template-how-it-work-page .started .stages .stage-item {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .started .stages .stage-item .card-text {
+    font-size: 8px;
+  }
+  .template-how-it-work-page .started .stages .stage-item .card-text br {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .started .stages .stage-item .card-img-top {
+    max-width: 50px;
+    margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .started .stages .arrow {
+    max-width: 40px;
+  }
+}
+.template-how-it-work-page .started .media {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.template-how-it-work-page .started .media .media-img {
+  max-width: 125px;
+  margin-right: 20px;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .started .media .media-img {
+    max-width: 60px;
+  }
+}
+.template-how-it-work-page .started .category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.template-how-it-work-page .started .category .category-item {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  background-color: #f57e2d;
+  color: #fff;
+  min-width: 150px;
+  font-size: 18px;
+  margin: 0 15px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.template-how-it-work-page .started .category .category-item.active {
+  background-color: #240f1c;
+}
+.template-how-it-work-page .started .category .category-item:hover {
+  opacity: 0.9;
+}
+@media (max-width: 600px) {
+  .template-how-it-work-page .started .category .category-item {
+    min-width: 50px;
+    font-size: 12px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+}
+.template-how-it-work-page .started .link-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #f57e2d;
+}
+.template-how-it-work-page .started .price {
+  margin-bottom: 40px;
+}
+.template-how-it-work-page .started .price .price-img {
+  max-width: 160px;
+}
+.template-how-it-work-page .started .price .text-warning {
+  color: #f57e2d !important;
+}
+.template-how-it-work-page .started .price .strikethrough-diagonal {
+  position: relative;
+}
+.template-how-it-work-page .started .price .strikethrough-diagonal:before {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: 45%;
+  right: 25px;
+  border-top: 3px solid #f57e2d;
+  -webkit-transform: skewY(-30deg);
+  -moz-transform: skewY(-30deg);
+  transform: skewY(-30deg);
+}
+.template-how-it-work-page .started .btn-warning {
+  background-color: #f57e2d !important;
+  border: none;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 10px 50px;
+}
+
+/*# sourceMappingURL=how-it-works.css.map */
