@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+.template-toys {
+  background-color: #000;
+}
+.template-toys .title {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .template-toys .title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+.template-toys .main-text {
+  font-family: "Poppins", sans-serif;
+  max-width: 900px;
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .template-toys .main-text {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .main-text {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+}
+.template-toys .button-group {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .template-toys .button-group {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .button-group {
+    margin-bottom: 60px;
+  }
+}
+.template-toys .btn-warning {
+  background-color: #f6883d !important;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  border-radius: 3px;
+  font-size: 22px;
+  padding: 10px 50px;
+  min-width: 200px;
+}
+.template-toys .section-1 {
+  padding: 50px 20px;
+}
+@media (min-width: 768px) {
+  .template-toys .section-1 {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .section-1 {
+    padding: 135px 0 100px 0;
+  }
+}
+.template-toys .section-1 .title {
+  max-width: 80%;
+  font-size: 26px;
+}
+@media (min-width: 768px) {
+  .template-toys .section-1 .title {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .section-1 .title {
+    font-size: 55px;
+  }
+}
+.template-toys .section-2 {
+  background-color: #111111;
+  overflow: hidden;
+  padding: 50px 20px;
+}
+@media (min-width: 768px) {
+  .template-toys .section-2 {
+    padding: 100px 0;
+    background-image: url(../img/girls.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 130%;
+  }
+}
+@media (min-width: 1024px) {
+  .template-toys .section-2 {
+    background-position: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .section-2 {
+    padding: 135px 0 100px 0;
+    background-position: 95%;
+  }
+}
+.template-toys .section-2 .keon-img {
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .template-toys .section-2 .keon-img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .template-toys .section-2 .main-text {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+}
+.template-toys .section-3, .template-toys .section-4 {
+  padding: 50px 0;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+@media (min-width: 768px) {
+  .template-toys .section-3, .template-toys .section-4 {
+    padding: 100px 0;
+  }
+}
+.template-toys .section-4 {
+  background-position: left;
+}
+.template-toys .section-5 {
+  padding-bottom: 70px;
+}
+.template-toys .section-5 .card {
+  padding: 20px;
+  border-radius: 0;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .template-toys .section-5 .card {
+    padding: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .section-5 .card {
+    padding: 50px;
+  }
+}
+.template-toys .section-5 .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.template-toys .section-5 .card .card-body .card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+.template-toys .section-5 .card .card-body .subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 7px;
+}
+.template-toys .section-5 .card .card-body .card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+.template-toys .section-5 .card .card-body .button-group .btn-warning {
+  font-size: 20px;
+  width: 200px;
+  border-radius: 0;
+}
+.template-toys .section-5 .card.card-1, .template-toys .section-5 .card.card-2, .template-toys .section-5 .card.card-3, .template-toys .section-5 .card.card-4, .template-toys .section-5 .card.card-5, .template-toys .section-5 .card.card-6 {
+  background-image: url(../img/girl-1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.template-toys .section-5 .card.card-2, .template-toys .section-5 .card.card-3, .template-toys .section-5 .card.card-4, .template-toys .section-5 .card.card-5, .template-toys .section-5 .card.card-6 {
+  background-image: url(../img/girl-2.png);
+}
+.template-toys .section-5 .card.card-2 img, .template-toys .section-5 .card.card-3 img, .template-toys .section-5 .card.card-4 img, .template-toys .section-5 .card.card-5 img, .template-toys .section-5 .card.card-6 img {
+  margin-bottom: -40px;
+}
+.template-toys .section-5 .card.card-3 {
+  background-image: url(../img/girl-3.png);
+}
+.template-toys .section-5 .card.card-4 {
+  background-image: url(../img/girl-4.png);
+}
+.template-toys .section-5 .card.card-5 {
+  background-image: url(../img/girl-5.png);
+}
+.template-toys .section-5 .card.card-6 {
+  background-image: url(../img/girl-6.png);
+}
+.template-toys .section-6 {
+  padding-bottom: 50px;
+}
+@media (min-width: 1024px) {
+  .template-toys .section-6 {
+    padding-bottom: 100px;
+  }
+}
+.template-toys .section-7 {
+  padding-bottom: 70px;
+}
+.template-toys .section-7 .registration-form {
+  background-color: #252525;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .template-toys .section-7 .registration-form {
+    padding: 40px;
+  }
+}
+.template-toys .section-7 .registration-form .title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .template-toys .section-7 .registration-form .title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-toys .section-7 .registration-form .title {
+    font-size: 35px;
+  }
+}
+.template-toys .form-group {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+}
+.template-toys .form-group .form-control {
+  background-color: transparent;
+  border: none;
+  width: 70%;
+  display: inline-block;
+}
+.template-toys .form-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+@media (max-width: 600px) {
+  .template-toys .form-group .form-control {
+    width: 100%;
+    height: 60px;
+  }
+}
+.template-toys .form-group .btn-warning {
+  display: inline-block;
+  width: 29%;
+  color: #fff;
+  border-radius: 7px;
+}
+@media (max-width: 600px) {
+  .template-toys .form-group .btn-warning {
+    width: 100%;
+  }
+}
+.template-toys .modal-content {
+  background-color: #252525;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .template-toys .modal-content {
+    padding: 80px;
+  }
+}
+.template-toys .modal-content .main-text {
+  font-family: "Oswald", sans-serif;
+}
+.template-toys .modal-content .form-group {
+  display: flex;
+  align-items: center;
+}
+.template-toys .modal-content .form-group .form-group {
+  width: 55%;
+}
+@media (max-width: 600px) {
+  .template-toys .modal-content .form-group .form-group {
+    width: 100%;
+    height: 60px;
+  }
+}
+.template-toys .modal-content .form-group .btn-warning {
+  width: 45%;
+  padding: 10px 0;
+}
+@media (max-width: 600px) {
+  .template-toys .modal-content .form-group .btn-warning {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=toys.css.map */
