@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+.template-content {
+  background-color: #0a0b0c;
+}
+.template-content .title {
+  font-family: "Oswald", sans-serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .template-content .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-content .title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+}
+.template-content .main-text {
+  font-family: "Poppins", sans-serif;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.template-content .main-text span {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .template-content .main-text {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .template-content .main-text span {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-content .main-text {
+    font-size: 21px;
+    margin-bottom: 60px;
+  }
+  .template-content .main-text span {
+    font-size: 21px;
+  }
+}
+.template-content .text-warning {
+  color: #f6883d !important;
+}
+.template-content .btn-warning {
+  background-color: #f6883d !important;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  border-radius: 3px;
+  font-size: 22px;
+  padding: 10px 70px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .template-content .btn-warning {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-content .btn-warning {
+    margin-bottom: 60px;
+  }
+}
+.template-content .banner {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  padding: 50px 0;
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  .template-content .banner {
+    padding: 100px 0;
+  }
+}
+.template-content .earn {
+  padding: 50px 0;
+  background: #0a0b0c url("../img/earn.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .template-content .earn {
+    min-height: 639px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .template-content .earn .main-text {
+    width: 600px;
+  }
+}
+.template-content .section-3 {
+  padding: 50px 0;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .template-content .section-3 {
+    padding: 150px 0;
+  }
+}
+.template-content .section-3 .main-text:last-of-type {
+  max-width: 1000px;
+}
+.template-content .section-3 .iphone-img {
+  position: absolute;
+  top: -90%;
+  right: 5%;
+}
+@media (max-width: 1020px) {
+  .template-content .section-3 .iphone-img {
+    display: none;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1200px) {
+  .template-content .section-3 .iphone-img {
+    width: 150px;
+    top: -60%;
+  }
+}
+
+/*# sourceMappingURL=content.css.map */
