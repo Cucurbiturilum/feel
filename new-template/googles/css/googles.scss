@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+.template-vr {
+  background-color: #0a0b0c;
+
+  .title {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    @media (min-width: 768px) {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .main-text {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 40px;
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 22px;
+    }
+  }
+
+  .btn-danger {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 12px 50px;
+    font-size: 20px;
+    background-color: #ff1d1d !important;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  .banner {
+    background-image: url(../img/banner-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0;
+    @media (min-width: 1024px) {
+      min-height: 735px;
+    }
+
+    .banner-img {
+      margin-bottom: 40px;
+    }
+
+    .main-text {
+      margin-bottom: 60px;
+      @media (min-width: 768px) {
+        margin-bottom: 80px;
+      }
+      @media (min-width: 1024px) {
+        margin-bottom: 120px;
+      }
+    }
+
+    .btn-danger {
+      font-family: "Oswald", sans-serif;
+    }
+  }
+
+  .vr-type-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media (max-width: 767px) {
+      &:nth-of-type(2), &:nth-of-type(5) {
+        flex-direction: column-reverse;
+      }
+    }
+    @media (min-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @media (min-width: 1200px) {
+      padding: 100px 150px;
+      &:last-child {
+        padding-bottom: 200px;
+      }
+    }
+
+
+    .title {
+      @media (min-width: 768px) {
+        margin-bottom: 50px;
+      }
+      @media (min-width: 1200px) {
+        margin-bottom: 70px;
+      }
+    }
+
+    .subtitle {
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      color: #ff1d1d;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      @media (min-width: 768px) {
+        font-size: 25px;
+      }
+      @media (min-width: 1024px) {
+        font-size: 35px;
+      }
+    }
+
+    .img-fluid {
+      @media (max-width: 768px) {
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+    }
+  }
+}
