@@ -1,0 +1,1229 @@
+/* menu css start */
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    margin: 0 0 38px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 11px 17px 11px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #f01313;
+    color: white;
+}
+
+/* menu css end */
+
+
+/* .video.main_sec111 {
+    transform: skew(0deg, 4deg);
+}
+.video.main_sec112 {
+    transform: skew(1deg, -3deg);
+} */
+
+.video_right_sec h1:hover {
+    color: #f01313;
+    cursor: pointer;
+}
+
+.confirm_sec a:hover {
+    background: #ff7d2e;
+}
+
+.change_password_sec a:hover {
+    background: #ff7d2e;
+}
+
+.change_password_sec1 a:hover {
+    background: #ff7d2e;
+}
+
+.Password input::placeholder {
+    color: #fff;
+}
+
+.update_sec a:hover {
+    background: #ff7d2e;
+    border-color: #ff7d2e;
+}
+
+.video_porn_main_sec h2:hover {
+    color: #f11312;
+    cursor: pointer;
+}
+
+.channels_sec i:hover {
+    color: #f11312;
+    cursor: pointer;
+}
+
+.channels_sec p:hover {
+    color: #f11312;
+    cursor: pointer;
+}
+
+.go_back_left a:hover {
+    background: #ff7d2e;
+}
+
+.go_back_right a:hover {
+    background: #ff7d2e;
+}
+
+li.Directory a:hover {
+    background: #f01313;
+}
+
+.video_left_sec h1:hover {
+    color: #f01313;
+    cursor: pointer;
+}
+
+.video_right
+_sec h1:hover {
+    color: #f01313;
+    cursor: pointer;
+}
+
+/*----------------- video page css------------------ */
+.headre_top_sec {
+    width: 100%;
+    float: left;
+    background-image: url('../img/main/backimage.png');
+    background-size: 100% 100%;
+    padding: 0 0 50px;
+    /*height: 100%;*/
+    /*height: auto;*/
+    /*height: 100vh;*/
+}
+
+.headre_top_sec_footer {
+    width: 100%;
+    float: left;
+    background-size: 100% 100%;
+    padding: 0 0 50px;
+    background-color: #333333;
+    /*height: 100%;*/
+    /*height: auto;*/
+    /*height: 100vh;*/
+}
+
+.logo_sec {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.video.main_sec {
+    width: 100%;
+    float: left;
+}
+
+.video_left_sec {
+    width: 25%;
+    float: left;
+    /* background: #202022; */
+    padding: 55px 22px 65px;
+    border-radius: 14px;
+    /* transform: skew(-1deg, 12deg); */
+    background-image: url('../img/main/c3.png');
+    background-size: 100% 100%;
+    margin: -33px 0;
+}
+
+.video_center_sec {
+    width: 47%;
+    float: left;
+    margin: 0 17px;
+}
+
+.video_right_sec {
+    width: 25%;
+    float: left;
+    /* background: #202022; */
+    padding: 61px 25px 27px;
+    border-radius: 14px;
+    /* transform: skew(-1deg, -10deg); */
+    background-image: url('../img/main/c4.png');
+    background-size: 100% 100%;
+    margin: -33px 0;
+}
+
+.video_center_sec img {
+    width: 100%;
+    height: auto;
+}
+
+.logo_sec img {
+    width: 300px;
+    height: auto;
+}
+
+.horny {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.horny h2 {
+    color: #fff;
+    font-size: 19px;
+    padding: 18px 0;
+}
+
+.horny img {
+    width: 342px;
+    height: auto;
+}
+
+.video_left_sec h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 25px 15px;
+}
+
+.video_left_sec li {
+    display: inline-block;
+    padding: 0 13px;
+}
+
+.video_left_sec i {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* .video_left_sec i.fa.fa-youtube-play {
+    color: #f11312;
+} */
+.video_left_sec p {
+    color: #fff;
+    font-family: gotham_lightregular;
+    font-size: 18px;
+}
+
+.channels_sec {
+    width: 100%;
+    float: left;
+    padding: 12px 0;
+}
+
+.you_tube_sec {
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+.you_tube_sec_one {
+    width: 60%;
+    float: left;
+    text-align: left;
+    margin: 0 24px;
+}
+
+.you_tube_sec_two {
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+.video_right_sec h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 25px 15px;
+}
+
+.video_right_sec i.fa.fa-trash {
+    float: right;
+}
+
+.video_porn_main_sec {
+    width: 100%;
+    float: left;
+    padding: 6px 0;
+}
+
+.video_porn_left_sec {
+    width: 20%;
+    float: left;
+}
+
+.video_porn_right_sec {
+    width: 70%;
+    float: left;
+    margin: 0 11px;
+}
+
+.video_porn_left_sec img {
+    width: 100%;
+    height: auto;
+}
+
+.video_porn_right_sec h2 {
+    color: #fff;
+    font-family: gotham_lightregular;
+    font-size: 14px;
+}
+
+.video_porn_right_sec p {
+    color: #6b6c70;
+}
+
+.you_tube_sec_two i.fa.fa-angle-right {
+    color: #555555;
+    cursor: pointer;
+}
+
+.you_tube_sec_two i.fa.fa-angle-right:hover {
+    color: #fddb7a;
+    cursor: pointer;
+}
+
+/*----------------- video page css end------------------ */
+
+
+.video_center_sec_account {
+    width: 47%;
+    float: left;
+    margin: 0 17px;
+    background-image: url('../img/main/accountback1.png');
+    /*padding: 25px 0 37px;*/
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+
+.video_center_sec_account_36 {
+    /*width: 36%;*/
+    float: left;
+    /*margin: 0 17px;*/
+    background-image: url('../img/main/accountback1.png');
+    /*padding: 25px 0 37px;*/
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+
+.account_sec {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 6px 0 0;
+}
+
+.account_sec a {
+    background: #f01313;
+    color: #fff;
+    padding: 6px 25px;
+    border-radius: 30px;
+    font-family: gotham_boldregular;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.account_sec {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.change_password_sec a {
+    background: #f01313;
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 30px;
+    font-family: gotham_boldregular;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.change_password_sec {
+    width: 55%;
+    /* float: left; */
+    text-align: center;
+    padding: 25px 0 200px;
+    background: #bdbdbd;
+    margin: 45px auto 0;
+    border-radius: 11px;
+}
+
+.Password {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 0 30px;
+    margin: 12px 0 0;
+}
+
+.Password input {
+    background: #cf8282;
+    border: none;
+    height: 29px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 0 32px;
+}
+
+.Password h1 {
+    font-family: gotham_boldregular;
+    padding: 7px 0;
+}
+
+.confirm_sec {
+    width: 100%;
+    float: left;
+    margin: 17px 0 0;
+}
+
+.confirm_sec p {
+    font-family: gotham_lightregular;
+    color: #000;
+    padding: 6px 0 0;
+}
+
+.confirm_sec a {
+    text-transform: capitalize;
+    padding: 5px 12px;
+}
+
+.user {
+    padding: 0 14px;
+    color: #fff;
+    margin: -25px 0 0;
+    width: 30px;
+}
+
+.user i {
+    font-size: 14px;
+
+}
+
+
+/* ---------------Most popular css ----------------*/
+
+
+.anal_sec {
+    width: 100%;
+    float: left;
+    margin: 24px 0 0;
+}
+
+.anal_sec_2 {
+    width: 100%;
+    float: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.anal_sec li {
+    display: inline;
+    width: 20%;
+    float: left;
+    margin: 0 30px;
+    position: relative;
+}
+
+.anal_sec img {
+    width: 141px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.anal_sec h1 {
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    right: 0;
+    text-align: center;
+    font-family: gotham_boldregular;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.anal_sec li {
+    display: inline;
+    width: 20%;
+    float: left;
+    margin: 0 30px 15px;
+    position: relative;
+}
+
+.anal_sec h3 {
+    color: #fff;
+    font-size: 14px;
+    font-family: gotham_boldregular;
+    width: 100%;
+    float: left;
+    padding: 11px 0 0;
+}
+
+.anal_sec p {
+    color: #6b6c70;
+}
+
+
+/*---------------- All fies directory css-------------- */
+
+.account_sec li {
+    display: inline;
+}
+
+li.Directory a {
+    background: #323436;
+    border-radius: 0px 30px 30px 0px;
+}
+
+li.files a {
+    border-radius: 30px 0px 0 30px;
+}
+
+/* ----------------User Login css--------------- */
+
+.video_left_sec1 {
+    width: 30%;
+    float: left;
+}
+
+.video_right_sec1 {
+    width: 30%;
+    float: left;
+}
+
+.video_left_sec1 img {
+    width: 100%;
+    height: auto;
+}
+
+.video_right_sec1 img {
+    width: 100%;
+    height: auto;
+}
+
+.video_center_sec_account1 {
+    width: 30%;
+    float: left;
+    margin: 0 56px;
+
+}
+
+.change_password_sec1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 25px 0 0px;
+    /* background: #bdbdbd; */
+    margin: 0 auto 0;
+    border-radius: 0 0 11px 11px;
+    background: #202022;
+}
+
+.account_sec img {
+    /*width: 100%;*/
+    height: auto;
+    position: relative;
+}
+
+.change_password_sec1 a {
+    background: #f01313;
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 30px;
+    font-family: gotham_boldregular;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.Password1 h1 {
+    font-family: gotham_boldregular;
+    padding: 7px 0;
+    color: #fff;
+}
+
+.Password1 input {
+    background: #691b1d;
+    border: none;
+    height: 29px;
+    /*width: 100%;*/
+    border-radius: 50px;
+    color: #fff;
+    padding: 0 32px;
+}
+
+.Password1 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 0 30px;
+    margin: 21px 0 0;
+}
+
+.confirm_sec1 p {
+    font-family: gotham_lightregular;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.confirm_sec1 {
+    width: 100%;
+    float: left;
+    margin: 17px 0 0;
+}
+
+.logo_sec1 {
+    position: absolute;
+    bottom: 79px;
+    left: 0;
+    right: 0;
+}
+
+.logo_sec1 img {
+    width: 273px;
+    height: auto;
+}
+
+.account_sec {
+
+    position: relative;
+}
+
+.Password1 input::placeholder {
+    font-family: gotham_boldregular;
+    color: #fff;
+    text-align: center;
+}
+
+.forget_password_sec {
+    width: 100%;
+    float: left;
+    padding: 16px 36px;
+}
+
+.forget_password_left_sec {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.forget_password_right_sec {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.forget_password_left_sec p {
+    color: #fff;
+}
+
+.forget_password_right_sec p {
+    color: #fff;
+}
+
+
+/* --------------cancle_membership -------------------*/
+
+
+.headre_top_sec1 {
+    width: 100%;
+    float: left;
+    background-image: url('../img/main/backimage.png');
+    background-size: 100% 100%;
+    padding: 0 0 100px;
+    /* height: 800px; */
+}
+
+.cancle_membership {
+    width: 100%;
+    float: left;
+    padding: 0 26px;
+}
+
+.cancle_membership h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0 0 9px;
+}
+
+.cancle_membership p {
+    color: #fff;
+
+}
+
+.cancle_membership span {
+    margin: 0 9px;
+}
+
+.cancle_membership textarea {
+    width: 100%;
+    float: left;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 8px 0;
+    height: 50px;
+    color: #000;
+}
+
+.go_back_left {
+    width: 50%;
+    float: left;
+}
+
+.go_back_right {
+    width: 50%;
+    float: left;
+}
+
+.go_back_right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.go_back_left a {
+    background: #f01313;
+    color: #fff;
+    padding: 10px 32px;
+    border-radius: 3px;
+    font-family: gotham_boldregular;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.go_back_right a {
+    background: #3cb879;
+    color: #fff;
+    padding: 10px 32px;
+    border-radius: 3px;
+    font-family: gotham_boldregular;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.back_main_sec {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+
+
+/* ------------------Account details css-------------------- */
+
+.add_device {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 13px 0 0;
+}
+
+.add_device a {
+    color: #ff7d2e;
+    text-decoration: underline;
+}
+
+.add_device i {
+    color: #fff;
+    padding: 0 8px;
+}
+
+.account_detail_sec {
+    width: 100%;
+    float: left;
+    padding: 0 23px;
+}
+
+.account_detail_sec h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.account_detail_sec li {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    margin: 19px 0 0;
+}
+
+.account_detail_sec p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.account_detail_sec a {
+    color: #ff7d2e;
+}
+
+.update_sec {
+    width: 100%;
+    float: left;
+    padding: 19px 23px;
+}
+
+.update_sec li {
+    display: inline;
+    margin: 0 25px;
+}
+
+.update_sec a {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 12px;
+    border: 2px solid #8c1e1e;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.edit_sec h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0 0 9px;
+}
+
+.edit_sec {
+    width: 100%;
+    float: left;
+    padding: 18px 23px;
+}
+
+.edit_sec img {
+    width: 50px;
+}
+
+.edit_sec span {
+    color: #fff;
+    font-family: gotham_lightregular;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 0 23px;
+}
+
+.edit_sec p {
+    color: #fff;
+    font-family: gotham_lightregular;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+
+.edit_sec1 h1 {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0 0 9px;
+}
+
+.edit_sec1 {
+    width: 100%;
+    float: left;
+    padding: 0px 23px;
+}
+
+ul.credit li {
+    display: inline-block;
+    margin: 0 35px 12px 0px;
+    color: #fff;
+}
+
+ul.credit span {
+    float: right;
+}
+
+ul.credit a {
+    color: #0d531a;
+    font-weight: bold;
+}
+
+.headre_top_sec2 {
+    width: 100%;
+    float: left;
+    background-image: url('../img/main/backimage.png');
+    background-size: 100% 100%;
+    padding: 0 0 50px;
+
+}
+
+.scrool_sec {
+    height: 110px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.red_button {
+    border: 0px;
+    background: #f01313;
+    color: #fff;
+    /*padding: 6px 25px;*/
+    border-radius: 30px;
+    font-family: gotham_boldregular;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.red_button:hover {
+    border: 0px;
+    background: #f01313;
+    color: #fff;
+    /*padding: 6px 25px;*/
+    border-radius: 30px;
+    font-family: gotham_boldregular;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text_white {
+    font-size: 14px;
+    color: #fff;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+}
+
+.text_white_12 {
+    font-size: 12px;
+    color: #fff;
+}
+
+.text_black_12, a, span {
+    font-size: 12px;
+    color: #000000;
+}
+
+.text_white_14 {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.text_rood_12 {
+    font-size: 12px;
+    color: #f01313;
+}
+
+.fa-plus-circle {
+    color: white;
+}
+
+.h1_e {
+    color: #fff;
+    font-family: gotham_boldregular;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+nav .status-device {
+    padding-right: 15px;
+    color: #fff !important;
+}
+
+.connected {
+    color: #14d614 !important;
+}
+
+.not-connected {
+    color: #ff0000 !important;
+}
+
+
+nav.navbar {
+    font-size: 14px;
+    padding: 4px 8px;
+    background-color: #000 !important;
+}
+
+nav .navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+nav .navbar-brand img {
+    border-left: 1px solid #1f1f1f;
+    border-right: 1px solid #1f1f1f;
+}
+
+nav a.nav-link {
+    color: #fa8c1d !important;
+}
+
+nav .dropdown-menu {
+    top: 40px;
+    border: 0;
+    border-radius: 0;
+    background: #7a0026; /*#222;*/
+}
+
+nav a.dropdown-item {
+    color: #fa8c1d;
+}
+
+nav a.dropdown-item:hover, nav a.dropdown-item:focus {
+    background: #55001b;
+    color: #fa8c1d;
+}
+
+nav .dropdown-connection {
+    background: #000;
+    text-align: center;
+    padding: 8px;
+}
+
+nav .dropdown-connection span {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav .dropdown-connection a {
+    font-size: 13px;
+}
+
+nav .status-device {
+    padding-right: 15px;
+    color: #fff !important;
+}
+
+nav .status-device .connected {
+    color: #14d614 !important;
+}
+
+nav .status-device .not-connected {
+    color: #ff0000 !important;
+}
+
+nav .search-input {
+    background: grey;
+    padding: 5px;
+    width: 150px;
+    font-size: 14px;
+    margin-right: 8px !important;
+    border-radius: 4px !important;
+}
+
+nav .notifications-btn, nav .notifications-btn:focus {
+    /* background: #fa8c1d; */
+    background: #000;
+    padding: 5px;
+    height: 29px !important;
+    width: 29px !important;
+    font-size: 14px;
+    /* color: #000; */
+    color: #fff;
+    border-radius: 4px !important;
+}
+
+
+nav .notifications-panel {
+    position: absolute;
+    top: 49px;
+    right: 0;
+    width: 400px;
+    color: #000;
+    z-index: 10;
+}
+
+nav .notifications-panel .panel-header {
+    background: #fa8c1d;
+}
+
+nav .notifications-panel h6 {
+    margin-bottom: 2px;
+    text-align: left;
+    padding: 10px;
+}
+
+nav .notifications-panel a {
+    font-size: 12px;
+    line-height: 39px;
+    vertical-align: middle;
+    margin: 10px;
+    color: #000;
+}
+
+nav .notifications-panel .notification:nth-child(odd) {
+    background: rgba(95, 8, 72, 0.8);
+}
+
+nav .notifications-panel .notification:nth-child(even) {
+    background: rgba(95, 8, 72, 0.7);
+}
+
+nav .notifications-panel button {
+    font-size: 10px;
+    width: 100% !important;
+    text-align: center;
+    display: block;
+    background: #bbbbbb;
+    color: #000;
+}
+
+nav .notifications-panel .message {
+    color: #fff;
+    padding: 8px 16px;
+}
+
+nav .notifications-panel .actions {
+    float: right;
+    width: 80px;
+    padding: 2px;
+}
+
+nav .navbar-toggler {
+    right: 5px;
+}
+
+nav .profile-btn, nav .profile-btn:focus {
+    background: #363636 !important;
+    box-shadow: none !important;
+    padding: 5px 5px 5px 40px;
+    font-size: 14px;
+    color: #fff !important;
+    border: 0;
+    border-radius: 4px !important;
+    height: 29px !important;
+    margin: 3px 0;
+    position: relative;
+}
+
+nav .profile-btn .profile-image {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 29px;
+}
+
+.connect-images .connect-step {
+    padding: 6px;
+}
+
+@media (max-width: 768px) {
+    .logout {
+        position: absolute;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+        z-index: 999;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .logout {
+        position: absolute;
+        text-align: right;
+        padding-right: 150px;
+        padding-top: 10px;
+        width: 100%;
+        z-index: 999;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1600px;
+    }
+}
+.collapse {
+    display: none;
+    visibility: visible;
+}
+.badge_custom {
+    font-weight: bold;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 26px;
+    background-color: #000000;
+    height: 26px;
+    display: inline-block;
+}
+.badge_custom_txt_act {
+}
+.hide_categories {
+    display: none;
+}
+.hide_pornstars {
+    display: none;
+}
+.badge_custom_act {
+    font-weight: bold;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 26px;
+    background-color: #ffffff;
+    height: 26px;
+    display: inline-block;
+    opacity: 0.5;
+}
+.badge_custom_txt_act {
+    color: #000000;
+}
+.dur_active {
+    background-color: white;
+    padding: 2px 4px;
+    color: black;
+}
+.button_notselected{
+    background-color: black;
+    color: white;
+}
+.button_selected{
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+}
