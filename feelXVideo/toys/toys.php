@@ -23,7 +23,7 @@
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/template_B4-5.css">
-    <link rel="stylesheet" type="text/css" href="css/toys.css">
+    <link rel="stylesheet" type="text/css" href="../../new-template/toys/css/toys.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b48621f243.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
