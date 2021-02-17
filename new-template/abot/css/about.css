@@ -1,7 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
 .template-about {
   background: #000;
   font-family: "Roboto", sans-serif;
+}
+.template-about .navbar {
+  background: #351226 !important;
+  flex-direction: row;
+  padding: 15px;
+}
+@media (min-width: 1024px) {
+  .template-about .navbar {
+    padding: 38px;
+  }
+}
+.template-about .navbar .navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+  width: auto;
+  height: auto;
+}
+@media (max-width: 1023px) {
+  .template-about .navbar .navbar-brand {
+    flex-basis: 35%;
+  }
+}
+.template-about .navbar .navbar-collapse {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.template-about .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF !important;
+  padding: 7px 0;
+}
+@media (min-width: 1024px) {
+  .template-about .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    padding: 0 33px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-about .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 30px;
+  }
+}
+.template-about .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+  color: #f6883d !important;
+  background: transparent;
+}
+.template-about .navbar .btn-warning {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  padding: 2px 15px;
+}
+@media (min-width: 768px) {
+  .template-about .navbar .btn-warning {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .template-about .navbar .btn-warning {
+    font-size: 30px;
+    padding: 5px 40px;
+  }
 }
 .template-about .hero, .template-about .connect, .template-about .action, .template-about .library, .template-about .titles, .template-about .see-more {
   background-image: url("../img/hero-img.png");
@@ -50,6 +112,7 @@
   font-size: 20px;
   padding: 15px 50px;
   margin-bottom: 40px;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .template-about .btn-warning {
@@ -182,6 +245,10 @@
 }
 .template-about .see-more {
   background: top/cover no-repeat url("../img/group-17.png");
+}
+
+.template_footer {
+  background: #351226 !important;
 }
 
 /*# sourceMappingURL=about.css.map */
