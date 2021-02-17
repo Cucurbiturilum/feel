@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+.template-reactive {
+  font-family: "Poppins", sans-serif;
+}
+.template-reactive .top-section {
+  background-color: #5B0627;
+  padding: 30px 0 25px 0;
+}
+@media (min-width: 768px) {
+  .template-reactive .top-section {
+    padding: 50px 0 45px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .top-section {
+    padding: 78px 0 65px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .col-12 {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+.template-reactive .logo-img {
+  max-width: 90%;
+}
+.template-reactive .title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .template-reactive .title {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .title {
+    font-size: 55px;
+  }
+}
+.template-reactive .title strike {
+  text-decoration-color: #F6883D;
+}
+.template-reactive .title .text-attention {
+  color: #F6883D !important;
+  font-size: inherit;
+}
+.template-reactive .main-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .template-reactive .main-text {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .main-text {
+    font-size: 30px;
+  }
+}
+.template-reactive .main-text:nth-of-type(1) {
+  padding-top: 30px;
+}
+.template-reactive .main-text:nth-of-type(1):after {
+  content: "";
+  display: block;
+  background-color: #F6883D;
+  margin: 30px auto;
+  width: 100px;
+  height: 8px;
+}
+.template-reactive .btn-primary {
+  background-color: #F6883D !important;
+  border: none;
+  padding: 20px 0;
+  border-radius: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .template-reactive .btn-primary {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .btn-primary {
+    font-size: 36px;
+    padding: 30px 0;
+    margin-bottom: 45px;
+  }
+}
+.template-reactive .flipdown {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+@media (min-width: 1200px) {
+  .template-reactive .list-items {
+    width: 75%;
+  }
+}
+.template-reactive .list-items .list-item {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: start;
+}
+@media (min-width: 768px) {
+  .template-reactive .list-items .list-item {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .list-items .list-item {
+    font-size: 30px;
+  }
+}
+.template-reactive .list-items .list-item:before {
+  content: url(../img/star.svg);
+  display: block;
+  margin-right: 30px;
+}
+.template-reactive .dark-section {
+  background: #0F0F0F;
+  padding: 30px 0 60px 0;
+}
+@media (min-width: 768px) {
+  .template-reactive .dark-section {
+    padding: 40px 0 70px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .template-reactive .dark-section {
+    padding: 50px 0 80px 0;
+  }
+}
+
+/*# sourceMappingURL=reactive.css.map */
