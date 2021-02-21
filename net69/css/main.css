@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap");
+.home-template {
+  background-color: #2D2928;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 1024px) {
+  .home-template .container-fluid {
+    max-width: 95%;
+    margin: auto;
+  }
+}
+.home-template .hero {
+  padding-top: 50px;
+}
+@media (min-width: 1024px) {
+  .home-template .hero {
+    padding-top: 80px;
+  }
+}
+.home-template .hero, .home-template .sex-toys {
+  padding-bottom: 50px;
+}
+@media (min-width: 1024px) {
+  .home-template .hero, .home-template .sex-toys {
+    padding-bottom: 80px;
+  }
+}
+.home-template .title {
+  font-size: 8vw;
+  margin-bottom: 1.875rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .home-template .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1220px) {
+  .home-template .title {
+    font-size: 4rem;
+    margin-bottom: 3.75rem;
+  }
+}
+.home-template .section-title {
+  font-size: 8vw;
+  margin-bottom: 1.875rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .home-template .section-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1220px) {
+  .home-template .section-title {
+    font-size: 4rem;
+    margin-bottom: 2.875rem;
+  }
+}
+.home-template .section-title.get-yours-title {
+  padding: 50px 0;
+}
+@media (min-width: 1024px) {
+  .home-template .section-title.get-yours-title {
+    padding: 80px 0;
+  }
+}
+.home-template .hero-text {
+  font-size: 4vw;
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 768px) {
+  .home-template .hero-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .home-template .hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 3.125rem;
+  }
+}
+.home-template .section-text {
+  font-size: 4vw;
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 768px) {
+  .home-template .section-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .section-text {
+    font-size: 1.17rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .home-template .section-text {
+    font-size: 1.375rem;
+    margin-bottom: 3.125rem;
+  }
+}
+.home-template .btn-success {
+  font-family: "Oswald", sans-serif;
+  background-color: #45A709 !important;
+  border-radius: 5px;
+  padding: 10px 26px;
+  font-size: 1.25rem;
+}
+@media (min-width: 1024px) {
+  .home-template .btn-success {
+    font-size: 1.45rem;
+  }
+}
+@media (min-width: 1200px) {
+  .home-template .btn-success {
+    font-size: 1.625rem;
+  }
+}
+.home-template .meet-girls {
+  background-image: url(../img/realm_pornstars_mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 45px 0;
+}
+@media (min-width: 1024px) {
+  .home-template .meet-girls {
+    background-image: url(../img/realm_pornstars.jpg);
+    padding: 100px 0;
+  }
+}
+.home-template .get-yours {
+  background-image: url(../img/titan_by_kiiroo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 45px 0;
+}
+.home-template .get-yours .section-title {
+  margin-bottom: 50px;
+  font-size: 6vw;
+}
+@media (min-width: 768px) {
+  .home-template .get-yours .section-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .get-yours .section-title {
+    font-size: 2rem;
+    margin-bottom: 80px;
+    max-width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-template .get-yours .section-title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .home-template .get-yours {
+    background-image: url(../img/realm_pornstars_footer.jpg);
+    min-height: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .home-template .get-yours {
+    min-height: 585px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
