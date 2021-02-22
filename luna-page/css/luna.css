@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins&family=Roboto:wght@400;700&display=swap");
+.luna-template .header-template {
+  background-color: #351226;
+  padding: 17px 0;
+}
+.luna-template .header-template .logo-img {
+  max-width: 262px;
+}
+@media (min-width: 768px) {
+  .luna-template .container-fluid {
+    max-width: 95%;
+    margin: auto;
+  }
+}
+.luna-template .subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  margin-bottom: 30px;
+  max-width: 655px;
+}
+@media (min-width: 768px) {
+  .luna-template .subtitle {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .subtitle {
+    font-size: 29px;
+  }
+}
+.luna-template .section-title {
+  color: #060606;
+  font-family: "Oswald", sans-serif;
+  font-size: 6vw;
+  margin-bottom: 30px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .luna-template .section-title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .section-title {
+    font-size: 50px;
+  }
+}
+.luna-template .main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+  margin-bottom: 30px;
+  max-width: 610px;
+}
+@media (min-width: 768px) {
+  .luna-template .main-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .main-text {
+    font-size: 21px;
+    margin-bottom: 50px;
+  }
+}
+.luna-template .main-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3.5vw;
+  background: #FFA41D;
+  border-radius: 6px;
+  padding: 15px 25px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .luna-template .main-btn {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .main-btn {
+    font-size: 25px;
+  }
+}
+.luna-template .list-group {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+}
+.luna-template .list-group .list-item {
+  font-size: 3.7vw;
+  margin-bottom: 20px;
+  display: flex;
+}
+.luna-template .list-group .list-item:before {
+  content: url("../img/check.svg");
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFA41D;
+  margin-right: 20px;
+  border-radius: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .luna-template .list-group .list-item {
+    font-size: 18px;
+  }
+}
+.luna-template .text-warning {
+  color: #FFA41D;
+}
+.luna-template .hero, .luna-template .guarantee, .luna-template .offer, .luna-template .about {
+  background-color: #000;
+  padding: 50px 0;
+}
+@media (min-width: 1024px) {
+  .luna-template .hero, .luna-template .guarantee, .luna-template .offer, .luna-template .about {
+    padding: 85px 0;
+  }
+}
+.luna-template .hero .title, .luna-template .guarantee .title, .luna-template .offer .title, .luna-template .about .title {
+  color: #FFA41D;
+  font-family: "Oswald", sans-serif;
+  font-size: 6vw;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .luna-template .hero .title, .luna-template .guarantee .title, .luna-template .offer .title, .luna-template .about .title {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .hero .title, .luna-template .guarantee .title, .luna-template .offer .title, .luna-template .about .title {
+    font-size: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .luna-template .hero .row {
+    background-image: url(../img/hero-image.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.luna-template .accept-offer {
+  padding: 50px 0;
+}
+.luna-template .accept-offer .video-wrapper {
+  background: #351226;
+  padding: 30px 20px;
+}
+.luna-template .accept-offer .video-wrapper .embed-responsive {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .luna-template .accept-offer .video-wrapper {
+    padding: 50px 68px 70px 68px;
+  }
+  .luna-template .accept-offer .video-wrapper .embed-responsive {
+    margin-bottom: 80px;
+  }
+}
+.luna-template .futures {
+  background-color: #fff;
+}
+.luna-template .futures .row {
+  padding: 50px 0;
+}
+@media (min-width: 1024px) {
+  .luna-template .futures .row {
+    padding: 60px 0;
+    background-image: url(../img/luna-2.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.luna-template .futures .list-item {
+  color: #0F0F0F;
+}
+.luna-template .membership {
+  background-image: url(../img/membership-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.luna-template .membership .section-title {
+  max-width: 811px;
+}
+@media (min-width: 1200px) {
+  .luna-template .membership .section-title {
+    margin-bottom: 80px;
+  }
+}
+.luna-template .guarantee {
+  background-color: #fff;
+}
+.luna-template .guarantee .main-text {
+  max-width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.luna-template .offer {
+  background-image: url(../img/offer-bg.png);
+}
+@media (min-width: 1024px) {
+  .luna-template .offer .section-title {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .luna-template .offer .list-item {
+    flex-basis: 31%;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .offer .list-item {
+    flex-basis: 23%;
+  }
+}
+.luna-template .about {
+  background-color: #fff;
+}
+@media (min-width: 1200px) {
+  .luna-template .about .section-title {
+    font-size: 71px;
+    margin-bottom: 100px;
+  }
+}
+.luna-template .about .main-text {
+  margin-bottom: 10px;
+}
+.luna-template .about .img-wrapper {
+  border-radius: 48px;
+  overflow: hidden;
+}
+.luna-template .about .main-btn {
+  margin-top: 50px;
+}
+@media (min-width: 1024px) {
+  .luna-template .about .main-btn {
+    margin-top: 100px;
+  }
+}
+.luna-template .luna-template-form {
+  padding: 50px 0 80px 0;
+  background-color: #000;
+}
+@media (min-width: 1024px) {
+  .luna-template .luna-template-form {
+    padding: 80px 0 140px 0;
+  }
+}
+.luna-template .luna-template-form .form-section-label {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 4.7vw;
+}
+@media (min-width: 768px) {
+  .luna-template .luna-template-form .form-section-label {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .luna-template .luna-template-form .form-section-label {
+    font-size: 30px;
+  }
+}
+.luna-template .luna-template-form .form-group {
+  display: flex;
+}
+.luna-template .luna-template-form .form-group .form-control {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #C4C4C4;
+  padding: 20px 15px;
+}
+@media (min-width: 768px) {
+  .luna-template .luna-template-form .form-group .form-control {
+    font-size: 22px;
+  }
+}
+.luna-template .luna-template-form .form-group .form-control::placeholder {
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.luna-template .luna-template-form .form-group.card-date {
+  justify-content: space-between;
+}
+.luna-template .luna-template-form .form-group.card-date .form-control {
+  flex-basis: 45%;
+}
+.luna-template .luna-template-form .form-check-input {
+  width: 20px;
+  height: 20px;
+}
+.luna-template .luna-template-form .form-check-label {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 30px;
+}
+@media (min-width: 768px) {
+  .luna-template .luna-template-form .form-check-label {
+    font-size: 22px;
+  }
+}
+.luna-template .luna-template-form .main-btn {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=luna.css.map */
