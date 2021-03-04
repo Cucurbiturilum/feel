@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+.template-home {
+  .container-fluid {
+    max-width: 95%;
+  }
+
+  .text-warning {
+    color: #FFA41D !important;
+  }
+
+  .btn-warning {
+    background-color: #FFA41D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4.3vw;
+    padding: 7px 40px;
+    border-radius: 6px;
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 20px;
+      padding: 12px 40px;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .nav-top {
+    .navbar {
+      background-color: #351226 !important;
+      border-radius: 0;
+      padding: 17px 15px;
+      @media (min-width: 768px) {
+        padding: 17px 24px;
+      }
+
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: #fff !important;
+              font-family: "Oswald", sans-serif;
+              font-size: 4.7vw;
+              @media (min-width: 768px) {
+                font-size: 23px;
+              }
+              @media (min-width: 1024px) {
+                padding: 10px 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero, .shop, .toys, .interactive-porn {
+    background: #000000;
+    padding: 50px 0;
+    @media (min-width: 1024px) {
+      padding: 138px 0 150px 0;
+    }
+
+    .title, .text-warning {
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 7vw;
+      margin-bottom: 27px;
+      @media (min-width: 768px) {
+        font-size: 40px;
+      }
+      @media (min-width: 1024px) {
+        font-size: 60px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 79px;
+      }
+    }
+
+    .title {
+
+      &:after {
+        content: '';
+        display: block;
+        width: 163px;
+        height: 4px;
+        background: #FFA41D;
+        margin-top: 10px;
+        font-size: 6vw;
+        @media (min-width: 768px) {
+          height: 7px;
+        }
+      }
+    }
+
+    .subtitle {
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 5vw;
+      margin-bottom: 35px;
+      max-width: 650px;
+      @media (min-width: 768px) {
+        font-size: 25px;
+      }
+      @media (min-width: 1024px) {
+        font-size: 31px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .statistic {
+    padding: 35px 0;
+
+    .text, .text-warning, .text span {
+      color: #000;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 5.5vw;
+      margin-bottom: 35px;
+      max-width: 650px;
+      @media (min-width: 768px) {
+        font-size: 30px;
+      }
+
+      @media (min-width: 1024px) {
+        font-size: 40px;
+      }
+
+      span {
+        margin-top: -20px;
+        margin-bottom: 0;
+      }
+
+      small {
+        font-size: 50%;
+      }
+    }
+  }
+
+  .shop {
+    background-image: url(../img/Group60.png);
+    background-size: cover;
+    .btn-warning{
+      margin: 50px 0;
+    }
+  }
+
+  .toys{
+    background-color: #fff;
+    .main-text:nth-of-type(2){
+      margin-bottom: 50px;
+    }
+  }
+
+  .interactive-porn{
+    background-image: url(../img/Group62.png);
+    background-size: cover;
+    .main-text{
+      max-width: 100%;
+    }
+  }
+
+  .section-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 6vw;
+    margin-bottom: 27px;
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 40px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 50px;
+    }
+  }
+
+  .section-subtitle {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4.7vw;
+    margin-bottom: 27px;
+    max-width: 960px;
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 25px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 30px;
+    }
+  }
+
+  .main-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.7vw;
+    max-width: 580px;
+    font-weight: 400;
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 20px;
+    }
+  }
+
+  .list-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.1vw;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    .star-img{
+      max-width: 12px;
+    }
+    @media (min-width: 768px) {
+      font-size: 14px;
+      .star-img{
+        max-width: 16px;
+      }
+    }
+    @media (min-width: 1200px) {
+      font-size: 20px;
+      .star-img{
+        max-width: 20px;
+      }
+    }
+  }
+}
