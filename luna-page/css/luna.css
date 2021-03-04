@@ -62,6 +62,9 @@
     margin-bottom: 50px;
   }
 }
+.luna-template .main-text:last-of-type {
+  max-width: 100%;
+}
 .luna-template .main-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -314,6 +317,47 @@
 }
 .luna-template .luna-template-form .main-btn {
   margin-top: 50px;
+}
+.luna-template .order-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+@media (min-width: 1024px) {
+  .luna-template .order-title {
+    font-size: 45px;
+  }
+}
+.luna-template .summary {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .luna-template .summary {
+    padding: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .summary {
+    padding: 65px 90px 20px 90px;
+  }
+}
+.luna-template .summary .table {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.luna-template .summary .table th {
+  font-weight: 400;
+}
+@media (min-width: 1024px) {
+  .luna-template .summary .table {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .luna-template .summary .table {
+    font-size: 27px;
+  }
 }
 
 /*# sourceMappingURL=luna.css.map */

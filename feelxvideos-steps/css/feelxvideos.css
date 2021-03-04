@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.wrapper {
+  background-image: url(../img/shutterstock_351322337.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.wrapper .left-side {
+  background-image: url(../img/girl.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 38px;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6.93vw;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (min-width: 758px) {
+  .wrapper .title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper .title {
+    font-size: 52px;
+  }
+}
+.wrapper .subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6.4vw;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (min-width: 758px) {
+  .wrapper .subtitle {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper .subtitle {
+    font-size: 32px;
+  }
+}
+.wrapper .main-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8vw;
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+@media (min-width: 758px) {
+  .wrapper .main-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper .main-text {
+    font-size: 18px;
+  }
+  .wrapper .main-text:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+.wrapper .right-side {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 38px;
+}
+@media (min-width: 1024px) {
+  .wrapper .right-side {
+    padding: 0 90px;
+  }
+}
+.wrapper .right-side .btn-light {
+  height: 45px;
+  font-weight: 700;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+}
+.wrapper .right-side .btn-light:focus, .wrapper .right-side .btn-light:active {
+  box-shadow: none;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .wrapper .right-side .btn-light {
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper .right-side .btn-light {
+    height: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper .right-side .btn-light {
+    width: 70%;
+    font-size: 20px;
+  }
+}
+.wrapper .right-side .no-card {
+  max-width: 230px;
+}
+.wrapper .form-group {
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .wrapper .form-group {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper .form-group {
+    width: 70%;
+  }
+}
+.wrapper .form-group .form-control {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  height: 45px;
+}
+@media (min-width: 1024px) {
+  .wrapper .form-group .form-control {
+    height: 50px;
+  }
+}
+.wrapper .form-group .form-control::placeholder {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=feelxvideos.css.map */

@@ -59,6 +59,10 @@
       font-size: 21px;
       margin-bottom: 50px;
     }
+
+    &:last-of-type{
+      max-width: 100%;
+    }
   }
 
   .main-btn {
@@ -310,6 +314,42 @@
 
     .main-btn{
       margin-top: 50px;
+    }
+  }
+
+  .order-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    @media (min-width: 1024px) {
+      font-size: 45px;
+    }
+  }
+
+  .summary{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+     padding: 40px;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 65px 90px 20px 90px;
+    }
+
+    .table{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      th{
+        font-weight: 400;
+      }
+      @media (min-width: 1024px) {
+        font-size: 22px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 27px;
+      }
     }
   }
 }
