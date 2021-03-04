@@ -40,7 +40,7 @@
 }
 @media (min-width: 1024px) {
   .template-reactive .title {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 .template-reactive .title strike {
@@ -64,17 +64,6 @@
   .template-reactive .main-text {
     font-size: 30px;
   }
-}
-.template-reactive .main-text:nth-of-type(1) {
-  padding-top: 30px;
-}
-.template-reactive .main-text:nth-of-type(1):after {
-  content: "";
-  display: block;
-  background-color: #F6883D;
-  margin: 30px auto;
-  width: 100px;
-  height: 8px;
 }
 .template-reactive .btn-primary {
   background-color: #F6883D !important;
@@ -131,20 +120,6 @@
   content: url(../img/star.svg);
   display: block;
   margin-right: 30px;
-}
-.template-reactive .dark-section {
-  background: #0F0F0F;
-  padding: 30px 0 60px 0;
-}
-@media (min-width: 768px) {
-  .template-reactive .dark-section {
-    padding: 40px 0 70px 0;
-  }
-}
-@media (min-width: 1024px) {
-  .template-reactive .dark-section {
-    padding: 50px 0 80px 0;
-  }
 }
 
 /*# sourceMappingURL=reactive.css.map */
