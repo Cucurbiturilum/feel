@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+.registration-template {
+  background-color: #1E1F21;
+  font-family: "Roboto", sans-serif;
+}
+.registration-template .header {
+  padding: 192px 0 53px 0;
+  background-color: #1E1F21;
+}
+@media (min-width: 768px) {
+  .registration-template .header {
+    padding: 17px 0;
+    background-color: #351226;
+  }
+}
+.registration-template .header .logo-img {
+  width: 397px;
+  max-width: 90%;
+}
+@media (min-width: 768px) {
+  .registration-template .header .logo-img {
+    max-width: 262px;
+  }
+}
+.registration-template .text-warning {
+  color: #FFA41D !important;
+}
+.registration-template .flow-wrapper {
+  margin-top: 25px;
+  margin-bottom: 200px;
+  background-color: #111111;
+  padding: 70px 30px 30px 30px;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .registration-template .flow-wrapper {
+    padding: 102px 40px 30px 40px;
+  }
+}
+.registration-template .flow-wrapper .progress-wrapper {
+  margin-bottom: 80px;
+}
+.registration-template .flow-wrapper .progress-wrapper .progress {
+  background-color: #333333;
+  border-radius: 5px;
+}
+.registration-template .flow-wrapper .progress-wrapper .progress .progress-bar {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.registration-template .flow-wrapper .progress-wrapper .value {
+  font-size: 20px;
+}
+.registration-template .flow-wrapper .title {
+  font-size: 7vw;
+  margin-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .registration-template .flow-wrapper .title {
+    font-size: 35px;
+  }
+}
+.registration-template .flow-wrapper .subtitle {
+  font-size: 5.5vw;
+  margin-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .registration-template .flow-wrapper .subtitle {
+    font-size: 24px;
+  }
+}
+.registration-template .flow-wrapper .main-text {
+  font-size: 4.5vw;
+  margin-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .registration-template .flow-wrapper .main-text {
+    font-size: 20px;
+  }
+}
+.registration-template .flow-wrapper .main-text span {
+  font-size: inherit;
+}
+.registration-template .flow-wrapper .form-control {
+  background-color: #333333;
+  border-radius: 5px;
+  border: none;
+  height: 70px;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 19px;
+  padding: 26px 22px;
+}
+.registration-template .flow-wrapper .form-control:active, .registration-template .flow-wrapper .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+.registration-template .flow-wrapper .form-text span {
+  font-size: 18px;
+}
+.registration-template .flow-wrapper .btn-light {
+  height: 70px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 6vw;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.registration-template .flow-wrapper .btn-light:focus {
+  box-shadow: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .registration-template .flow-wrapper .btn-light {
+    font-size: 25px;
+  }
+}
+.registration-template .flow-wrapper .list-item {
+  font-size: 18px;
+  display: flex;
+  align-items: start;
+  margin-bottom: 10px;
+}
+.registration-template .flow-wrapper .list-item:before {
+  content: "✓";
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #FFA41D;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.registration-template .flow-wrapper .card-deck .card {
+  padding: 24px 30px;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.registration-template .flow-wrapper .card-deck .card.active {
+  border-color: #FFA41D;
+  background-color: #fff;
+}
+.registration-template .flow-wrapper .card-deck .card .card-header .card-text {
+  color: #A6A6A6;
+}
+.registration-template .flow-wrapper .card-deck .card .card-header .card-text:after {
+  content: "";
+  display: block;
+  background-color: #A6A6A6;
+  height: 1px;
+  width: 40%;
+  margin: 20px auto;
+}
+.registration-template .flow-wrapper .card-deck .card .card-body .card-text {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.registration-template .flow-wrapper .card-deck .card .card-body .card-text:last-of-type {
+  margin-bottom: 0;
+}
+.registration-template .flow-wrapper .custom-radio .custom-control-label {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.registration-template .flow-wrapper .custom-radio .custom-control-label:before, .registration-template .flow-wrapper .custom-radio .custom-control-label:after {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+.registration-template .flow-wrapper .custom-radio .custom-control-label:before {
+  border-color: #FFA41D !important;
+  background-color: transparent;
+}
+.registration-template .flow-wrapper .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #FFA41D;
+  background-color: #FFA41D;
+}
+.registration-template .flow-wrapper .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url(../img/check.svg);
+}
+.registration-template .flow-wrapper .actress .custom-control-label {
+  padding-left: 0;
+}
+.registration-template .flow-wrapper .actress .custom-control-label img {
+  max-width: 110px;
+}
+@media (min-width: 1024px) {
+  .registration-template .flow-wrapper .actress .custom-control-label img {
+    max-width: 100%;
+  }
+}
+.registration-template .flow-wrapper .actress .custom-control-label:before, .registration-template .flow-wrapper .actress .custom-control-label:after {
+  left: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .registration-template .flow-wrapper .actress .custom-control-label:before, .registration-template .flow-wrapper .actress .custom-control-label:after {
+    left: 1.5rem;
+  }
+}
+.registration-template .flow-wrapper .check {
+  background-color: #FFA41D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  border-radius: 50%;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=registration.css.map */
