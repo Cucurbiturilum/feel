@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import "../carousel/owl.carousel.css";
+@import "../carousel/owl.theme.default.css";
+
+.template-toys {
+  background-color: #000000;
+
+  .container-fluid {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .active {
+    background-color: transparent;
+  }
+
+  .section-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+    @media (min-width: 768px) {
+      font-size: 22px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 40px;
+    }
+  }
+
+  .main-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 20px;
+    }
+  }
+
+  .btn-warning {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3.8vw;
+    color: #fff;
+    border-right: 6px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #FFA41D !important;
+    border: none !important;
+    height: 50px;
+    z-index: 1;
+    @media (min-width: 768px) {
+      font-size: 16px;
+      padding: 10px 45px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 20px;
+    }
+
+    &:focus, &:active {
+      box-shadow: none !important;
+      outline: none !important;
+      color: #fff !important;
+    }
+  }
+
+  .nav-top {
+    .navbar {
+      background-color: #351226 !important;
+      border-radius: 0;
+      padding: 17px 15px;
+      @media (min-width: 768px) {
+        padding: 17px 24px;
+      }
+
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: #fff !important;
+              font-family: "Oswald", sans-serif;
+              font-size: 4.7vw;
+              @media (min-width: 768px) {
+                font-size: 16px;
+              }
+              @media (min-width: 1024px) {
+                padding: 10px 32px;
+              }
+            }
+
+            &.nav-item-warning {
+              background-color: #FFA41D !important;
+              border-radius: 6px;
+
+              .nav-link {
+                @media (min-width: 1024px) {
+                  padding: 10px 62px;
+                }
+              }
+            }
+
+            &.active {
+              background-color: transparent;
+
+              .nav-link {
+                color: #FFA41D !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero, .toys {
+    padding: 50px 0;
+    @media (min-width: 1024px) {
+      padding: 100px 0;
+    }
+
+    .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 6vw;
+      margin-bottom: 30px;
+      @media (min-width: 768px) {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 55px;
+        margin-bottom: 60px;
+      }
+    }
+
+    .main-text {
+      margin-bottom: 50px;
+    }
+  }
+
+  .toys {
+    background: url("../img/toys/toys-img.png") no-repeat center top;
+    background-size: contain;
+    min-height: 500px;
+    @media (min-width: 1024px) {
+      min-height: 800px;
+      padding: 50px 0;
+    }
+  }
+
+  .girls {
+    position: relative;
+
+    .owl-carousel {
+      .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        display: flex;
+        justify-content: space-between;
+
+        .owl-prev, .owl-next {
+          width: 50px;
+          height: 50px;
+          border-radius: 5px;
+          background-color: #FFA41D;
+
+          span {
+            color: #fff !important;
+            font-size: 30px;
+            width: 50px;
+            height: 50px;
+            margin-top: -10px;
+          }
+
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+        }
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+
+    .description {
+      z-index: 2;
+      background-color: transparent;
+      position: absolute;
+      top: 10%;
+      width: 60%;
+      left: 20%;
+      @media (min-width: 768px) {
+        top: 20%;
+      }
+      @media (min-width: 1024px) {
+        top: 10%;
+      }
+      @media (min-width: 1200px) {
+        top: 30%;
+      }
+    }
+
+    .section-title {
+      @media (max-width: 767px) {
+        font-size: 4vw;
+      }
+    }
+
+    .main-text {
+      @media (max-width: 767px) {
+        font-size: 2.5vw;
+      }
+    }
+
+    .btn-warning {
+      @media (max-width: 767px) {
+        font-size: 2.5vw;
+        padding: 10px 40px;
+        height: auto;
+      }
+    }
+  }
+
+  .limited-edition {
+    background: #000 url("../img/toys/limited-edition.png") no-repeat center right;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    @media (min-width: 768px) {
+      min-height: 600px;
+    }
+    @media (min-width: 1024px) {
+      min-height: 800px;
+    }
+  }
+}
